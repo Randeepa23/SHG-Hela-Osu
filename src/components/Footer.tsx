@@ -1,17 +1,18 @@
 import { Facebook, Instagram, Phone, Mail, MapPin, Clock, Award, Users, Building } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-b from-ayur-deep-green to-primary text-white">
       {/* Main Footer Content */}
-      <div className="container mx-auto px-4 py-8 sm:py-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+      <div className="container mx-auto px-4 py-12 sm:py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 lg:gap-8">
           {/* Company Info */}
-          <div className="space-y-6">
+          <div className="space-y-4 sm:space-y-6">
             <div>
-              <h3 className="text-2xl font-bold mb-4 text-ayur-gold">S.H.G. Hela Osu</h3>
+              <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-ayur-gold">S.H.G. Hela Osu</h3>
               <p className="text-sm text-gray-200 leading-relaxed">
                 Sri Lanka's trusted leader in authentic Ayurvedic products since 2004. 
                 Committed to delivering traditional healing with modern quality standards.
@@ -43,8 +44,8 @@ const Footer = () => {
           </div>
 
           {/* Contact Information */}
-          <div className="space-y-6">
-            <h4 className="text-lg font-semibold text-ayur-gold">Contact Information</h4>
+          <div className="space-y-4 sm:space-y-6">
+            <h4 className="text-base sm:text-lg font-semibold text-ayur-gold">Contact Information</h4>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-ayur-gold mt-1 flex-shrink-0" />
@@ -75,8 +76,8 @@ const Footer = () => {
           </div>
 
           {/* Business Hours */}
-          <div className="space-y-6">
-            <h4 className="text-lg font-semibold text-ayur-gold">Business Hours</h4>
+          <div className="space-y-4 sm:space-y-6">
+            <h4 className="text-base sm:text-lg font-semibold text-ayur-gold">Business Hours</h4>
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <Clock className="w-5 h-5 text-ayur-gold" />
@@ -116,24 +117,27 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div className="space-y-6">
-            <h4 className="text-lg font-semibold text-ayur-gold">Quick Links</h4>
-            <div className="space-y-3">
-              <Button variant="ghost" className="w-full justify-start text-left p-0 h-auto text-gray-200 hover:text-white hover:bg-transparent">
-                <a href="/about" className="block w-full">About Us</a>
-              </Button>
-              <Button variant="ghost" className="w-full justify-start text-left p-0 h-auto text-gray-200 hover:text-white hover:bg-transparent">
-                <a href="/products" className="block w-full">Our Products</a>
-              </Button>
-              <Button variant="ghost" className="w-full justify-start text-left p-0 h-auto text-gray-200 hover:text-white hover:bg-transparent">
-                <a href="/branches" className="block w-full">Branch Locations</a>
-              </Button>
-              <Button variant="ghost" className="w-full justify-start text-left p-0 h-auto text-gray-200 hover:text-white hover:bg-transparent">
-                <a href="/contact" className="block w-full">Contact Us</a>
-              </Button>
-              <Button variant="ghost" className="w-full justify-start text-left p-0 h-auto text-gray-200 hover:text-white hover:bg-transparent">
-                <a href="/blog" className="block w-full">Blog</a>
-              </Button>
+          <div className="space-y-4 sm:space-y-6">
+            <h4 className="text-base sm:text-lg font-semibold text-ayur-gold">Quick Links</h4>
+            <div className="space-y-2 sm:space-y-3">
+              <Link to="/" className="block text-gray-200 hover:text-white hover:bg-transparent transition-colors duration-300 py-1">
+                Home
+              </Link>
+              <Link to="/about" className="block text-gray-200 hover:text-white hover:bg-transparent transition-colors duration-300 py-1">
+                About Us
+              </Link>
+              <Link to="/products" className="block text-gray-200 hover:text-white hover:bg-transparent transition-colors duration-300 py-1">
+                Our Products
+              </Link>
+              <Link to="/branches" className="block text-gray-200 hover:text-white hover:bg-transparent transition-colors duration-300 py-1">
+                Branch Locations
+              </Link>
+              <Link to="/contact" className="block text-gray-200 hover:text-white hover:bg-transparent transition-colors duration-300 py-1">
+                Contact Us
+              </Link>
+              <Link to="/blog" className="block text-gray-200 hover:text-white hover:bg-transparent transition-colors duration-300 py-1">
+                Blog
+              </Link>
             </div>
           </div>
         </div>
@@ -152,16 +156,16 @@ const Footer = () => {
               </p>
             </div>
             
-            <div className="flex items-center gap-6 text-sm text-gray-200">
-              <a href="/privacy-policy" className="hover:text-ayur-gold transition-colors duration-300">
+            <div className="flex flex-wrap items-center gap-4 sm:gap-6 text-sm text-gray-200">
+              <Link to="/privacy-policy" className="hover:text-ayur-gold transition-colors duration-300">
                 Privacy Policy
-              </a>
-              <a href="/terms-of-service" className="hover:text-ayur-gold transition-colors duration-300">
+              </Link>
+              <Link to="/terms-of-service" className="hover:text-ayur-gold transition-colors duration-300">
                 Terms of Service
-              </a>
-              <a href="/cookie-policy" className="hover:text-ayur-gold transition-colors duration-300">
+              </Link>
+              <Link to="/cookie-policy" className="hover:text-ayur-gold transition-colors duration-300">
                 Cookie Policy
-              </a>
+              </Link>
             </div>
           </div>
         </div>
