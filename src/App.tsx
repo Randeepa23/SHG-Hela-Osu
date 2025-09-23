@@ -7,6 +7,7 @@ import { CartProvider } from "./contexts/CartContext";
 import Header from "./components/Header";
 import ContactBar from "./components/ContactBar";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Products from "./pages/Products";
@@ -30,6 +31,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <CartProvider>
           <div className="min-h-screen bg-background flex flex-col">
             <Header />

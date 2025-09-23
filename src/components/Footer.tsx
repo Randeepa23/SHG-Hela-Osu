@@ -1,9 +1,20 @@
 import { Facebook, Instagram, Phone, Mail, MapPin, Clock, Award, Users, Building } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+  const navigate = useNavigate();
+
+  // Function to navigate and scroll to top
+  const navigateToPage = (path: string) => {
+    navigate(path);
+    // Scroll to top after navigation
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 100);
+  };
+
   return (
     <footer className="bg-gradient-to-b from-ayur-deep-green to-primary text-white">
       {/* Main Footer Content */}
@@ -120,24 +131,42 @@ const Footer = () => {
           <div className="space-y-4 sm:space-y-6">
             <h4 className="text-base sm:text-lg font-semibold text-ayur-gold">Quick Links</h4>
             <div className="space-y-2 sm:space-y-3">
-              <Link to="/" className="block text-gray-200 hover:text-white hover:bg-transparent transition-colors duration-300 py-1">
+              <button 
+                onClick={() => navigateToPage('/')} 
+                className="block w-full text-left text-gray-200 hover:text-white hover:bg-transparent transition-colors duration-300 py-1"
+              >
                 Home
-              </Link>
-              <Link to="/about" className="block text-gray-200 hover:text-white hover:bg-transparent transition-colors duration-300 py-1">
+              </button>
+              <button 
+                onClick={() => navigateToPage('/about')} 
+                className="block w-full text-left text-gray-200 hover:text-white hover:bg-transparent transition-colors duration-300 py-1"
+              >
                 About Us
-              </Link>
-              <Link to="/products" className="block text-gray-200 hover:text-white hover:bg-transparent transition-colors duration-300 py-1">
+              </button>
+              <button 
+                onClick={() => navigateToPage('/products')} 
+                className="block w-full text-left text-gray-200 hover:text-white hover:bg-transparent transition-colors duration-300 py-1"
+              >
                 Our Products
-              </Link>
-              <Link to="/branches" className="block text-gray-200 hover:text-white hover:bg-transparent transition-colors duration-300 py-1">
+              </button>
+              <button 
+                onClick={() => navigateToPage('/branches')} 
+                className="block w-full text-left text-gray-200 hover:text-white hover:bg-transparent transition-colors duration-300 py-1"
+              >
                 Branch Locations
-              </Link>
-              <Link to="/contact" className="block text-gray-200 hover:text-white hover:bg-transparent transition-colors duration-300 py-1">
+              </button>
+              <button 
+                onClick={() => navigateToPage('/contact')} 
+                className="block w-full text-left text-gray-200 hover:text-white hover:bg-transparent transition-colors duration-300 py-1"
+              >
                 Contact Us
-              </Link>
-              <Link to="/blog" className="block text-gray-200 hover:text-white hover:bg-transparent transition-colors duration-300 py-1">
+              </button>
+              <button 
+                onClick={() => navigateToPage('/blog')} 
+                className="block w-full text-left text-gray-200 hover:text-white hover:bg-transparent transition-colors duration-300 py-1"
+              >
                 Blog
-              </Link>
+              </button>
             </div>
           </div>
         </div>
@@ -157,15 +186,24 @@ const Footer = () => {
             </div>
             
             <div className="flex flex-wrap items-center gap-4 sm:gap-6 text-sm text-gray-200">
-              <Link to="/privacy-policy" className="hover:text-ayur-gold transition-colors duration-300">
+              <button 
+                onClick={() => navigateToPage('/privacy-policy')} 
+                className="hover:text-ayur-gold transition-colors duration-300"
+              >
                 Privacy Policy
-              </Link>
-              <Link to="/terms-of-service" className="hover:text-ayur-gold transition-colors duration-300">
+              </button>
+              <button 
+                onClick={() => navigateToPage('/terms-of-service')} 
+                className="hover:text-ayur-gold transition-colors duration-300"
+              >
                 Terms of Service
-              </Link>
-              <Link to="/cookie-policy" className="hover:text-ayur-gold transition-colors duration-300">
+              </button>
+              <button 
+                onClick={() => navigateToPage('/cookie-policy')} 
+                className="hover:text-ayur-gold transition-colors duration-300"
+              >
                 Cookie Policy
-              </Link>
+              </button>
             </div>
           </div>
         </div>
