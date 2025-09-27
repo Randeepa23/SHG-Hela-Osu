@@ -21,7 +21,7 @@ const ContactBar = () => {
           <div className="flex items-center gap-1 text-xs">
             <div className="flex items-center gap-1">
               <Award className="w-3 h-3" />
-              <span>19+ Years of Trust</span>
+              <span>80+ Years of Trust</span>
             </div>
             <span className="mx-1">|</span>
             <div className="flex items-center gap-1">

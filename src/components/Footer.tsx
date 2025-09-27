@@ -25,7 +25,7 @@ const Footer = () => {
             <div>
               <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-ayur-gold">S.H.G. Hela Osu</h3>
               <p className="text-sm text-gray-200 leading-relaxed">
-                Sri Lanka's trusted leader in authentic Ayurvedic products since 2004. 
+                Sri Lanka's trusted leader in authentic Ayurvedic products since 1944. 
                 Committed to delivering traditional healing with modern quality standards.
               </p>
             </div>
@@ -113,7 +113,7 @@ const Footer = () => {
               <div className="grid grid-cols-1 gap-3">
                 <div className="flex items-center gap-2">
                   <Award className="w-4 h-4 text-ayur-gold" />
-                  <span className="text-sm text-gray-200">19+ Years of Trust</span>
+                  <span className="text-sm text-gray-200">80+ Years of Trust</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Building className="w-4 h-4 text-ayur-gold" />

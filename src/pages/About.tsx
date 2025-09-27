@@ -29,7 +29,7 @@ const About = () => {
   ];
 
   const milestones = [
-    { year: "2004", event: "Founded S.H.G. Hela Osu with a vision to serve authentic Ayurveda" },
+    { year: "1944", event: "Founded S.H.G. Hela Osu with a vision to serve authentic Ayurveda" },
     { year: "2010", event: "Opened our first 3 outlets in Colombo suburbs" },
     { year: "2015", event: "Established our own manufacturing unit for Itura products" },
     { year: "2020", event: "Expanded to 8+ outlets and 100+ employees" },
@@ -61,10 +61,10 @@ const About = () => {
               Our Story
             </Badge>
             <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6 text-ayur-deep-green">
-              19+ Years of Ayurvedic Excellence
+              80+ Years of Ayurvedic Excellence
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-ayur-deep-green/90 leading-relaxed">
-              From humble beginnings in 2004 to becoming Sri Lanka's trusted leader in authentic 
+              From humble beginnings in 1944 to becoming Sri Lanka's trusted leader in authentic 
               Ayurvedic products, our journey is built on tradition, quality, and unwavering 
               commitment to wellness.
             </p>
@@ -82,7 +82,7 @@ const About = () => {
               </h2>
               <div className="space-y-6 text-muted-foreground leading-relaxed">
                 <p>
-                  S.H.G. Hela Osu (Pvt) Ltd was established in 2004 with a simple yet profound mission: 
+                  S.H.G. Hela Osu (Pvt) Ltd was established in 1944 with a simple yet profound mission: 
                   to make authentic Ayurvedic medicine accessible to every Sri Lankan family. What started 
                   as a small pharmacy has evolved into a trusted network of 8+ outlets serving communities 
                   across the island.
@@ -106,7 +106,7 @@ const About = () => {
                   <div className="w-24 h-24 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                     <Leaf className="w-12 h-12 text-primary-foreground" />
                   </div>
-                  <h3 className="text-2xl font-bold text-primary mb-2">Since 2004</h3>
+                  <h3 className="text-2xl font-bold text-primary mb-2">Since 1944</h3>
                   <p className="text-muted-foreground">Serving Sri Lanka with Authentic Ayurveda</p>
                 </div>
               </div>

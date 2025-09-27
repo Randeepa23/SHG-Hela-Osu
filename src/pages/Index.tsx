@@ -156,7 +156,7 @@ const Index = () => {
   ];
 
   const highlights = [
-    { icon: Award, title: "19+ Years", subtitle: "Of Trust & Excellence" },
+    { icon: Award, title: "80+ Years", subtitle: "Of Trust & Excellence" },
     { icon: Users, title: "100+", subtitle: "Skilled Employees" },
     { icon: MapPin, title: "8+", subtitle: "Outlets Across Sri Lanka" },
     { icon: Shield, title: "100%", subtitle: "Authentic Products" },
@@ -318,10 +318,10 @@ const Index = () => {
                 Our Story
               </Badge>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-ayur-deep-green">
-                19+ Years of Ayurvedic Excellence in Sri Lanka
+                80+ Years of Ayurvedic Excellence in Sri Lanka
               </h2>
               <p className="text-lg text-ayur-deep-green/90 mb-6 leading-relaxed">
-                Founded in 2004, S.H.G. Hela Osu has grown from a small Ayurvedic pharmacy to 
+                Founded in 1944, S.H.G. Hela Osu has grown from a small Ayurvedic pharmacy to 
                 Sri Lanka's trusted leader in authentic herbal products. Our commitment to quality, 
                 tradition, and customer well-being drives everything we do.
               </p>
