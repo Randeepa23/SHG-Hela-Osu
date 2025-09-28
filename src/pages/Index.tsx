@@ -193,9 +193,32 @@ const Index = () => {
 
           {/* Floating Elements */}
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <div className="absolute top-10 sm:top-20 left-4 sm:left-10 w-12 h-12 sm:w-20 sm:h-20 bg-ayur-gold/20 rounded-full animate-float"></div>
-            <div className="absolute top-20 sm:top-40 right-4 sm:right-20 w-10 h-10 sm:w-16 sm:h-16 bg-ayur-sage/30 rounded-full animate-float" style={{ animationDelay: '1s' }}></div>
-            <div className="absolute bottom-20 sm:bottom-40 left-4 sm:left-20 w-8 h-8 sm:w-12 sm:h-12 bg-accent/25 rounded-full animate-float" style={{ animationDelay: '2s' }}></div>
+            {/* Chakra Shape 1 */}
+            <div className="absolute top-10 sm:top-20 left-4 sm:left-10 w-12 h-12 sm:w-20 sm:h-20 animate-float">
+              <img 
+                src="/src/assets/chakra-removebg-preview.png" 
+                alt="Floating chakra" 
+                className="w-full h-full object-contain opacity-20 hover:opacity-30 transition-opacity duration-300"
+              />
+            </div>
+            
+            {/* Chakra Shape 2 */}
+            <div className="absolute top-20 sm:top-40 right-4 sm:right-20 w-10 h-10 sm:w-16 sm:h-16 animate-float" style={{ animationDelay: '1s' }}>
+              <img 
+                src="/src/assets/chakra-removebg-preview.png" 
+                alt="Floating chakra" 
+                className="w-full h-full object-contain opacity-30 hover:opacity-40 transition-opacity duration-300"
+              />
+            </div>
+            
+            {/* Chakra Shape 3 */}
+            <div className="absolute bottom-20 sm:bottom-40 left-4 sm:left-20 w-8 h-8 sm:w-12 sm:h-12 animate-float" style={{ animationDelay: '2s' }}>
+              <img 
+                src="/src/assets/chakra-removebg-preview.png" 
+                alt="Floating chakra" 
+                className="w-full h-full object-contain opacity-25 hover:opacity-35 transition-opacity duration-300"
+              />
+            </div>
           </div>
 
           {/* Navigation Arrows */}
