@@ -13,6 +13,7 @@ import heroImage3 from '@/assets/heroimagenew4.png';
 import beamThripalaImage from '@/assets/Products/Beam Thripala.jpg';
 import ingineeDrinkImage from '@/assets/Products/Inginee Drink.jpg';
 import naturelleImage from '@/assets/Products/Naturelle Heen Bowitiya.jpg';
+import chakraImage from '@/assets/chakra-removebg-preview.png';
 import TrustedPartners from '@/components/TrustedPartners';
 
 const Index = () => {
@@ -196,7 +197,7 @@ const Index = () => {
             {/* Chakra Shape 1 - Top Left */}
             <div className="absolute top-10 sm:top-20 left-4 sm:left-10 w-12 h-12 sm:w-20 sm:h-20 animate-float">
               <img 
-                src="/src/assets/chakra-removebg-preview.png" 
+                src={chakraImage} 
                 alt="Floating chakra" 
                 className="w-full h-full object-contain opacity-20 hover:opacity-30 transition-opacity duration-300"
               />
@@ -205,7 +206,7 @@ const Index = () => {
             {/* Chakra Shape 2 - Top Right */}
             <div className="absolute top-20 sm:top-40 right-4 sm:right-20 w-10 h-10 sm:w-16 sm:h-16 animate-float" style={{ animationDelay: '1s' }}>
               <img 
-                src="/src/assets/chakra-removebg-preview.png" 
+                src={chakraImage} 
                 alt="Floating chakra" 
                 className="w-full h-full object-contain opacity-30 hover:opacity-40 transition-opacity duration-300"
               />
@@ -214,7 +215,7 @@ const Index = () => {
             {/* Chakra Shape 3 - Bottom Left */}
             <div className="absolute bottom-20 sm:bottom-40 left-4 sm:left-20 w-8 h-8 sm:w-12 sm:h-12 animate-float" style={{ animationDelay: '2s' }}>
               <img 
-                src="/src/assets/chakra-removebg-preview.png" 
+                src={chakraImage} 
                 alt="Floating chakra" 
                 className="w-full h-full object-contain opacity-25 hover:opacity-35 transition-opacity duration-300"
               />
@@ -223,7 +224,7 @@ const Index = () => {
             {/* Chakra Shape 4 - Center Left */}
             <div className="absolute top-1/2 left-2 sm:left-6 w-6 h-6 sm:w-10 sm:h-10 animate-float" style={{ animationDelay: '0.5s' }}>
               <img 
-                src="/src/assets/chakra-removebg-preview.png" 
+                src={chakraImage} 
                 alt="Floating chakra" 
                 className="w-full h-full object-contain opacity-15 hover:opacity-25 transition-opacity duration-300"
               />
@@ -232,7 +233,7 @@ const Index = () => {
             {/* Chakra Shape 5 - Center Right */}
             <div className="absolute top-1/3 right-2 sm:right-6 w-7 h-7 sm:w-12 sm:h-12 animate-float" style={{ animationDelay: '1.5s' }}>
               <img 
-                src="/src/assets/chakra-removebg-preview.png" 
+                src={chakraImage} 
                 alt="Floating chakra" 
                 className="w-full h-full object-contain opacity-18 hover:opacity-28 transition-opacity duration-300"
               />
@@ -241,7 +242,7 @@ const Index = () => {
             {/* Chakra Shape 6 - Bottom Right */}
             <div className="absolute bottom-32 sm:bottom-48 right-8 sm:right-16 w-9 h-9 sm:w-14 sm:h-14 animate-float" style={{ animationDelay: '2.5s' }}>
               <img 
-                src="/src/assets/chakra-removebg-preview.png" 
+                src={chakraImage} 
                 alt="Floating chakra" 
                 className="w-full h-full object-contain opacity-22 hover:opacity-32 transition-opacity duration-300"
               />
@@ -250,7 +251,7 @@ const Index = () => {
             {/* Chakra Shape 7 - Top Center */}
             <div className="absolute top-16 sm:top-32 left-1/2 transform -translate-x-1/2 w-5 h-5 sm:w-8 sm:h-8 animate-float" style={{ animationDelay: '0.8s' }}>
               <img 
-                src="/src/assets/chakra-removebg-preview.png" 
+                src={chakraImage} 
                 alt="Floating chakra" 
                 className="w-full h-full object-contain opacity-12 hover:opacity-22 transition-opacity duration-300"
               />
@@ -259,7 +260,7 @@ const Index = () => {
             {/* Chakra Shape 8 - Bottom Center */}
             <div className="absolute bottom-12 sm:bottom-24 left-1/2 transform -translate-x-1/2 w-6 h-6 sm:w-10 sm:h-10 animate-float" style={{ animationDelay: '3s' }}>
               <img 
-                src="/src/assets/chakra-removebg-preview.png" 
+                src={chakraImage} 
                 alt="Floating chakra" 
                 className="w-full h-full object-contain opacity-16 hover:opacity-26 transition-opacity duration-300"
               />
@@ -268,7 +269,7 @@ const Index = () => {
             {/* Chakra Shape 9 - Middle Left */}
             <div className="absolute top-2/3 left-8 sm:left-16 w-4 h-4 sm:w-7 sm:h-7 animate-float" style={{ animationDelay: '1.8s' }}>
               <img 
-                src="/src/assets/chakra-removebg-preview.png" 
+                src={chakraImage} 
                 alt="Floating chakra" 
                 className="w-full h-full object-contain opacity-14 hover:opacity-24 transition-opacity duration-300"
               />
@@ -277,7 +278,7 @@ const Index = () => {
             {/* Chakra Shape 10 - Middle Right */}
             <div className="absolute top-3/4 right-12 sm:right-24 w-5 h-5 sm:w-9 sm:h-9 animate-float" style={{ animationDelay: '2.2s' }}>
               <img 
-                src="/src/assets/chakra-removebg-preview.png" 
+                src={chakraImage} 
                 alt="Floating chakra" 
                 className="w-full h-full object-contain opacity-19 hover:opacity-29 transition-opacity duration-300"
               />
