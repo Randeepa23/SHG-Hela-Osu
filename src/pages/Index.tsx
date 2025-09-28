@@ -195,92 +195,92 @@ const Index = () => {
           {/* Floating Elements */}
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
             {/* Chakra Shape 1 - Top Left */}
-            <div className="absolute top-10 sm:top-20 left-4 sm:left-10 w-12 h-12 sm:w-20 sm:h-20 animate-float">
+            <div className="absolute top-10 sm:top-20 left-4 sm:left-10 w-16 h-16 sm:w-28 sm:h-28 animate-float">
               <img 
                 src={chakraImage} 
                 alt="Floating chakra" 
-                className="w-full h-full object-contain opacity-20 hover:opacity-30 transition-opacity duration-300"
+                className="w-full h-full object-contain opacity-60 hover:opacity-80 transition-opacity duration-300 mix-blend-multiply drop-shadow-md"
               />
             </div>
             
             {/* Chakra Shape 2 - Top Right */}
-            <div className="absolute top-20 sm:top-40 right-4 sm:right-20 w-10 h-10 sm:w-16 sm:h-16 animate-float" style={{ animationDelay: '1s' }}>
+            <div className="absolute top-20 sm:top-40 right-4 sm:right-20 w-14 h-14 sm:w-24 sm:h-24 animate-float" style={{ animationDelay: '1s' }}>
               <img 
                 src={chakraImage} 
                 alt="Floating chakra" 
-                className="w-full h-full object-contain opacity-30 hover:opacity-40 transition-opacity duration-300"
+                className="w-full h-full object-contain opacity-70 hover:opacity-90 transition-opacity duration-300 mix-blend-multiply drop-shadow-md"
               />
             </div>
             
             {/* Chakra Shape 3 - Bottom Left */}
-            <div className="absolute bottom-20 sm:bottom-40 left-4 sm:left-20 w-8 h-8 sm:w-12 sm:h-12 animate-float" style={{ animationDelay: '2s' }}>
+            <div className="absolute bottom-20 sm:bottom-40 left-4 sm:left-20 w-12 h-12 sm:w-20 sm:h-20 animate-float" style={{ animationDelay: '2s' }}>
               <img 
                 src={chakraImage} 
                 alt="Floating chakra" 
-                className="w-full h-full object-contain opacity-25 hover:opacity-35 transition-opacity duration-300"
+                className="w-full h-full object-contain opacity-65 hover:opacity-85 transition-opacity duration-300 mix-blend-multiply drop-shadow-md"
               />
             </div>
             
             {/* Chakra Shape 4 - Center Left */}
-            <div className="absolute top-1/2 left-2 sm:left-6 w-6 h-6 sm:w-10 sm:h-10 animate-float" style={{ animationDelay: '0.5s' }}>
+            <div className="absolute top-1/2 left-2 sm:left-6 w-10 h-10 sm:w-16 sm:h-16 animate-float" style={{ animationDelay: '0.5s' }}>
               <img 
                 src={chakraImage} 
                 alt="Floating chakra" 
-                className="w-full h-full object-contain opacity-15 hover:opacity-25 transition-opacity duration-300"
+                className="w-full h-full object-contain opacity-55 hover:opacity-75 transition-opacity duration-300 mix-blend-multiply drop-shadow-md"
               />
             </div>
             
             {/* Chakra Shape 5 - Center Right */}
-            <div className="absolute top-1/3 right-2 sm:right-6 w-7 h-7 sm:w-12 sm:h-12 animate-float" style={{ animationDelay: '1.5s' }}>
+            <div className="absolute top-1/3 right-2 sm:right-6 w-12 h-12 sm:w-20 sm:h-20 animate-float" style={{ animationDelay: '1.5s' }}>
               <img 
                 src={chakraImage} 
                 alt="Floating chakra" 
-                className="w-full h-full object-contain opacity-18 hover:opacity-28 transition-opacity duration-300"
+                className="w-full h-full object-contain opacity-60 hover:opacity-80 transition-opacity duration-300 mix-blend-multiply drop-shadow-md"
               />
             </div>
             
             {/* Chakra Shape 6 - Bottom Right */}
-            <div className="absolute bottom-32 sm:bottom-48 right-8 sm:right-16 w-9 h-9 sm:w-14 sm:h-14 animate-float" style={{ animationDelay: '2.5s' }}>
+            <div className="absolute bottom-32 sm:bottom-48 right-8 sm:right-16 w-14 h-14 sm:w-22 sm:h-22 animate-float" style={{ animationDelay: '2.5s' }}>
               <img 
                 src={chakraImage} 
                 alt="Floating chakra" 
-                className="w-full h-full object-contain opacity-22 hover:opacity-32 transition-opacity duration-300"
+                className="w-full h-full object-contain opacity-65 hover:opacity-85 transition-opacity duration-300 mix-blend-multiply drop-shadow-md"
               />
             </div>
             
             {/* Chakra Shape 7 - Top Center */}
-            <div className="absolute top-16 sm:top-32 left-1/2 transform -translate-x-1/2 w-5 h-5 sm:w-8 sm:h-8 animate-float" style={{ animationDelay: '0.8s' }}>
+            <div className="absolute top-16 sm:top-32 left-1/2 transform -translate-x-1/2 w-8 h-8 sm:w-14 sm:h-14 animate-float" style={{ animationDelay: '0.8s' }}>
               <img 
                 src={chakraImage} 
                 alt="Floating chakra" 
-                className="w-full h-full object-contain opacity-12 hover:opacity-22 transition-opacity duration-300"
+                className="w-full h-full object-contain opacity-50 hover:opacity-70 transition-opacity duration-300 mix-blend-multiply drop-shadow-md"
               />
             </div>
             
             {/* Chakra Shape 8 - Bottom Center */}
-            <div className="absolute bottom-12 sm:bottom-24 left-1/2 transform -translate-x-1/2 w-6 h-6 sm:w-10 sm:h-10 animate-float" style={{ animationDelay: '3s' }}>
+            <div className="absolute bottom-12 sm:bottom-24 left-1/2 transform -translate-x-1/2 w-10 h-10 sm:w-16 sm:h-16 animate-float" style={{ animationDelay: '3s' }}>
               <img 
                 src={chakraImage} 
                 alt="Floating chakra" 
-                className="w-full h-full object-contain opacity-16 hover:opacity-26 transition-opacity duration-300"
+                className="w-full h-full object-contain opacity-55 hover:opacity-75 transition-opacity duration-300 mix-blend-multiply drop-shadow-md"
               />
             </div>
             
             {/* Chakra Shape 9 - Middle Left */}
-            <div className="absolute top-2/3 left-8 sm:left-16 w-4 h-4 sm:w-7 sm:h-7 animate-float" style={{ animationDelay: '1.8s' }}>
+            <div className="absolute top-2/3 left-8 sm:left-16 w-8 h-8 sm:w-12 sm:h-12 animate-float" style={{ animationDelay: '1.8s' }}>
               <img 
                 src={chakraImage} 
                 alt="Floating chakra" 
-                className="w-full h-full object-contain opacity-14 hover:opacity-24 transition-opacity duration-300"
+                className="w-full h-full object-contain opacity-55 hover:opacity-75 transition-opacity duration-300 mix-blend-multiply drop-shadow-md"
               />
             </div>
             
             {/* Chakra Shape 10 - Middle Right */}
-            <div className="absolute top-3/4 right-12 sm:right-24 w-5 h-5 sm:w-9 sm:h-9 animate-float" style={{ animationDelay: '2.2s' }}>
+            <div className="absolute top-3/4 right-12 sm:right-24 w-10 h-10 sm:w-16 sm:h-16 animate-float" style={{ animationDelay: '2.2s' }}>
               <img 
                 src={chakraImage} 
                 alt="Floating chakra" 
-                className="w-full h-full object-contain opacity-19 hover:opacity-29 transition-opacity duration-300"
+                className="w-full h-full object-contain opacity-60 hover:opacity-80 transition-opacity duration-300 mix-blend-multiply drop-shadow-md"
               />
             </div>
           </div>

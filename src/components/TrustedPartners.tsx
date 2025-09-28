@@ -22,6 +22,13 @@ import orbitLogo from '@/assets/logos/Orbit Logo.jpg';
 import osunimaLogo from '@/assets/logos/Osunima.jpg';
 import pasyaleLogo from '@/assets/logos/Pasyale.jpg';
 import sewanagalaLogo from '@/assets/logos/Sewanagala Logo.jpg';
+import ituraLogo from '@/assets/logos/Itura 6.jpg';
+import sethsuwaLogo from '@/assets/logos/Sethsuwa 5.jpg';
+import siddhallepaLogo from '@/assets/logos/siddhalepa 7.jpg';
+import siddhiLogo from '@/assets/logos/Siddhi 3.jpg';
+import siddhoushadhaLogo from '@/assets/logos/Siddhoushadha 4.jpg';
+import vendolLogo from '@/assets/logos/Vendol 1.jpg';
+import sobacoLogo from '@/assets/logos/Sobaco Logo 2.jpg';
 
 const TrustedPartners = () => {
   const partners = [
@@ -44,6 +51,13 @@ const TrustedPartners = () => {
     { name: 'Osunima', logo: osunimaLogo },
     { name: 'Pasyale', logo: pasyaleLogo },
     { name: 'Sewanagala', logo: sewanagalaLogo },
+    { name: 'Itura', logo: ituraLogo },
+    { name: 'Sethsuwa', logo: sethsuwaLogo },
+    { name: 'Siddhalepa', logo: siddhallepaLogo },
+    { name: 'Siddhi', logo: siddhiLogo },
+    { name: 'Siddhoushadha', logo: siddhoushadhaLogo },
+    { name: 'Vendol', logo: vendolLogo },
+    { name: 'Sobaco', logo: sobacoLogo },
   ];
 
   return (
