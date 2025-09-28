@@ -1,34 +1,35 @@
 import React from 'react';
 import { Badge } from '@/components/ui/badge';
+import LazyImage from '@/components/ui/LazyImage';
 import { Building2 } from 'lucide-react';
 
-// Partner Logos
-import amaLogo from '@/assets/logos/Ama.jpg';
-import ayurvedaSansthaLogo from '@/assets/logos/Ayurveda Sanstha.jpg';
-import beamLogo from '@/assets/logos/Beam Logo.jpg';
-import denagamaLogo from '@/assets/logos/Denagama Minipura Logo.jpg';
-import gravityLogo from '@/assets/logos/Gravity Logo.jpg';
-import greenHerbalLogo from '@/assets/logos/Green Herbal.jpg';
-import herbCareLogo from '@/assets/logos/Herb Care Logo.jpg';
-import jeeviTeaLogo from '@/assets/logos/Jeevi Tea Logo.jpg';
-import kadarapolaLogo from '@/assets/logos/KADAHAPOLA.jpg';
-import kirinaliyaLogo from '@/assets/logos/kirinaliya.jpg';
-import krimirajaLogo from '@/assets/logos/Krimiraja Logo.jpg';
-import linkNaturalLogo from '@/assets/logos/Link Natural.jpg';
-import naturelleLogo from '@/assets/logos/Naturelle Logo.jpg';
-import neelakadiLogo from '@/assets/logos/Neelakadi Logo.jpg';
-import nuwaraOsuLogo from '@/assets/logos/Nuwara Osu.jpg';
-import orbitLogo from '@/assets/logos/Orbit Logo.jpg';
-import osunimaLogo from '@/assets/logos/Osunima.jpg';
-import pasyaleLogo from '@/assets/logos/Pasyale.jpg';
-import sewanagalaLogo from '@/assets/logos/Sewanagala Logo.jpg';
-import ituraLogo from '@/assets/logos/Itura 6.jpg';
-import sethsuwaLogo from '@/assets/logos/Sethsuwa 5.jpg';
-import siddhallepaLogo from '@/assets/logos/siddhalepa 7.jpg';
-import siddhiLogo from '@/assets/logos/Siddhi 3.jpg';
-import siddhoushadhaLogo from '@/assets/logos/Siddhoushadha 4.jpg';
-import vendolLogo from '@/assets/logos/Vendol 1.jpg';
-import sobacoLogo from '@/assets/logos/Sobaco Logo 2.jpg';
+// Partner Logos - Using optimized WebP images
+import amaLogo from '@/assets/optimized/logos/Ama.webp';
+import ayurvedaSansthaLogo from '@/assets/optimized/logos/Ayurveda Sanstha.webp';
+import beamLogo from '@/assets/optimized/logos/Beam Logo.webp';
+import denagamaLogo from '@/assets/optimized/logos/Denagama Minipura Logo.webp';
+import gravityLogo from '@/assets/optimized/logos/Gravity Logo.webp';
+import greenHerbalLogo from '@/assets/optimized/logos/Green Herbal.webp';
+import herbCareLogo from '@/assets/optimized/logos/Herb Care Logo.webp';
+import jeeviTeaLogo from '@/assets/optimized/logos/Jeevi Tea Logo.webp';
+import kadarapolaLogo from '@/assets/optimized/logos/KADAHAPOLA.webp';
+import kirinaliyaLogo from '@/assets/optimized/logos/kirinaliya.webp';
+import krimirajaLogo from '@/assets/optimized/logos/Krimiraja Logo.webp';
+import linkNaturalLogo from '@/assets/optimized/logos/Link Natural.webp';
+import naturelleLogo from '@/assets/optimized/logos/Naturelle Logo.webp';
+import neelakadiLogo from '@/assets/optimized/logos/Neelakadi Logo.webp';
+import nuwaraOsuLogo from '@/assets/optimized/logos/Nuwara Osu.webp';
+import orbitLogo from '@/assets/optimized/logos/Orbit Logo.webp';
+import osunimaLogo from '@/assets/optimized/logos/Osunima.webp';
+import pasyaleLogo from '@/assets/optimized/logos/Pasyale.webp';
+import sewanagalaLogo from '@/assets/optimized/logos/Sewanagala Logo.webp';
+import ituraLogo from '@/assets/optimized/logos/Itura 6.webp';
+import sethsuwaLogo from '@/assets/optimized/logos/Sethsuwa 5.webp';
+import siddhallepaLogo from '@/assets/optimized/logos/siddhalepa 7.webp';
+import siddhiLogo from '@/assets/optimized/logos/Siddhi 3.webp';
+import siddhoushadhaLogo from '@/assets/optimized/logos/Siddhoushadha 4.webp';
+import vendolLogo from '@/assets/optimized/logos/Vendol 1.webp';
+import sobacoLogo from '@/assets/optimized/logos/Sobaco Logo 2.webp';
 
 const TrustedPartners = () => {
   const partners = [
@@ -86,7 +87,7 @@ const TrustedPartners = () => {
               className="group flex items-center justify-center p-4 sm:p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-lg transition-all duration-500 hover:-translate-y-1"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-                <img
+                <LazyImage
                 src={partner.logo}
                 alt={`${partner.name} logo`}
                 className="h-12 sm:h-16 w-auto object-contain transition-all duration-500 group-hover:scale-110"
