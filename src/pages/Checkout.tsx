@@ -438,7 +438,7 @@ S.H.G. Hela Osu Website System
                         for complete store locations, hours, contact information, and directions.
                       </p>
                       <p className="text-xs">
-                        You can pay by cash or card when you collect your order. All branches are open 8:30 AM - 8:00 PM.
+                        You can pay by cash or card when you collect your order. All branches are open 8:00 AM - 10:00 PM everyday.
                       </p>
                     </div>
                   </div>

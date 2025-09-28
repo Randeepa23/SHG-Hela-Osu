@@ -16,7 +16,7 @@ const Branches = () => {
       name: "Boralesgamuwa (Head Office)",
       address: "108C, Colombo Road, Boralesgamuwa",
       phone: "0764122480",
-      hours: "8:00 AM - 8:00 PM",
+      hours: "8:00 AM - 10:00 PM",
       services: ["Full Product Range", "Consultation", "Home Delivery", "Head Office"],
       isHeadOffice: true,
       image: boralesgamuwaImage,
@@ -26,7 +26,7 @@ const Branches = () => {
       name: "Thalawathugoda Branch",
       address: "Thalawathugoda, Sri Jayawardenepura",
       phone: "0112 545 497",
-      hours: "8:30 AM - 7:30 PM",
+      hours: "8:00 AM - 10:00 PM",
       services: ["Full Product Range", "Consultation", "Online Ordering"],
       image: thalawathugodaImage,
       mapUrl: "https://www.google.com/maps/place/S.H.G+Hela+Osu+(Pvt)+Ltd+-+Thalawathugoda/@6.8765048,79.9354965,17z/data=!3m1!4b1!4m6!3m5!1s0x3ae250968816eaf1:0xbaad45cb5867afc7!8m2!3d6.8765048!4d79.9354965!16s%2Fg%2F11csc7b2mm?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D"
@@ -35,7 +35,7 @@ const Branches = () => {
       name: "Pannipitiya Branch",
       address: "Pannipitiya, Colombo",
       phone: "0112 545 497",
-      hours: "8:30 AM - 7:30 PM",
+      hours: "8:00 AM - 10:00 PM",
       services: ["Full Product Range", "Consultation", "Expert Advice"],
       image: pannipitiyaImage,
       mapUrl: "https://www.google.com/maps/place/S.H.G.Hela+Osu+(Pvt)+ltd+-+Pannipitiya/@6.8466936,79.9322979,16z/data=!4m10!1m2!2m1!1sS.H.G+Hela+Osu+(Pvt)+Ltd+-+pannipitiya!3m6!1s0x3ae251c5420f2def:0x4acd00c2b7e40e36!8m2!3d6.8454865!4d79.9387788!15sCiZTLkguRyBIZWxhIE9zdSAoUHZ0KSBMdGQgLSBwYW5uaXBpdGl5YZIBFWhlcmJhbF9tZWRpY2luZV9zdG9yZaoBWAoNL2cvMTFxaGY4Y2MzeBABMh8QASIbCgdh51SepXsKCQK-4DCEmBOOvDVz4qiNCG88MiQQAiIgc2hnIGhlbGEgb3N1IHB2dCBsdGQgcGFubmlwaXRpeWHgAQA!16s%2Fg%2F11qhf8cc3x?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D"
@@ -44,7 +44,7 @@ const Branches = () => {
       name: "Homagama Branch",
       address: "Homagama, Colombo",
       phone: "0112 545 497",
-      hours: "8:30 AM - 7:30 PM",
+      hours: "8:00 AM - 10:00 PM",
       services: ["Full Product Range", "Consultation", "Rural Service"],
       image: null, // No image available for Homagama
       mapUrl: "https://www.google.com/maps/place/S.H.G+Hela+Osu+(Pvt)+Ltd+-+Homagama/@6.8411638,80.0038579,17z/data=!3m1!4b1!4m6!3m5!1s0x3ae25121afa00b9f:0x6f1def96fbcd828b!8m2!3d6.8411638!4d80.0038579!16s%2Fg%2F11j6k7dhmc?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D"
@@ -53,7 +53,7 @@ const Branches = () => {
       name: "Wijerama Branch",
       address: "Wijerama, Colombo 07",
       phone: "0112 545 497",
-      hours: "8:30 AM - 8:00 PM",
+      hours: "8:00 AM - 10:00 PM",
       services: ["Full Product Range", "Premium Collection", "City Center"],
       image: wijeramaImage,
       mapUrl: "https://www.google.com/maps/place/S.H.G+Hela+Osu+(Pvt)+Ltd+-+Wijerama/@6.8570728,79.907981,17z/data=!3m1!4b1!4m6!3m5!1s0x3ae25bbce0dadcd3:0x150c05b5fa53c198!8m2!3d6.8570728!4d79.907981!16s%2Fg%2F11hdj_j30p?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D"
@@ -62,7 +62,7 @@ const Branches = () => {
       name: "Maharagama Branch",
       address: "Maharagama, Colombo",
       phone: "0112 545 497",
-      hours: "8:30 AM - 7:30 PM",
+      hours: "8:00 AM - 10:00 PM",
       services: ["Full Product Range", "Expert Consultation", "Medical Center"],
       image: maharagamaImage,
       mapUrl: "https://www.google.com/maps/place/S.H.G.+Hela+Osu+(Pvt)+Ltd/@6.8570728,79.907981,14z/data=!4m10!1m2!2m1!1sS.H.G+Hela+Osu+(Pvt)+Ltd+-+maharagama!3m6!1s0x3ae2507a3cdfa5ff:0x34ba142243938c33!8m2!3d6.8479008!4d79.9258171!15sCiVTLkguRyBIZWxhIE9zdSAoUHZ0KSBMdGQgLSBtYWhhcmFnYW1hkgEObWVkaWNhbF9jZW50ZXKqAUcQATIeEAEiGkMbdZLCSvc-K9z8dRrKFNTdRjZmVplANzuOMiMQAiIfc2hnIGhlbGEgb3N1IHB2dCBsdGQgbWFoYXJhZ2FtYeABAA!16s%2Fg%2F11c20skk_v?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D"
@@ -71,7 +71,7 @@ const Branches = () => {
       name: "Kiribathgoda Branch",
       address: "Kiribathgoda, Colombo",
       phone: "0112 545 497",
-      hours: "8:30 AM - 7:30 PM",
+      hours: "8:00 AM - 10:00 PM",
       services: ["Full Product Range", "Consultation", "Northern Access"],
       image: null, // No image available for Kiribathgoda
       mapUrl: "https://www.google.com/maps/place/S.H.G+Hela+Osu+(PVT)+Ltd+-+Kiribathgoda/@6.978898,79.9281007,17z/data=!3m1!4b1!4m6!3m5!1s0x3ae25710b2d4989f:0x89616d619ec42b30!8m2!3d6.978898!4d79.9281007!16s%2Fg%2F11r2rm9wr3?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D"
@@ -80,7 +80,7 @@ const Branches = () => {
       name: "Piliyandala Branch",
       address: "Piliyandala, Colombo",
       phone: "0112 545 497",
-      hours: "8:30 AM - 7:30 PM",
+      hours: "8:00 AM - 10:00 PM",
       services: ["Full Product Range", "Consultation", "Southern Service"],
       image: null, // No image available for Piliyandala
       mapUrl: "https://www.google.com/maps/place/SHG+Hela+Osu/@6.7992594,79.9259103,17z/data=!3m1!4b1!4m6!3m5!1s0x3ae24f00369201eb:0x640d8f0852e728c5!8m2!3d6.7992594!4d79.9259103!16s%2Fg%2F11xz5l4zx2?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D"

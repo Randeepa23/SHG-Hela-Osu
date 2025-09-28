@@ -246,7 +246,7 @@ const TermsOfService: React.FC = () => {
                 <li><strong>Email:</strong> legal@shghelaosu.com</li>
                 <li><strong>Phone:</strong> +94 112 545 497</li>
                 <li><strong>Address:</strong> S.H.G. Hela Osu (Pvt) Ltd, Boralesgamuwa, Sri Lanka</li>
-                <li><strong>Business Hours:</strong> Monday - Saturday, 8:00 AM - 8:00 PM</li>
+                <li><strong>Business Hours:</strong> Everyday, 8:00 AM - 10:00 PM</li>
               </ul>
             </div>
           </section>

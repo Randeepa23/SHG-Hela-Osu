@@ -42,7 +42,7 @@ const Contact = () => {
     {
       icon: Clock,
       title: "Business Hours",
-      details: ["Mon - Sat: 8:00 AM - 8:00 PM", "Sunday: 9:00 AM - 6:00 PM"],
+      details: ["Everyday: 8:00 AM - 10:00 PM"],
       color: "from-ayur-earth to-muted"
     }
   ];
@@ -320,8 +320,7 @@ const Contact = () => {
                   <div className="space-y-2">
                     <p className="font-medium text-foreground">Office Hours:</p>
                     <div className="text-sm text-muted-foreground space-y-1">
-                      <p>Monday - Saturday: 8:00 AM - 8:00 PM</p>
-                      <p>Sunday: 9:00 AM - 6:00 PM</p>
+                      <p>Everyday: 8:00 AM - 10:00 PM</p>
                     </div>
                   </div>
 
