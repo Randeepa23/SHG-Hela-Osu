@@ -9,6 +9,8 @@ import pannipitiyaImage from '@/assets/Branches/Pannipitiya Outlet FD.jpg';
 import boralesgamuwaImage from '@/assets/Branches/SHG Boralesgamuwa Apr2024 NEW.jpg';
 import thalawathugodaImage from '@/assets/Branches/Thalawathugoda Outlet.jpg';
 import wijeramaImage from '@/assets/Branches/Wijerama NEW Retouched.jpg';
+import kiribathgodaImage from '@/assets/Branches/Kiribathgoda.jpg';
+import piliyandalaImage from '@/assets/Branches/Piliyandala 2025.jpg';
 
 const Branches = () => {
   const currentOutlets = [
@@ -73,7 +75,7 @@ const Branches = () => {
       phone: "0112 545 497",
       hours: "8:00 AM - 10:00 PM",
       services: ["Full Product Range", "Consultation", "Northern Access"],
-      image: null, // No image available for Kiribathgoda
+      image: kiribathgodaImage,
       mapUrl: "https://www.google.com/maps/place/S.H.G+Hela+Osu+(PVT)+Ltd+-+Kiribathgoda/@6.978898,79.9281007,17z/data=!3m1!4b1!4m6!3m5!1s0x3ae25710b2d4989f:0x89616d619ec42b30!8m2!3d6.978898!4d79.9281007!16s%2Fg%2F11r2rm9wr3?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D"
     },
     {
@@ -82,7 +84,7 @@ const Branches = () => {
       phone: "0112 545 497",
       hours: "8:00 AM - 10:00 PM",
       services: ["Full Product Range", "Consultation", "Southern Service"],
-      image: null, // No image available for Piliyandala
+      image: piliyandalaImage,
       mapUrl: "https://www.google.com/maps/place/SHG+Hela+Osu/@6.7992594,79.9259103,17z/data=!3m1!4b1!4m6!3m5!1s0x3ae24f00369201eb:0x640d8f0852e728c5!8m2!3d6.7992594!4d79.9259103!16s%2Fg%2F11xz5l4zx2?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D"
     },
   ];
