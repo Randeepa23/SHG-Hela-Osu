@@ -11,6 +11,7 @@ import thalawathugodaImage from '@/assets/Branches/Thalawathugoda Outlet.jpg';
 import wijeramaImage from '@/assets/Branches/Wijerama NEW Retouched.jpg';
 import kiribathgodaImage from '@/assets/Branches/Kiribathgoda.jpg';
 import piliyandalaImage from '@/assets/Branches/Piliyandala 2025.jpg';
+import homagamaImage from '@/assets/Branches/Homagama2025.jpg';
 
 const Branches = () => {
   const currentOutlets = [
@@ -48,7 +49,7 @@ const Branches = () => {
       phone: "0112 545 497",
       hours: "8:00 AM - 10:00 PM",
       services: ["Full Product Range", "Consultation", "Rural Service"],
-      image: null, // No image available for Homagama
+      image: homagamaImage,
       mapUrl: "https://www.google.com/maps/place/S.H.G+Hela+Osu+(Pvt)+Ltd+-+Homagama/@6.8411638,80.0038579,17z/data=!3m1!4b1!4m6!3m5!1s0x3ae25121afa00b9f:0x6f1def96fbcd828b!8m2!3d6.8411638!4d80.0038579!16s%2Fg%2F11j6k7dhmc?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D"
     },
     {
