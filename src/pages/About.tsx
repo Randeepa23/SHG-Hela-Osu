@@ -1,4 +1,4 @@
-import { Award, Users, MapPin, Target, Heart, Leaf, Mail } from 'lucide-react';
+import { Award, Users, MapPin, Target, Heart, Leaf, Mail, TrendingUp } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -115,10 +115,10 @@ const About = () => {
         </div>
       </section>
 
-      {/* Vision & Mission */}
+      {/* Vision, Mission & Objectives */}
       <section className="py-20 bg-gradient-to-r from-secondary/30 to-ayur-cream">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 animate-slide-up">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 animate-slide-up">
             <Card className="border-2 border-primary/20 shadow-lg">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 bg-gradient-to-br from-primary to-ayur-sage rounded-full flex items-center justify-center mx-auto mb-4">
@@ -128,9 +128,7 @@ const About = () => {
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  To be Sri Lanka's leading supplier of authentic Ayurvedic products, 
-                  preserving traditional healing wisdom while meeting modern wellness needs 
-                  with uncompromising quality and service excellence.
+                  To be the leading Ayurvedic product supplier in the country by expanding its business operations through a network of sales and distribution outlets.
                 </p>
               </CardContent>
             </Card>
@@ -144,9 +142,21 @@ const About = () => {
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  To deliver authentic, high-quality Ayurvedic products with excellent customer service, 
-                  while fostering employee well-being and contributing to the preservation of 
-                  Sri Lanka's rich Ayurvedic heritage.
+                  To create a pleasant working environment for all employees, to allow them to cater to the needs of customers through quality products and services with excellent customer service.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 border-ayur-sage/20 shadow-lg md:col-span-2 lg:col-span-1">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-gradient-to-br from-ayur-sage to-ayur-deep-green rounded-full flex items-center justify-center mx-auto mb-4">
+                  <TrendingUp className="w-8 h-8 text-primary-foreground" />
+                </div>
+                <CardTitle className="text-2xl text-primary">Our Objectives</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  To maximize profits while maintaining reasonable prices through expanding into the whole supply chain of Ayurvedic products.
                 </p>
               </CardContent>
             </Card>
