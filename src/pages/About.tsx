@@ -303,7 +303,6 @@ const About = () => {
                     <p className="font-semibold text-foreground">Director Board:</p>
                     <div className="text-muted-foreground space-y-1">
                       <p>• A.G.B.M.N. Chulasinghe</p>
-                      <p>• S.H.G. Masitha Adweeth</p>
                     </div>
                   </div>
                 </CardContent>
