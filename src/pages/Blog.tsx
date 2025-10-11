@@ -18,17 +18,32 @@ import nuwaraOsuUndugowwaSuwayaAug2025 from '@/assets/blog/NuwaraOsu Undugowwa S
 import swasthaAmurthaNEW from '@/assets/blog/Swastha Amurtha NEW .jpg';
 import vendolKesharajaOilSep2025 from '@/assets/blog/Vendol Kesharaja Oil Sep2025.jpg';
 
+// Import new blog images
+import bakPoyaPujaBhanda from '@/assets/blog/Bak Poya Puja Bhanda.jpg';
+import beamKapparawalliyaSyrup from '@/assets/blog/Beam Kapparawalliya Syrup Apr2025.jpg';
+import herbCareMosquitoRepellent from '@/assets/blog/Herb Care Mosquito Repellent May25.jpg';
+import herbalBloomsLimee from '@/assets/blog/Herbal Blooms Limee June2025.jpg';
+import ituraMay25 from '@/assets/blog/ITURA May25 15.jpg';
+import katawalaSriDhanwantharee from '@/assets/blog/Katawala Sri Dhanwantharee June2025.jpg';
+import navratnaHairOil from '@/assets/blog/Navratna Hair Oil May2025.jpg';
+import osethmaSlimmingCaps from '@/assets/blog/Osethma Slimming Caps Apr2025.jpg';
+import pitthalaPahan from '@/assets/blog/Piththala pahan NEW 2025.jpg';
+import polPaniKithulPani from '@/assets/blog/Pol Pani - Kithul Pani 2025.jpg';
+import sanodaHulankeeriya from '@/assets/blog/Sanoda Hulankeeriya.jpg';
+import tovilBadu from '@/assets/blog/Thovil Badu June2025.jpg';
+
 const Blog = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
 
   const categories = [
-    { id: 'all', name: 'All Articles', count: 10 },
-    { id: 'ayurveda', name: 'Ayurveda Basics', count: 3 },
-    { id: 'herbs', name: 'Herbs & Ingredients', count: 4 },
-    { id: 'wellness', name: 'Wellness Tips', count: 2 },
+    { id: 'all', name: 'All Articles', count: 22 },
+    { id: 'ayurveda', name: 'Ayurveda Basics', count: 6 },
+    { id: 'herbs', name: 'Herbs & Ingredients', count: 8 },
+    { id: 'wellness', name: 'Wellness Tips', count: 4 },
+    { id: 'ritual', name: 'Rituals & Tradition', count: 2 },
+    { id: 'beauty', name: 'Beauty & Skincare', count: 1 },
     { id: 'recipes', name: 'Recipes', count: 1 },
-    { id: 'lifestyle', name: 'Lifestyle', count: 0 },
   ];
 
   const featuredArticles = [
@@ -155,6 +170,151 @@ const Blog = () => {
       featured: false,
       tags: ["Hair Care", "Scalp Health", "Natural Oil"],
     },
+    // New articles from New folder images
+    {
+      id: 11,
+      title: "Bak Poya Puja Bhanda: Sacred Vessels for Offerings",
+      excerpt: "Discover the cultural and spiritual significance of traditional Puja Bhanda used during Bak Poya celebrations and ceremonies.",
+      category: "ritual",
+      author: "Dr. Anjali Perera",
+      date: "2025-04-08",
+      readTime: "7 min read",
+      image: bakPoyaPujaBhanda,
+      featured: false,
+      tags: ["Poya", "Rituals", "Traditional Vessels"],
+    },
+    {
+      id: 12,
+      title: "Beam Kapparawalliya Syrup: Natural Digestive Support",
+      excerpt: "Learn about the traditional herbal formula in Beam Kapparawalliya Syrup for digestive health and gastrointestinal wellness.",
+      category: "herbs",
+      author: "Dr. Priya Fernando",
+      date: "2025-04-15",
+      readTime: "6 min read",
+      image: beamKapparawalliyaSyrup,
+      featured: false,
+      tags: ["Digestive Health", "Herbal Syrup", "Traditional Formula"],
+    },
+    {
+      id: 13,
+      title: "Herb Care Mosquito Repellent: Natural Protection",
+      excerpt: "Explore the power of nature's own defense with this herbal mosquito repellent that keeps insects away without harsh chemicals.",
+      category: "wellness",
+      author: "Dr. Rajesh Kumar",
+      date: "2025-05-10",
+      readTime: "5 min read",
+      image: herbCareMosquitoRepellent,
+      featured: false,
+      tags: ["Natural Repellent", "Herbal Protection", "Chemical-Free"],
+    },
+    {
+      id: 14,
+      title: "Herbal Blooms Limee: Citrus Power for Health",
+      excerpt: "Discover the refreshing benefits of Herbal Blooms Limee for immune support, digestion, and natural detoxification.",
+      category: "herbs",
+      author: "Dr. Anjali Perera",
+      date: "2025-06-12",
+      readTime: "7 min read",
+      image: herbalBloomsLimee,
+      featured: false,
+      tags: ["Citrus", "Immune Support", "Natural Detox"],
+    },
+    {
+      id: 15,
+      title: "ITURA May Collection: Seasonal Wellness Solutions",
+      excerpt: "Explore ITURA's May 2025 collection of specialized Ayurvedic formulations designed to address seasonal health challenges.",
+      category: "ayurveda",
+      author: "Dr. Priya Fernando",
+      date: "2025-05-15",
+      readTime: "9 min read",
+      image: ituraMay25,
+      featured: false,
+      tags: ["Seasonal Wellness", "Ayurvedic Collection", "Health Balance"],
+    },
+    {
+      id: 16,
+      title: "Katawala Sri Dhanwantharee: Ancient Healing Wisdom",
+      excerpt: "Learn about this powerful Ayurvedic formulation named after the god of medicine and its applications for holistic wellness.",
+      category: "ayurveda",
+      author: "Dr. Rajesh Kumar",
+      date: "2025-06-20",
+      readTime: "8 min read",
+      image: katawalaSriDhanwantharee,
+      featured: false,
+      tags: ["Ancient Formula", "Divine Healing", "Holistic Wellness"],
+    },
+    {
+      id: 17,
+      title: "Navratna Hair Oil: Nine Gems for Beautiful Hair",
+      excerpt: "Discover the power of nine potent herbs combined in this traditional hair oil for strength, growth, and natural shine.",
+      category: "beauty",
+      author: "Dr. Anjali Perera",
+      date: "2025-05-22",
+      readTime: "6 min read",
+      image: navratnaHairOil,
+      featured: false,
+      tags: ["Hair Care", "Herbal Oil", "Hair Strength"],
+    },
+    {
+      id: 18,
+      title: "Osethma Slimming Caps: Natural Weight Management",
+      excerpt: "Explore the natural Ayurvedic approach to weight management with Osethma's traditional herbal formulation.",
+      category: "wellness",
+      author: "Dr. Priya Fernando",
+      date: "2025-04-25",
+      readTime: "7 min read",
+      image: osethmaSlimmingCaps,
+      featured: false,
+      tags: ["Weight Management", "Herbal Support", "Natural Approach"],
+    },
+    {
+      id: 19,
+      title: "Piththala Pahan: Traditional Brass Oil Lamps",
+      excerpt: "Discover the cultural significance and spiritual benefits of traditional brass oil lamps in Sri Lankan Ayurvedic practices.",
+      category: "ritual",
+      author: "Dr. Rajesh Kumar",
+      date: "2025-01-15",
+      readTime: "5 min read",
+      image: pitthalaPahan,
+      featured: false,
+      tags: ["Traditional Lamps", "Spiritual Practice", "Cultural Heritage"],
+    },
+    {
+      id: 20,
+      title: "Pol Pani & Kithul Pani: Natural Sweeteners of Sri Lanka",
+      excerpt: "Learn about the traditional coconut and kithul palm syrups of Sri Lanka and their health benefits compared to refined sugar.",
+      category: "recipes",
+      author: "Dr. Anjali Perera",
+      date: "2025-02-18",
+      readTime: "6 min read",
+      image: polPaniKithulPani,
+      featured: false,
+      tags: ["Natural Sweeteners", "Traditional Syrups", "Healthy Alternatives"],
+    },
+    {
+      id: 21,
+      title: "Sanoda Hulankeeriya: Digestive Herb Excellence",
+      excerpt: "Discover the powerful digestive properties of Hulankeeriya herb and its traditional uses in Ayurvedic medicine.",
+      category: "herbs",
+      author: "Dr. Priya Fernando",
+      date: "2025-03-05",
+      readTime: "7 min read",
+      image: sanodaHulankeeriya,
+      featured: false,
+      tags: ["Digestive Herbs", "Traditional Medicine", "Gut Health"],
+    },
+    {
+      id: 22,
+      title: "Thovil Badu: Traditional Ceremonial Items",
+      excerpt: "Explore the cultural significance of traditional ceremonial items used in Sri Lankan healing rituals and ceremonies.",
+      category: "ayurveda",
+      author: "Dr. Rajesh Kumar",
+      date: "2025-06-30",
+      readTime: "8 min read",
+      image: tovilBadu,
+      featured: false,
+      tags: ["Cultural Heritage", "Healing Rituals", "Traditional Practices"],
+    },
   ];
 
   const allArticles = [...featuredArticles, ...regularArticles];
@@ -173,7 +333,8 @@ const Blog = () => {
       case 'herbs': return Leaf;
       case 'wellness': return Heart;
       case 'recipes': return Brain;
-      case 'lifestyle': return Shield;
+      case 'ritual': return Shield;
+      case 'beauty': return User;
       default: return BookOpen;
     }
   };
@@ -184,7 +345,8 @@ const Blog = () => {
       case 'herbs': return 'from-ayur-light-green/20 to-ayur-sage/20 text-ayur-deep-green';
       case 'wellness': return 'from-ayur-gold/20 to-ayur-warm-gold/20 text-ayur-gold';
       case 'recipes': return 'from-ayur-sage/20 to-ayur-light-green/20 text-ayur-sage';
-      case 'lifestyle': return 'from-ayur-deep-green/20 to-primary/20 text-ayur-deep-green';
+      case 'ritual': return 'from-ayur-deep-green/20 to-primary/20 text-ayur-deep-green';
+      case 'beauty': return 'from-ayur-gold/20 to-primary/20 text-ayur-gold';
       default: return 'from-primary/20 to-ayur-sage/20 text-primary';
     }
   };
@@ -294,7 +456,7 @@ const Blog = () => {
                 key={article.id} 
                 className="group hover-lift animate-fade-in overflow-hidden cursor-pointer bg-white border-2 border-gray-100 hover:border-ayur-sage/50 hover:shadow-2xl transition-all duration-500"
                 style={{ animationDelay: `${index * 0.1}s` }}
-                onClick={() => window.open('https://web.facebook.com/shghelaosu/photos', '_blank')}
+                onClick={() => window.open('https://github.com/Randeepa23/SHG-Hela-Osu', '_blank')}
               >
                 <div className="relative overflow-hidden">
                   <div className="w-full h-64 sm:h-80 bg-gradient-to-br from-ayur-light-green/20 to-ayur-sage/10 flex items-center justify-center">
@@ -318,7 +480,7 @@ const Blog = () => {
                       <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-2">
                         <ArrowRight className="w-6 h-6" />
                       </div>
-                      <p className="text-sm font-semibold">View on Facebook</p>
+                      <p className="text-sm font-semibold">View on GitHub</p>
                     </div>
                   </div>
                 </div>
@@ -347,7 +509,7 @@ const Blog = () => {
                   key={article.id} 
                   className="group hover-lift animate-fade-in overflow-hidden cursor-pointer bg-white border-2 border-gray-100 hover:border-ayur-sage/50 hover:shadow-2xl transition-all duration-500"
                   style={{ animationDelay: `${index * 0.05}s` }}
-                  onClick={() => window.open('https://web.facebook.com/shghelaosu/photos', '_blank')}
+                  onClick={() => window.open('https://github.com/Randeepa23/SHG-Hela-Osu', '_blank')}
                 >
                   <div className="relative overflow-hidden">
                     <div className="w-full h-64 bg-gradient-to-br from-ayur-light-green/20 to-ayur-sage/10 flex items-center justify-center">
@@ -373,7 +535,7 @@ const Blog = () => {
                         <div className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-1">
                           <ArrowRight className="w-5 h-5" />
                         </div>
-                        <p className="text-xs font-semibold">View on Facebook</p>
+                        <p className="text-xs font-semibold">View on GitHub</p>
                       </div>
                     </div>
                   </div>
