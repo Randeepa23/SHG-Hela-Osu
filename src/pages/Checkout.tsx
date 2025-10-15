@@ -417,7 +417,7 @@ S.H.G. Hela Osu Website System
                     <div className="text-sm text-green-700 space-y-2">
                       <p><strong>Available Locations (8 Branches):</strong></p>
                       <ul className="list-disc list-inside ml-4 space-y-1">
-                        <li><strong>Boralesgamuwa (Head Office)</strong> - 108C, Colombo Road</li>
+                        <li><strong>Boralesgamuwa (Head Office)</strong> - No.10 Pasal Mawatha</li>
                         <li><strong>Thalawathugoda Branch</strong> - Sri Jayawardenepura</li>
                         <li><strong>Pannipitiya Branch</strong> - Colombo</li>
                         <li><strong>Homagama Branch</strong> - Colombo</li>

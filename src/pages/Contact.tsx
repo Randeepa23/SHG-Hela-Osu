@@ -24,7 +24,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone & WhatsApp",
-      details: ["0112 545 497", "077 442 2479 (WhatsApp)"],
+      details: ["0112 545 497", "076 442 2479 (WhatsApp)"],
       color: "from-primary to-ayur-sage"
     },
     {
@@ -36,13 +36,13 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Head Office",
-      details: ["108C, Colombo Road, Boralesgamuwa", "No 10, School Lane, Boralesgamuwa"],
+      details: ["No.10 Pasal Mawatha, Boralesgamuwa"],
       color: "from-ayur-sage to-secondary"
     },
     {
       icon: Clock,
       title: "Business Hours",
-      details: ["Everyday: 8:00 AM - 10:00 PM"],
+      details: ["Everyday: 8:00 AM - 5:00 PM"],
       color: "from-ayur-earth to-muted"
     }
   ];

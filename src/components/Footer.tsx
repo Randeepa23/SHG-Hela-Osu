@@ -63,7 +63,7 @@ const Footer = () => {
                 <div>
                   <p className="font-semibold">Phone Numbers</p>
                   <p className="text-sm text-gray-200">0112 545 497</p>
-                  <p className="text-sm text-gray-200">077 442 2479</p>
+                  <p className="text-sm text-gray-200">076 442 2479</p>
                 </div>
               </div>
               
@@ -79,8 +79,7 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 text-ayur-gold mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold">Addresses</p>
-                  <p className="text-sm text-gray-200">108C, Colombo Road, Borlesgamuwa</p>
-                  <p className="text-sm text-gray-200">No 10, School Lane, Borlesgamuwa</p>
+                  <p className="text-sm text-gray-200">No.10 Pasal Mawatha, Boralesgamuwa</p>
                 </div>
               </div>
             </div>
@@ -94,7 +93,7 @@ const Footer = () => {
                 <Clock className="w-5 h-5 text-ayur-gold" />
                 <div>
                   <p className="font-semibold">Everyday</p>
-                  <p className="text-sm text-gray-200">8:00 AM - 10:00 PM</p>
+                  <p className="text-sm text-gray-200">8:00 AM - 5:00 PM</p>
                 </div>
               </div>
               

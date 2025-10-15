@@ -336,7 +336,7 @@ const About = () => {
                     <p className="font-semibold text-foreground mb-2">Telephone:</p>
                     <div className="text-muted-foreground space-y-1">
                       <p>0112 545 497</p>
-                      <p>077 442 2479</p>
+                      <p>076 442 2479</p>
                     </div>
                   </div>
                 </div>

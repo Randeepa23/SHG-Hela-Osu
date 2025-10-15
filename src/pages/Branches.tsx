@@ -17,9 +17,9 @@ const Branches = () => {
   const currentOutlets = [
     {
       name: "Boralesgamuwa (Head Office)",
-      address: "108C, Colombo Road, Boralesgamuwa",
+      address: "No.10 Pasal Mawatha, Boralesgamuwa",
       phone: "0764122480",
-      hours: "8:00 AM - 10:00 PM",
+      hours: "8:00 AM - 5:00 PM",
       services: ["Full Product Range", "Consultation", "Home Delivery", "Head Office"],
       isHeadOffice: true,
       image: boralesgamuwaImage,
