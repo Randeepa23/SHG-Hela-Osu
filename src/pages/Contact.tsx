@@ -312,15 +312,14 @@ const Contact = () => {
                   <div className="space-y-2">
                     <p className="font-medium text-foreground">S.H.G. Hela Osu (Pvt) Ltd</p>
                     <p className="text-muted-foreground">
-                      No. 123, Borelasgamuwa Road<br />
-                      Borelasgamuwa, Sri Lanka
+                      No.10 Pasal Mawatha, Boralesgamuwa
                     </p>
                   </div>
                   
                   <div className="space-y-2">
                     <p className="font-medium text-foreground">Office Hours:</p>
                     <div className="text-sm text-muted-foreground space-y-1">
-                      <p>Everyday: 8:00 AM - 10:00 PM</p>
+                      <p>Everyday: 8:00 AM - 5:00 PM</p>
                     </div>
                   </div>
 
