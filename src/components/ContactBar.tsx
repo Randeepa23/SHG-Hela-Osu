@@ -13,7 +13,7 @@ const ContactBar = () => {
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-4 h-4" />
-              <span>Head Office: Borelasgamuwa</span>
+              <span>Head Office: Boralesgamuwa</span>
             </div>
           </div>
           
