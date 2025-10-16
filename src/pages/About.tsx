@@ -284,11 +284,11 @@ const About = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">Business Address:</p>
-                    <p className="text-muted-foreground">108C, Colombo Road, Borlesgamuwa</p>
+                    <p className="text-muted-foreground">108C, Colombo Road, Boralesgamuwa</p>
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">Office Address:</p>
-                    <p className="text-muted-foreground">No 10, School Lane, Borlesgamuwa</p>
+                    <p className="text-muted-foreground">No 10, School Lane, Boralesgamuwa</p>
                   </div>
                 </CardContent>
               </Card>
