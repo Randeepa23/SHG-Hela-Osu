@@ -470,7 +470,7 @@ const Blog = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-8 mb-16">
             {[
               galleryImg1, galleryImg2, galleryImg3, galleryImg4, galleryImg5, galleryImg6,
               galleryImg7, galleryImg8, galleryImg9, galleryImg10, galleryImg11, galleryImg12,
@@ -478,15 +478,24 @@ const Blog = () => {
             ].map((img, index) => (
               <div 
                 key={index}
-                className="group relative overflow-hidden rounded-lg hover-lift animate-fade-in"
-                style={{ animationDelay: `${index * 0.1}s` }}
+                className="group relative overflow-hidden rounded-xl shadow-md hover:shadow-xl hover-lift animate-fade-in bg-white"
+                style={{ 
+                  animationDelay: `${index * 0.1}s`,
+                  aspectRatio: '4/3'
+                }}
               >
                 <img
                   src={img}
                   alt={`Gallery image ${index + 1}`}
-                  className="w-full h-64 object-cover rounded-lg group-hover:scale-110 transition-transform duration-500"
+                  loading="lazy"
+                  className="w-full h-full object-contain rounded-xl group-hover:scale-105 transition-transform duration-500"
+                  style={{
+                    maxHeight: '100%',
+                    width: '100%',
+                    objectFit: 'contain'
+                  }}
                 />
-                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl" />
               </div>
             ))}
           </div>
