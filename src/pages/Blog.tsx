@@ -18,6 +18,26 @@ import nuwaraOsuUndugowwaSuwayaAug2025 from '@/assets/blog/NuwaraOsu Undugowwa S
 import swasthaAmurthaNEW from '@/assets/blog/Swastha Amurtha NEW .jpg';
 import vendolKesharajaOilSep2025 from '@/assets/blog/Vendol Kesharaja Oil Sep2025.jpg';
 
+// Import gallery images
+import galleryImg1 from '@/assets/optimized/blog/shg-gallery/DSC_3789.webp';
+import galleryImg2 from '@/assets/optimized/blog/shg-gallery/DSC_3790.webp';
+import galleryImg3 from '@/assets/optimized/blog/shg-gallery/DSC_3807.webp';
+import galleryImg4 from '@/assets/optimized/blog/shg-gallery/DSC_3819.webp';
+import galleryImg5 from '@/assets/optimized/blog/shg-gallery/DSC_3821.webp';
+import galleryImg6 from '@/assets/optimized/blog/shg-gallery/DSC_3822.webp';
+import galleryImg7 from '@/assets/optimized/blog/shg-gallery/DSC_3823.webp';
+import galleryImg8 from '@/assets/optimized/blog/shg-gallery/DSC_3824.webp';
+import galleryImg9 from '@/assets/optimized/blog/shg-gallery/DSC_3825.webp';
+import galleryImg10 from '@/assets/optimized/blog/shg-gallery/DSC_3827.webp';
+import galleryImg11 from '@/assets/optimized/blog/shg-gallery/DSC_3831.webp';
+import galleryImg12 from '@/assets/optimized/blog/shg-gallery/DSC_3832.webp';
+import galleryImg13 from '@/assets/optimized/blog/shg-gallery/DSC_3833.webp';
+import galleryImg14 from '@/assets/optimized/blog/shg-gallery/DSC_3834.webp';
+import galleryImg15 from '@/assets/optimized/blog/shg-gallery/DSC_3835.webp';
+import galleryImg16 from '@/assets/optimized/blog/shg-gallery/DSC_3836.webp';
+import galleryImg17 from '@/assets/optimized/blog/shg-gallery/DSC_3837.webp';
+import galleryImg18 from '@/assets/optimized/blog/shg-gallery/DSC_3838.webp';
+
 // Import new blog images
 import bakPoyaPujaBhanda from '@/assets/blog/Bak Poya Puja Bhanda.jpg';
 import beamKapparawalliyaSyrup from '@/assets/blog/Beam Kapparawalliya Syrup Apr2025.jpg';
@@ -434,6 +454,41 @@ const Blog = () => {
                 "{searchTerm}" ×
               </Badge>
             )}
+          </div>
+        </div>
+      </section>
+
+      {/* Image Gallery */}
+      <section className="py-20 bg-gradient-to-b from-ayur-sage/5 to-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16 animate-slide-up">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
+              Our Gallery
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Take a glimpse into our facilities and products through our photo gallery
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 mb-16">
+            {[
+              galleryImg1, galleryImg2, galleryImg3, galleryImg4, galleryImg5, galleryImg6,
+              galleryImg7, galleryImg8, galleryImg9, galleryImg10, galleryImg11, galleryImg12,
+              galleryImg13, galleryImg14, galleryImg15, galleryImg16, galleryImg17, galleryImg18
+            ].map((img, index) => (
+              <div 
+                key={index}
+                className="group relative overflow-hidden rounded-lg hover-lift animate-fade-in"
+                style={{ animationDelay: `${index * 0.1}s` }}
+              >
+                <img
+                  src={img}
+                  alt={`Gallery image ${index + 1}`}
+                  className="w-full h-64 object-cover rounded-lg group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              </div>
+            ))}
           </div>
         </div>
       </section>
