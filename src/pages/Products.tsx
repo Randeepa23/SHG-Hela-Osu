@@ -1,3 +1,11 @@
+import basmatiRiceSobakoImage from '@/assets/basmati rice sobako1.jpg';
+import karapinchaGarlicCapsulesImage from '@/assets/karapincha and garlic capsules naturali1.jpg';
+import korasduweThalumThelImage from '@/assets/korasduwe thalum thel1.jpg';
+import sobakoKurakkanPastaImage from '@/assets/sobako kurakkan pasta1.jpg';
+import sobakoMoringoPastaImage from '@/assets/sobako moringo pasta1.jpg';
+import sobakoPachchaperumaImage from '@/assets/sobako pachchaperuma1.jpg';
+import sobakoSuwandalImage from '@/assets/sobako suwandal1.jpg';
+import sobakoSahalKandaImage from '@/assets/traditional rice forridge sobako1.jpg';
 import { useState } from 'react';
 import { Search, Filter, Grid, List } from 'lucide-react';
 import { Input } from '@/components/ui/input';
@@ -16,22 +24,32 @@ import suensuImage from '@/assets/Products/Suensu Syrup.jpg';
 import ukwattageImage from '@/assets/Products/Ukwattage Nethrananda Oil.jpg';
 import wickramarachchiImage from '@/assets/Products/Wickramarachchi Oral Care.jpg';
 
+import boneMarrowPaththuwaImage from '@/assets/bonemarrowpaththuwa1.jpg';
+import gotukolaCapsulesImage from '@/assets/gotukola capsules1.jpg';
+import panchajeewaOilImage from '@/assets/panchajeewa homoroil oil1.jpg';
+import panchakesiHairOilImage from '@/assets/panchakesi hair oil1.jpg';
+import peenasThailayaImage from '@/assets/peenas thailaya1.jpg';
+
+import handiOilImage from '@/assets/rajapura handithela1.jpg';
+import suwandelStringHoppersImage from '@/assets/suwandel string hoppers powder1.jpg';
+import turmericCapsulesImage from '@/assets/turmeric capsules1.jpg';
+
 const Products = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [viewMode, setViewMode] = useState('grid');
 
   const categories = [
-    { id: 'all', name: 'All Products', count: 10 },
+    { id: 'all', name: 'All Products', count: 27 },
     { id: 'arishta', name: 'අරිෂ්ට Arishta', count: 1 },
     { id: 'kwatha', name: 'ක්වාථ Kwatha', count: 1 },
     { id: 'watee', name: 'වටි Watee', count: 1 },
     { id: 'gritha', name: 'ග්‍රිථ Gritha', count: 0 },
-    { id: 'lepa', name: 'ලේප Lepa', count: 0 },
-    { id: 'oils', name: 'තෛල Oil', count: 1 },
+    { id: 'lepa', name: 'ලේප Lepa', count: 1 },
+    { id: 'oils', name: 'තෛල Oil', count: 7 },
     { id: 'rasayana', name: 'රසායන Rasayana', count: 1 },
     { id: 'churna', name: 'චූර්ණ Churna', count: 2 },
-    { id: 'company', name: 'Company Products', count: 3 },
+    { id: 'company', name: 'Company Products', count: 13 },
   ];
 
   const products = [
@@ -135,6 +153,178 @@ const Products = () => {
       image: wickramarachchiImage,
       isExclusive: false,
     },
+      // New products
+      {
+        id: 2001,
+        name: "Rajapura Handi Oil 100ml",
+        category: "Oils",
+        description: "Produced according to an ancient recipe for the treatment of Amavata (a traditional term for Arthritis).",
+        benefits: ["Arthritis Relief", "Traditional Recipe", "Joint Health"],
+        price: 3500,
+        image: handiOilImage,
+        isExclusive: false,
+      },
+      {
+        id: 2002,
+        name: "Suwadal String Hopper Flour",
+        category: "Company",
+        description: "This oil is formulated based on an ancient traditional recipe and is intended for application on the head to treat various ailments.",
+        benefits: ["Traditional Recipe", "Head Application", "Ailment Relief"],
+        price: 590,
+        image: suwandelStringHoppersImage,
+        isExclusive: false,
+      },
+      {
+        id: 2003,
+        name: "Naturelle Turmeric Capsules",
+        category: "Company",
+        description: "Turmeric (curcuma longa) contains curcumin, a potent antioxidant and has been used for 4000 years to treat a variety of conditions. Turmeric may help fight infections and some cancer, reduce inflammation and treat digestive problems. This widely used spice supports colon health, exerts neuroprotective actively and helps maintain a healthy cardiovascular system.",
+        benefits: ["Antioxidant", "Infection Support", "Anti-inflammatory", "Digestive Health", "Colon Health", "Neuroprotection", "Cardiovascular Health"],
+        price: 590,
+        image: turmericCapsulesImage,
+        isExclusive: false,
+      },
+      {
+        id: 11,
+        name: "Kirineliya Bone Marrow Paththuwa",
+        category: "Lepa",
+        description: "Kirineliya Isi Osu cartilage regenerative ointment is ideal for regenerating wom-oul cartilages, joint pain and swelling.",
+        benefits: ["Cartilage Regeneration", "Joint Pain Relief", "Swelling Reduction"],
+        price: 800,
+        image: boneMarrowPaththuwaImage,
+        isExclusive: false,
+      },
+      {
+        id: 12,
+        name: "Naturali Gotukola Capsules 60",
+        category: "Company",
+        description: "As a food supplement Gotukola provides the body with the nutritional support to promote well-being and good health.",
+        benefits: ["Well-being", "Nutritional Support", "Good Health"],
+        price: 750,
+        image: gotukolaCapsulesImage,
+        isExclusive: false,
+      },
+      {
+        id: 13,
+        name: "Rajapura Panchajeewa Arshas Oil",
+        category: "Oils",
+        description: "It is suitable to drink a 10ml dose after dinner for instances where blood is passed with stool through the anus, and for internal wounds within the anal passage.",
+        benefits: ["Hemorrhoid Relief", "Internal Wound Healing", "Digestive Health"],
+        price: 2800,
+        image: panchajeewaOilImage,
+        isExclusive: false,
+      },
+      {
+        id: 14,
+        name: "Rajapura Panchakeshi Hearble Hair Oil 100ml",
+        category: "Oils",
+        description: "Since this is a traditional medicinal product, it is usually recommended to apply the oil to the scalp and massage gently",
+        benefits: ["Hair Care", "Scalp Massage", "Traditional Medicine"],
+        price: 2700,
+        image: panchakesiHairOilImage,
+        isExclusive: false,
+      },
+      {
+        id: 15,
+        name: "Rajapura Peenas Oil 100ml",
+        category: "Oils",
+        description: "for all Catarrh problems such as Sneezing, Runny nose,Growths in nose, Itching eyes, Itching ears, Sorethroat, Bad odour of nose,Untimely hair whitening.Com wasting, Bad odour ofmouth Ooging mucus and 6tears Low vision.Senseleisness for smells,Serdelessness for taste of foods.",
+        benefits: ["Catarrh Relief", "Nasal Health", "Itching Relief", "Sore Throat", "Bad Odour Control", "Hair Whitening Prevention", "Vision Support", "Taste & Smell Support"],
+        price: 1350,
+        image: peenasThailayaImage,
+        isExclusive: false,
+      },
+      // Newly added products
+      {
+        id: 3001,
+        name: "Sobako Lanka Basmathi",
+        category: "Company",
+        description: "The rice grains are white and long-grained, characteristic of the Basmathi style, offering a fragrant and fluffy texture when cooked.",
+        benefits: ["Long Grain", "Fragrant", "Fluffy Texture"],
+        price: 595,
+        image: basmatiRiceSobakoImage,
+        isExclusive: false,
+      },
+      {
+        id: 3002,
+        name: "Naturali Karapincha Sudu Lunu Capsules 60",
+        category: "Company",
+        description: "These high-quality capsules contain a dry Gotukola powder produced through a specialized process that preserves all the active ingredients of the fresh juice. Considered a powerful Ayurvedic 'youth-maintaining' herb, Gotukola is used to promote vigor and physical strength.",
+        benefits: ["Gotukola", "Ayurvedic Herb", "Vigor", "Physical Strength"],
+        price: 650,
+        image: karapinchaGarlicCapsulesImage,
+        isExclusive: false,
+      },
+      {
+        id: 3003,
+        name: "Korosduwa Thalum Oil 175ml",
+        category: "Oils",
+        description: "This is an Ayurvedic medicinal oil produced and distributed by Korosduwa Herbal.",
+        benefits: ["Ayurvedic Oil", "Herbal", "Medicinal"],
+        price: 900,
+        image: korasduweThalumThelImage,
+        isExclusive: false,
+      },
+      {
+        id: 3004,
+        name: "Sobako Kurakkan Pasta 350g",
+        category: "Company",
+        description: "A traditional Sri Lankan pasta product made with a blend of wholesome grains.",
+        benefits: ["Traditional", "Wholesome Grains", "Sri Lankan Pasta"],
+        price: 650,
+        image: sobakoKurakkanPastaImage,
+        isExclusive: false,
+      },
+      {
+        id: 3005,
+        name: "Sobako Murunga Pasta",
+        category: "Company",
+        description: "Sobako Moringa Pasta is a traditional Sri Lankan health-food product that combines standard grains with the nutritional benefits of the Moringa plant. It is marketed as a 'Local Moringa Pasta' (දේශීය මුරුංගා පැස්ටා).",
+        benefits: ["Moringa", "Health Food", "Traditional", "Sri Lankan Pasta"],
+        price: 650,
+        image: sobakoMoringoPastaImage,
+        isExclusive: false,
+      },
+      {
+        id: 4001,
+        name: "Sobako Pachchaperumal Sahal 800g",
+        category: "Company",
+        description: "A premium 'Local Traditional Rice' variety produced from Asuda paddy. It is naturally Gluten-Free and Non-GMO.",
+        benefits: ["Traditional Rice", "Gluten-Free", "Non-GMO"],
+        price: 525,
+        image: sobakoPachchaperumaImage,
+        isExclusive: false,
+      },
+      {
+        id: 4002,
+        name: "Sobako Suwadal Sahal 800g",
+        category: "Company",
+        description: "A premium 'Local Traditional Rice' variety produced from Asuda paddy. It is naturally Gluten-Free and Non-GMO.",
+        benefits: ["Traditional Rice", "Gluten-Free", "Non-GMO"],
+        price: 720,
+        image: sobakoSuwandalImage,
+        isExclusive: false,
+      },
+      {
+        id: 4003,
+        name: "Sobako Sahal Kanda 200g",
+        category: "Company",
+        description: "A convenient porridge mix featuring corn and traditional Sri Lankan rice.",
+        benefits: ["Porridge Mix", "Corn", "Traditional Rice"],
+        price: 395,
+        image: sobakoSahalKandaImage,
+        isExclusive: false,
+      },
+      {
+        id: 4004,
+        name: "Naturali Thebu Capsules 60g",
+        category: "Company",
+        description: "Thebu leaves contain a lot of vitamins and mineral salts and also increase immunity too. It is useful in conditions like, skin diseases, worm infestations and asthma. Thebu has been mentioned in the Ayurveda scripts as a useful drug for leprosy.",
+        benefits: ["Immunity Boost", "Vitamins", "Minerals", "Skin Health", "Ayurvedic"],
+        price: 790,
+        image: turmericCapsulesImage,
+        isExclusive: false,
+      },
   ];
 
   const filteredProducts = products.filter(product => {
