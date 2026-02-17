@@ -1,10 +1,10 @@
-import basmatiRiceSobakoImage from '@/assets/basmati rice sobako1.jpg';
+import basmatiRiceSobakoImage from '@/assets/basmatiricesobako1.jpg';
 import karapinchaGarlicCapsulesImage from '@/assets/karapincha and garlic capsules naturali1.jpg';
 import korasduweThalumThelImage from '@/assets/korasduwe thalum thel1.jpg';
-import sobakoKurakkanPastaImage from '@/assets/sobako kurakkan pasta1.jpg';
-import sobakoMoringoPastaImage from '@/assets/sobako moringo pasta1.jpg';
-import sobakoPachchaperumaImage from '@/assets/sobako pachchaperuma1.jpg';
-import sobakoSuwandalImage from '@/assets/sobako suwandal1.jpg';
+import sobakoKurakkanPastaImage from '@/assets/sobakokurakkanpasta1.jpg';
+import sobakoMoringoPastaImage from '@/assets/sobakomoringopasta1.jpg';
+import sobakoPachchaperumaImage from '@/assets/sobakopachchaperuma1.jpg';
+import sobakoSuwandalImage from '@/assets/sobakosuwandal1.jpg';
 import sobakoSahalKandaImage from '@/assets/traditional rice forridge sobako1.jpg';
 import { useState } from 'react';
 import { Search, Filter, Grid, List } from 'lucide-react';
