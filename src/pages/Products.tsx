@@ -1,11 +1,11 @@
-import basmatiRiceSobakoImage from '@/assets/basmatiricesobako1.jpg';
-import karapinchaGarlicCapsulesImage from '@/assets/karapincha and garlic capsules naturali1.jpg';
-import korasduweThalumThelImage from '@/assets/korasduwe thalum thel1.jpg';
-import sobakoKurakkanPastaImage from '@/assets/sobakokurakkanpasta1.jpg';
-import sobakoMoringoPastaImage from '@/assets/sobakomoringopasta1.jpg';
-import sobakoPachchaperumaImage from '@/assets/sobakopachchaperuma1.jpg';
-import sobakoSuwandalImage from '@/assets/sobakosuwandal1.jpg';
-import sobakoSahalKandaImage from '@/assets/traditional rice forridge sobako1.jpg';
+import basmatiRiceSobakoImage from '@/assets/basmati rice sobako.jpg';
+import karapinchaGarlicCapsulesImage from '@/assets/karapincha and garlic capsules naturali.jpg';
+import korasduweThalumThelImage from '@/assets/korasduwe thalum thel.jpg';
+import sobakoKurakkanPastaImage from '@/assets/sobako kurakkan pasta.jpg';
+import sobakoMoringoPastaImage from '@/assets/sobako moringo pasta.jpg';
+import sobakoPachchaperumaImage from '@/assets/sobako pachchaperuma.jpg';
+import sobakoSuwandalImage from '@/assets/sobako suwandal.jpg';
+import sobakoSahalKandaImage from '@/assets/traditional rice forridge sobako.jpg';
 import { useState } from 'react';
 import { Search, Filter, Grid, List } from 'lucide-react';
 import { Input } from '@/components/ui/input';
@@ -24,15 +24,15 @@ import suensuImage from '@/assets/Products/Suensu Syrup.jpg';
 import ukwattageImage from '@/assets/Products/Ukwattage Nethrananda Oil.jpg';
 import wickramarachchiImage from '@/assets/Products/Wickramarachchi Oral Care.jpg';
 
-import boneMarrowPaththuwaImage from '@/assets/bonemarrowpaththuwa1.jpg';
-import gotukolaCapsulesImage from '@/assets/gotukola capsules1.jpg';
-import panchajeewaOilImage from '@/assets/panchajeewa homoroil oil1.jpg';
-import panchakesiHairOilImage from '@/assets/panchakesi hair oil1.jpg';
-import peenasThailayaImage from '@/assets/peenas thailaya1.jpg';
+import boneMarrowPaththuwaImage from '@/assets/bone marrow paththuwa.jpg';
+import gotukolaCapsulesImage from '@/assets/gotukola capsules.jpg';
+import panchajeewaOilImage from '@/assets/panchajeewa homoroil oil.jpg';
+import panchakesiHairOilImage from '@/assets/panchakesi hair oil.jpg';
+import peenasThailayaImage from '@/assets/peenas thailaya.jpg';
 
-import handiOilImage from '@/assets/rajapura handithela1.jpg';
-import suwandelStringHoppersImage from '@/assets/suwandel string hoppers powder1.jpg';
-import turmericCapsulesImage from '@/assets/turmeric capsules1.jpg';
+import handiOilImage from '@/assets/rajapura handithela.jpg';
+import suwandelStringHoppersImage from '@/assets/suwandel string hoppers powder.jpg';
+import turmericCapsulesImage from '@/assets/turmeric capsules.jpg';
 
 const Products = () => {
   const [searchTerm, setSearchTerm] = useState('');
