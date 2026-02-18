@@ -28,7 +28,7 @@ import wickramarachchiImage from '@/assets/Products/Wickramarachchi Oral Care.jp
 import handiOilImage from '@/assets/rajapura handithela.jpg';
 import suwandelStringHoppersImage from '@/assets/suwandel string hoppers powder.jpg';
 import turmericCapsulesImage from '@/assets/turmeric capsules.jpg';
-import boneMarrowPaththuwaImage from '@/assets/bonemarrowpaththuwa.jpg';
+import boneMarrowPaththuwaImage from '@/assets/bone marrow paththuwa.jpg';
 import gotukolaCapsulesImage from '@/assets/gotukola capsules.jpg';
 import panchajeewaOilImage from '@/assets/panchajeewa homoroil oil.jpg';
 import panchakesiHairOilImage from '@/assets/panchakesi hair oil.jpg';
