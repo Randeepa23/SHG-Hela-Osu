@@ -12,6 +12,10 @@ import sethsuwaGugguladiHandiOilImage from '@/assets/Sethsuwa Gugguladi Handi Oi
 import ayurvedaCorporationThaviliPottaniyaImage from '@/assets/Ayurveda Corporation Thavili Pottaniya.png';
 import greenHerbalPainReliefPackImage from '@/assets/Green Herbal Pain Relief Pack.png';
 import naharagataImage from '@/assets/Waharaka Nahara Gata Samana Oil 28ml.png';
+import sobakoKurakkanPastaImage from '@/assets/sobako kurakkan pasta.png';
+import sobakoMoringoPastaImage from '@/assets/sobako moringo pasta.png';
+import sobakoSahalKandaImage from '@/assets/traditional rice forridge sobako.png';
+import karapinchaGarlicCapsulesImage from '@/assets/karapincha and garlic capsules naturali.png';
 
 import suwandelStringHoppersImage from '@/assets/suwandel string hoppers powder.png';
 import turmericCapsulesImage from '@/assets/turmeric capsules.png';
@@ -251,6 +255,16 @@ const Products = () => {
         isExclusive: false,
     },
     {
+        id: 3002,
+        name: "Naturelle Karapincha Garlic Capsules 60",
+        category: "Company",
+        description: "These high-quality capsules contain a dry Gotukola powder produced through a specialized process that preserves all the active ingredients of the fresh juice. Considered a powerful Ayurvedic 'youth-maintaining' herb, Gotukola is used to promote vigor and physical strength.",
+        benefits: ["Gotukola", "Ayurvedic Herb", "Vigor", "Physical Strength"],
+        price: 650,
+        image: karapinchaGarlicCapsulesImage,
+        isExclusive: false,
+    },
+    {
         id: 3003,
         name: "Korosduwa Thalum Oil 175ml",
         category: "Oils",
@@ -258,6 +272,26 @@ const Products = () => {
         benefits: ["Ayurvedic Oil", "Herbal", "Medicinal"],
         price: 900,
         image: korasduweThalumThelImage,
+        isExclusive: false,
+    },
+    {
+        id: 3004,
+        name: "Sobako Kurakkan Pasta 350g",
+        category: "Company",
+        description: "A traditional Sri Lankan pasta product made with a blend of wholesome grains.",
+        benefits: ["Traditional", "Wholesome Grains", "Sri Lankan Pasta"],
+        price: 650,
+        image: sobakoKurakkanPastaImage,
+        isExclusive: false,
+    },
+    {
+        id: 3005,
+        name: "Sobako Murunga Pasta",
+        category: "Company",
+        description: "Sobako Moringa Pasta is a traditional Sri Lankan health-food product that combines standard grains with the nutritional benefits of the Moringa plant. It is marketed as a 'Local Moringa Pasta' (දේශීය මුරුංගා පැස්ටා).",
+        benefits: ["Moringa", "Health Food", "Traditional", "Sri Lankan Pasta"],
+        price: 650,
+        image: sobakoMoringoPastaImage,
         isExclusive: false,
     },
     {
@@ -278,6 +312,16 @@ const Products = () => {
         benefits: ["Traditional Rice", "Gluten-Free", "Non-GMO"],
         price: 720,
         image: sobakoSuwandalImage,
+        isExclusive: false,
+    },
+    {
+        id: 4003,
+        name: "Sobako Traditional rice Porridge 200g",
+        category: "Company",
+        description: "A convenient porridge mix featuring corn and traditional Sri Lankan rice.",
+        benefits: ["Porridge Mix", "Corn", "Traditional Rice"],
+        price: 395,
+        image: sobakoSahalKandaImage,
         isExclusive: false,
     },
     {
