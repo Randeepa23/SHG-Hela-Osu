@@ -6,6 +6,15 @@ import sobakoMoringoPastaImage from '@/assets/sobako moringo pasta.png';
 import sobakoPachchaperumaImage from '@/assets/sobako pachchaperuma.png';
 import sobakoSuwandalImage from '@/assets/sobako suwandal.png';
 import sobakoSahalKandaImage from '@/assets/traditional rice forridge sobako.png';
+import unupaniyaImage from '@/assets/Waharaka Una Paniya 28ml.jpg';
+import sadesaWedanaharaOilImage from '@/assets/Sadesa Wedanahara Oil 28ml.jpg';
+import leavesMultiVitaminLotionImage from '@/assets/Leaves Multi Vitamin Lotion 3 In 1 Hair Treatment.jpg';
+import denagamaMinipuraAnshabagaWathaOilImage from '@/assets/Denagama Minipura Anshabaga Watha Oil 180ml.jpg';
+import sethsuwaMahaNarayanaOilImage from '@/assets/Sethsuwa Maha Narayana Oil 180ml.jpg';
+import sethsuwaGugguladiHandiOilImage from '@/assets/Sethsuwa Gugguladi Handi Oil 60ml.jpg';
+import ayurvedaCorporationThaviliPottaniyaImage from '@/assets/Ayurveda Corporation Thavili Pottaniya.jpg';
+import greenHerbalPainReliefPackImage from '@/assets/Green Herbal Pain Relief Pack.jpg';
+import naharagataImage from '@/assets/Waharaka Nahara Gata Samana Oil 28ml.jpg';
 import { useState } from 'react';
 import { Search, Filter, Grid, List } from 'lucide-react';
 import { Input } from '@/components/ui/input';
@@ -41,16 +50,16 @@ const Products = () => {
   const [viewMode, setViewMode] = useState('grid');
 
   const categories = [
-    { id: 'all', name: 'All Products', count: 27 },
+    { id: 'all', name: 'All Products', count: 35 },
     { id: 'arishta', name: 'අරිෂ්ට Arishta', count: 1 },
     { id: 'kwatha', name: 'ක්වාථ Kwatha', count: 1 },
     { id: 'watee', name: 'වටි Watee', count: 1 },
     { id: 'gritha', name: 'ග්‍රිථ Gritha', count: 0 },
     { id: 'lepa', name: 'ලේප Lepa', count: 1 },
-    { id: 'oils', name: 'තෛල Oil', count: 7 },
+    { id: 'oils', name: 'තෛල Oil', count:12 },
     { id: 'rasayana', name: 'රසායන Rasayana', count: 1 },
     { id: 'churna', name: 'චූර්ණ Churna', count: 2 },
-    { id: 'company', name: 'Company Products', count: 13 },
+    { id: 'company', name: 'Company Products', count: 17 },
   ];
 
   const products = [
@@ -316,6 +325,97 @@ const Products = () => {
         image: sobakoSahalKandaImage,
         isExclusive: false,
       },
+      {
+        id: 4004,
+        name: "Waharaka Una Paniya 28ml",
+        category: "Company",
+        description: "Waharaka Una Peniya is a powerful, 100% natural remedy designed to provide quick and effective relief from all types of fevers.",
+        benefits: ["Comprehensive Fever Relief", "Eliminates Root Cause", "100% Natural & Safe"],
+        price: 440,
+        image: unupaniyaImage,
+        isExclusive: false,
+      },
+      {
+        id: 4005,
+        name: "Waharaka Nahara Gata Samana Oil 28ml",
+        category: "oils",
+        description: "100% natural health mixture, crafted with care to support overall wellness. True to traditional roots, this blend offers a pure and wholesome approach to daily health.",
+        benefits: ["Health Support", "Trusted Quality", "100% Natural"],
+        price: 560,
+        image: naharagataImage,
+        isExclusive: false,
+      },
+       {
+        id: 4006,
+        name: "Sadesa Wedanahara Oil 28ml",
+        category: "oils",
+        description: "Fast-acting herbal remedy designed to provide instant relief from various aches and pains.",
+        benefits: ["Joint & Arthritis Support", "Nerve & Circulation Aid", "Instant Pain Relief"],
+        price: 280,
+        image: sadesaWedanaharaOilImage,
+        isExclusive: false,
+      },
+       {
+        id: 4007,
+        name: "Leaves Multi Vitamin Lotion 3 In 1 Hair Treatment",
+        category: "Company",
+        description: "A powerful herbal formula crafted from a unique blend of rare natural extracts.",
+        benefits: ["Instant Dandruff Control", "Stops Hair Fall", "Easy Application"],
+        price: 980,
+        image: leavesMultiVitaminLotionImage,
+        isExclusive: false,
+      },
+       {
+        id: 4008,
+        name: "Denagama Minipura Anshabaga Watha Oil 180ml",
+        category: "oils",
+        description: "Traditional herbal remedy specially formulated to treat fungal infections and skin conditions.",
+        benefits: ["Ringworm Treatment", "Wound Care", "Easy Application"],
+        price: 1500,
+        image: denagamaMinipuraAnshabagaWathaOilImage,
+        isExclusive: false,
+      },
+       {
+        id: 4009,
+        name: "Sethsuwa Maha Narayana Oil 180ml",
+        category: "oils",
+        description: "Sethsuwa Maha Narayana Thailaya is a time-honored Ayurvedic oil, trusted for thousands of years to support overall wellness and rejuvenation.",
+        benefits: ["Nerve & Muscle Support", "Pain Relief", "Ancient Ayurvedic Formula"],
+        price: 1250,
+        image: sethsuwaMahaNarayanaOilImage,
+        isExclusive: false,
+      },
+       {
+        id: 4010,
+        name: "Sethsuwa Gugguladi Handi Oil 60ml",
+        category: "oils",
+        description: "Sethsuwa Gugguladi Oil is a 100% natural Ayurvedic oil specially formulated to provide relief from arthritis and joint discomfort.",
+        benefits: ["Arthritis Relief", "Traditional Ayurvedic Formula", "Joint Support"],
+        price: 1400,
+        image: sethsuwaGugguladiHandiOilImage,
+        isExclusive: false,
+      },
+       {
+        id: 4011,
+        name: "Ayurveda Corporation Thavili Pottaniya",
+        category: "Company",
+        description: "A traditional Ayurvedic preparation designed for external application to soothe and heal various body pains.",
+        benefits: ["Relieves Pain", "Reduces Inflammation", "Ayurvedic Therapy"],
+        price: 500,
+        image: ayurvedaCorporationThaviliPottaniyaImage,
+        isExclusive: false,
+      },
+       {
+        id: 4012,
+        name: "Green Herbal Pain Relief Pack",
+        category: "Company",
+        description: "The Pain Relief Pack is a complete herbal solution designed to address various types of body pain and inflammation.",
+        benefits: ["Powerful Pain Relief Oil", "Watha Pain Relief", "Essential Nutrients","Joint & Cartilage Support"],
+        price: 4000,
+        image: greenHerbalPainReliefPackImage,
+        isExclusive: false,
+      },
+       
   ];
 
   const filteredProducts = products.filter(product => {
