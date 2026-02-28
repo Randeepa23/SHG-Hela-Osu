@@ -182,8 +182,8 @@ const Products = () => {
         price: 590,
         image: suwandelStringHoppersImage,
         isExclusive: false,
-      },
-      {
+    },
+    {
         id: 2003,
         name: "Turmeric Capsules",
         category: "Company",
@@ -192,8 +192,8 @@ const Products = () => {
         price: 590,
         image: turmericCapsulesImage,
         isExclusive: false,
-      },
-      {
+    },
+    {
         id: 11,
         name: "Kirineliya Bone Marrow Paththuwa",
         category: "Lepa",
@@ -202,8 +202,8 @@ const Products = () => {
         price: 800,
         image: boneMarrowPaththuwaImage,
         isExclusive: false,
-      },
-      {
+    },
+    {
         id: 12,
         name: "Naturelle Gotukola Capsules 60",
         category: "Company",
@@ -212,8 +212,8 @@ const Products = () => {
         price: 750,
         image: gotukolaCapsulesImage,
         isExclusive: false,
-      },
-      {
+    },
+    {
         id: 13,
         name: "Rajapura Panchajeewa Arshas Oil",
         category: "Oils",
@@ -222,8 +222,8 @@ const Products = () => {
         price: 2800,
         image: panchajeewaOilImage,
         isExclusive: false,
-      },
-      {
+    },
+    {
         id: 14,
         name: "Rajapura Panchakeshi Hearble Hair Oil 100ml",
         category: "Oils",
@@ -232,8 +232,8 @@ const Products = () => {
         price: 2700,
         image: panchakesiHairOilImage,
         isExclusive: false,
-      },
-      {
+    },
+    {
         id: 15,
         name: "Rajapura Peenas Oil 100ml",
         category: "Oils",
@@ -242,9 +242,9 @@ const Products = () => {
         price: 1350,
         image: peenasThailayaImage,
         isExclusive: false,
-      },
+    },
       // Newly added products
-      {
+    {
         id: 3001,
         name: "Sobako Lanka Basmathi",
         category: "Company",
@@ -253,8 +253,8 @@ const Products = () => {
         price: 595,
         image: basmatiRiceSobakoImage,
         isExclusive: false,
-      },
-      {
+    },
+    {
         id: 3002,
         name: "Naturelle Karapincha Garlic Capsules 60",
         category: "Company",
@@ -263,8 +263,8 @@ const Products = () => {
         price: 650,
         image: karapinchaGarlicCapsulesImage,
         isExclusive: false,
-      },
-      {
+    },
+    {
         id: 3003,
         name: "Korosduwa Thalum Oil 175ml",
         category: "Oils",
@@ -273,8 +273,8 @@ const Products = () => {
         price: 900,
         image: korasduweThalumThelImage,
         isExclusive: false,
-      },
-      {
+    },
+    {
         id: 3004,
         name: "Sobako Kurakkan Pasta 350g",
         category: "Company",
@@ -283,8 +283,8 @@ const Products = () => {
         price: 650,
         image: sobakoKurakkanPastaImage,
         isExclusive: false,
-      },
-      {
+    },
+    {
         id: 3005,
         name: "Sobako Murunga Pasta",
         category: "Company",
@@ -293,8 +293,8 @@ const Products = () => {
         price: 650,
         image: sobakoMoringoPastaImage,
         isExclusive: false,
-      },
-      {
+    },
+    {
         id: 4001,
         name: "Sobako Pachchaperumal rice 800g",
         category: "Company",
@@ -303,8 +303,8 @@ const Products = () => {
         price: 525,
         image: sobakoPachchaperumaImage,
         isExclusive: false,
-      },
-      {
+    },
+    {
         id: 4002,
         name: "Sobako Suwandel rice 800g",
         category: "Company",
@@ -313,8 +313,8 @@ const Products = () => {
         price: 720,
         image: sobakoSuwandalImage,
         isExclusive: false,
-      },
-      {
+    },
+    {
         id: 4003,
         name: "Sobako Traditional rice Porridge 200g",
         category: "Company",
@@ -323,8 +323,8 @@ const Products = () => {
         price: 395,
         image: sobakoSahalKandaImage,
         isExclusive: false,
-      },  
-{
+    },  
+    {
         id: 4004,
         name: "Waharaka Una Paniya 28ml",
         category: "Company",
@@ -333,8 +333,8 @@ const Products = () => {
         price: 440,
         image: unupaniyaImage,
         isExclusive: false,
-      },
-      {
+    },
+    {
         id: 4005,
         name: "Waharaka Nahara Gata Samana Oil 28ml",
         category: "oils",
@@ -343,8 +343,8 @@ const Products = () => {
         price: 560,
         image: naharagataImage,
         isExclusive: false,
-      },
-       {
+    },
+    {
         id: 4006,
         name: "Sadesa Wedanahara Oil 28ml",
         category: "oils",
@@ -353,8 +353,8 @@ const Products = () => {
         price: 280,
         image: sadesaWedanaharaOilImage,
         isExclusive: false,
-      },
-       {
+    },
+    {
         id: 4007,
         name: "Leaves Multi Vitamin Lotion 3 In 1 Hair Treatment",
         category: "Company",
@@ -363,8 +363,8 @@ const Products = () => {
         price: 980,
         image: leavesMultiVitaminLotionImage,
         isExclusive: false,
-      },
-       {
+    },
+    {
         id: 4008,
         name: "Denagama Minipura Anshabaga Watha Oil 180ml",
         category: "oils",
@@ -373,8 +373,8 @@ const Products = () => {
         price: 1500,
         image: denagamaMinipuraAnshabagaWathaOilImage,
         isExclusive: false,
-      },
-       {
+    },
+    {
         id: 4009,
         name: "Sethsuwa Maha Narayana Oil 180ml",
         category: "oils",
@@ -383,8 +383,8 @@ const Products = () => {
         price: 1250,
         image: sethsuwaMahaNarayanaOilImage,
         isExclusive: false,
-      },
-       {
+    },
+    {
         id: 4010,
         name: "Sethsuwa Gugguladi Handi Oil 60ml",
         category: "oils",
@@ -393,8 +393,8 @@ const Products = () => {
         price: 1400,
         image: sethsuwaGugguladiHandiOilImage,
         isExclusive: false,
-      },
-       {
+    },
+    {
         id: 4011,
         name: "Ayurveda Corporation Thavili Pottaniya",
         category: "Company",
@@ -403,8 +403,8 @@ const Products = () => {
         price: 500,
         image: ayurvedaCorporationThaviliPottaniyaImage,
         isExclusive: false,
-      },
-       {
+    },
+    {
         id: 4012,
         name: "Green Herbal Pain Relief Pack",
         category: "Company",
@@ -413,7 +413,7 @@ const Products = () => {
         price: 4000,
         image: greenHerbalPainReliefPackImage,
         isExclusive: false,
-      },
+    },
   ];
 
   const filteredProducts = products.filter(product => {
