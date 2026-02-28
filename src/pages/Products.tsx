@@ -1,4 +1,29 @@
 import handiOilImage from '@/assets/rajapura handithela.jpg';
+import basmatiRiceSobakoImage from '@/assets/basmati rice sobako.png';
+import karapinchaGarlicCapsulesImage from '@/assets/karapincha and garlic capsules naturali.png';
+import korasduweThalumThelImage from '@/assets/korasduwe thalum thel.jpg';
+import sobakoKurakkanPastaImage from '@/assets/sobako kurakkan pasta.png';
+import sobakoMoringoPastaImage from '@/assets/sobako moringo pasta.png';
+import sobakoPachchaperumaImage from '@/assets/sobako pachchaperuma.png';
+import sobakoSuwandalImage from '@/assets/sobako suwandal.png';
+import sobakoSahalKandaImage from '@/assets/traditional rice forridge sobako.png';
+import unupaniyaImage from '@/assets/Waharaka Una Paniya 28ml.jpg';
+import sadesaWedanaharaOilImage from '@/assets/Sadesa Wedanahara Oil 28ml.jpg';
+import leavesMultiVitaminLotionImage from '@/assets/Leaves Multi Vitamin Lotion 3 In 1 Hair Treatment.jpg';
+import denagamaMinipuraAnshabagaWathaOilImage from '@/assets/Denagama Minipura Anshabaga Watha Oil 180ml.jpg';
+import sethsuwaMahaNarayanaOilImage from '@/assets/Sethsuwa Maha Narayana Oil 180ml.jpg';
+import sethsuwaGugguladiHandiOilImage from '@/assets/Sethsuwa Gugguladi Handi Oil 60ml.jpg';
+import ayurvedaCorporationThaviliPottaniyaImage from '@/assets/Ayurveda Corporation Thavili Pottaniya.jpg';
+import greenHerbalPainReliefPackImage from '@/assets/Green Herbal Pain Relief Pack.jpg';
+import naharagataImage from '@/assets/Waharaka Nahara Gata Samana Oil 28ml.jpg';
+
+import suwandelStringHoppersImage from '@/assets/suwandel string hoppers powder.png';
+import turmericCapsulesImage from '@/assets/turmeric capsules.png';
+import boneMarrowPaththuwaImage from '@/assets/bone marrow paththuwa.png';
+import gotukolaCapsulesImage from '@/assets/gotukola capsules.png';
+import panchajeewaOilImage from '@/assets/panchajeewa homoroil oil.png';
+import panchakesiHairOilImage from '@/assets/panchakesi hair oil.png';
+import peenasThailayaImage from '@/assets/peenas thailaya.png';
 
 import { useState } from 'react';
 import { Search, Filter, Grid, List } from 'lucide-react';
@@ -148,6 +173,247 @@ const Products = () => {
         image: handiOilImage,
         isExclusive: false,
     },
+    {
+        id: 2002,
+        name: "Suwandel String Hopper Flour",
+        category: "Company",
+        description: "This oil is formulated based on an ancient traditional recipe and is intended for application on the head to treat various ailments.",
+        benefits: ["Traditional Recipe", "Head Application", "Ailment Relief"],
+        price: 590,
+        image: suwandelStringHoppersImage,
+        isExclusive: false,
+      },
+      {
+        id: 2003,
+        name: "Turmeric Capsules",
+        category: "Company",
+        description: "Turmeric (curcuma longa) contains curcumin, a potent antioxidant and has been used for 4000 years to treat a variety of conditions. Turmeric may help fight infections and some cancer, reduce inflammation and treat digestive problems. This widely used spice supports colon health, exerts neuroprotective actively and helps maintain a healthy cardiovascular system.",
+        benefits: ["Antioxidant", "Infection Support", "Anti-inflammatory", "Digestive Health", "Colon Health", "Neuroprotection", "Cardiovascular Health"],
+        price: 590,
+        image: turmericCapsulesImage,
+        isExclusive: false,
+      },
+      {
+        id: 11,
+        name: "Kirineliya Bone Marrow Paththuwa",
+        category: "Lepa",
+        description: "Kirineliya Isi Osu cartilage regenerative ointment is ideal for regenerating wom-oul cartilages, joint pain and swelling.",
+        benefits: ["Cartilage Regeneration", "Joint Pain Relief", "Swelling Reduction"],
+        price: 800,
+        image: boneMarrowPaththuwaImage,
+        isExclusive: false,
+      },
+      {
+        id: 12,
+        name: "Naturelle Gotukola Capsules 60",
+        category: "Company",
+        description: "As a food supplement Gotukola provides the body with the nutritional support to promote well-being and good health.",
+        benefits: ["Well-being", "Nutritional Support", "Good Health"],
+        price: 750,
+        image: gotukolaCapsulesImage,
+        isExclusive: false,
+      },
+      {
+        id: 13,
+        name: "Rajapura Panchajeewa Arshas Oil",
+        category: "Oils",
+        description: "It is suitable to drink a 10ml dose after dinner for instances where blood is passed with stool through the anus, and for internal wounds within the anal passage.",
+        benefits: ["Hemorrhoid Relief", "Internal Wound Healing", "Digestive Health"],
+        price: 2800,
+        image: panchajeewaOilImage,
+        isExclusive: false,
+      },
+      {
+        id: 14,
+        name: "Rajapura Panchakeshi Hearble Hair Oil 100ml",
+        category: "Oils",
+        description: "Since this is a traditional medicinal product, it is usually recommended to apply the oil to the scalp and massage gently",
+        benefits: ["Hair Care", "Scalp Massage", "Traditional Medicine"],
+        price: 2700,
+        image: panchakesiHairOilImage,
+        isExclusive: false,
+      },
+      {
+        id: 15,
+        name: "Rajapura Peenas Oil 100ml",
+        category: "Oils",
+        description: "for all Catarrh problems such as Sneezing, Runny nose,Growths in nose, Itching eyes, Itching ears, Sorethroat, Bad odour of nose,Untimely hair whitening.Com wasting, Bad odour ofmouth Ooging mucus and 6tears Low vision.Senseleisness for smells,Serdelessness for taste of foods.",
+        benefits: ["Catarrh Relief", "Nasal Health", "Itching Relief", "Sore Throat", "Bad Odour Control", "Hair Whitening Prevention", "Vision Support", "Taste & Smell Support"],
+        price: 1350,
+        image: peenasThailayaImage,
+        isExclusive: false,
+      },
+      // Newly added products
+      {
+        id: 3001,
+        name: "Sobako Lanka Basmathi",
+        category: "Company",
+        description: "The rice grains are white and long-grained, characteristic of the Basmathi style, offering a fragrant and fluffy texture when cooked.",
+        benefits: ["Long Grain", "Fragrant", "Fluffy Texture"],
+        price: 595,
+        image: basmatiRiceSobakoImage,
+        isExclusive: false,
+      },
+      {
+        id: 3002,
+        name: "Naturelle Karapincha Garlic Capsules 60",
+        category: "Company",
+        description: "These high-quality capsules contain a dry Gotukola powder produced through a specialized process that preserves all the active ingredients of the fresh juice. Considered a powerful Ayurvedic 'youth-maintaining' herb, Gotukola is used to promote vigor and physical strength.",
+        benefits: ["Gotukola", "Ayurvedic Herb", "Vigor", "Physical Strength"],
+        price: 650,
+        image: karapinchaGarlicCapsulesImage,
+        isExclusive: false,
+      },
+      {
+        id: 3003,
+        name: "Korosduwa Thalum Oil 175ml",
+        category: "Oils",
+        description: "This is an Ayurvedic medicinal oil produced and distributed by Korosduwa Herbal.",
+        benefits: ["Ayurvedic Oil", "Herbal", "Medicinal"],
+        price: 900,
+        image: korasduweThalumThelImage,
+        isExclusive: false,
+      },
+      {
+        id: 3004,
+        name: "Sobako Kurakkan Pasta 350g",
+        category: "Company",
+        description: "A traditional Sri Lankan pasta product made with a blend of wholesome grains.",
+        benefits: ["Traditional", "Wholesome Grains", "Sri Lankan Pasta"],
+        price: 650,
+        image: sobakoKurakkanPastaImage,
+        isExclusive: false,
+      },
+      {
+        id: 3005,
+        name: "Sobako Murunga Pasta",
+        category: "Company",
+        description: "Sobako Moringa Pasta is a traditional Sri Lankan health-food product that combines standard grains with the nutritional benefits of the Moringa plant. It is marketed as a 'Local Moringa Pasta' (දේශීය මුරුංගා පැස්ටා).",
+        benefits: ["Moringa", "Health Food", "Traditional", "Sri Lankan Pasta"],
+        price: 650,
+        image: sobakoMoringoPastaImage,
+        isExclusive: false,
+      },
+      {
+        id: 4001,
+        name: "Sobako Pachchaperumal rice 800g",
+        category: "Company",
+        description: "A premium 'Local Traditional Rice' variety produced from Asuda paddy. It is naturally Gluten-Free and Non-GMO.",
+        benefits: ["Traditional Rice", "Gluten-Free", "Non-GMO"],
+        price: 525,
+        image: sobakoPachchaperumaImage,
+        isExclusive: false,
+      },
+      {
+        id: 4002,
+        name: "Sobako Suwandel rice 800g",
+        category: "Company",
+        description: "A premium 'Local Traditional Rice' variety produced from Asuda paddy. It is naturally Gluten-Free and Non-GMO.",
+        benefits: ["Traditional Rice", "Gluten-Free", "Non-GMO"],
+        price: 720,
+        image: sobakoSuwandalImage,
+        isExclusive: false,
+      },
+      {
+        id: 4003,
+        name: "Sobako Traditional rice Porridge 200g",
+        category: "Company",
+        description: "A convenient porridge mix featuring corn and traditional Sri Lankan rice.",
+        benefits: ["Porridge Mix", "Corn", "Traditional Rice"],
+        price: 395,
+        image: sobakoSahalKandaImage,
+        isExclusive: false,
+      },  
+{
+        id: 4004,
+        name: "Waharaka Una Paniya 28ml",
+        category: "Company",
+        description: "Waharaka Una Peniya is a powerful, 100% natural remedy designed to provide quick and effective relief from all types of fevers.",
+        benefits: ["Comprehensive Fever Relief", "Eliminates Root Cause", "100% Natural & Safe"],
+        price: 440,
+        image: unupaniyaImage,
+        isExclusive: false,
+      },
+      {
+        id: 4005,
+        name: "Waharaka Nahara Gata Samana Oil 28ml",
+        category: "oils",
+        description: "100% natural health mixture, crafted with care to support overall wellness. True to traditional roots, this blend offers a pure and wholesome approach to daily health.",
+        benefits: ["Health Support", "Trusted Quality", "100% Natural"],
+        price: 560,
+        image: naharagataImage,
+        isExclusive: false,
+      },
+       {
+        id: 4006,
+        name: "Sadesa Wedanahara Oil 28ml",
+        category: "oils",
+        description: "Fast-acting herbal remedy designed to provide instant relief from various aches and pains.",
+        benefits: ["Joint & Arthritis Support", "Nerve & Circulation Aid", "Instant Pain Relief"],
+        price: 280,
+        image: sadesaWedanaharaOilImage,
+        isExclusive: false,
+      },
+       {
+        id: 4007,
+        name: "Leaves Multi Vitamin Lotion 3 In 1 Hair Treatment",
+        category: "Company",
+        description: "A powerful herbal formula crafted from a unique blend of rare natural extracts.",
+        benefits: ["Instant Dandruff Control", "Stops Hair Fall", "Easy Application"],
+        price: 980,
+        image: leavesMultiVitaminLotionImage,
+        isExclusive: false,
+      },
+       {
+        id: 4008,
+        name: "Denagama Minipura Anshabaga Watha Oil 180ml",
+        category: "oils",
+        description: "Traditional herbal remedy specially formulated to treat fungal infections and skin conditions.",
+        benefits: ["Ringworm Treatment", "Wound Care", "Easy Application"],
+        price: 1500,
+        image: denagamaMinipuraAnshabagaWathaOilImage,
+        isExclusive: false,
+      },
+       {
+        id: 4009,
+        name: "Sethsuwa Maha Narayana Oil 180ml",
+        category: "oils",
+        description: "Sethsuwa Maha Narayana Thailaya is a time-honored Ayurvedic oil, trusted for thousands of years to support overall wellness and rejuvenation.",
+        benefits: ["Nerve & Muscle Support", "Pain Relief", "Ancient Ayurvedic Formula"],
+        price: 1250,
+        image: sethsuwaMahaNarayanaOilImage,
+        isExclusive: false,
+      },
+       {
+        id: 4010,
+        name: "Sethsuwa Gugguladi Handi Oil 60ml",
+        category: "oils",
+        description: "Sethsuwa Gugguladi Oil is a 100% natural Ayurvedic oil specially formulated to provide relief from arthritis and joint discomfort.",
+        benefits: ["Arthritis Relief", "Traditional Ayurvedic Formula", "Joint Support"],
+        price: 1400,
+        image: sethsuwaGugguladiHandiOilImage,
+        isExclusive: false,
+      },
+       {
+        id: 4011,
+        name: "Ayurveda Corporation Thavili Pottaniya",
+        category: "Company",
+        description: "A traditional Ayurvedic preparation designed for external application to soothe and heal various body pains.",
+        benefits: ["Relieves Pain", "Reduces Inflammation", "Ayurvedic Therapy"],
+        price: 500,
+        image: ayurvedaCorporationThaviliPottaniyaImage,
+        isExclusive: false,
+      },
+       {
+        id: 4012,
+        name: "Green Herbal Pain Relief Pack",
+        category: "Company",
+        description: "The Pain Relief Pack is a complete herbal solution designed to address various types of body pain and inflammation.",
+        benefits: ["Powerful Pain Relief Oil", "Watha Pain Relief", "Essential Nutrients","Joint & Cartilage Support"],
+        price: 4000,
+        image: greenHerbalPainReliefPackImage,
+        isExclusive: false,
+      },
   ];
 
   const filteredProducts = products.filter(product => {
