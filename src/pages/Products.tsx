@@ -1,11 +1,8 @@
 import handiOilImage from '@/assets/rajapura handithela.jpg';
 import basmatiRiceSobakoImage from '@/assets/basmati rice sobako.png';
 import korasduweThalumThelImage from '@/assets/korasduwe thalum thel.png';
-import sobakoKurakkanPastaImage from '@/assets/sobako kurakkan pasta.png';
-import sobakoMoringoPastaImage from '@/assets/sobako moringo pasta.png';
 import sobakoPachchaperumaImage from '@/assets/sobako pachchaperuma.png';
 import sobakoSuwandalImage from '@/assets/sobako suwandal.png';
-import sobakoSahalKandaImage from '@/assets/traditional rice forridge sobako.png';
 import unupaniyaImage from '@/assets/Waharaka Una Paniya 28ml.png';
 import sadesaWedanaharaOilImage from '@/assets/Sadesa Wedanahara Oil 28ml.png';
 import leavesMultiVitaminLotionImage from '@/assets/Leaves Multi Vitamin Lotion 3 In 1 Hair Treatment.png';
@@ -264,26 +261,6 @@ const Products = () => {
         isExclusive: false,
     },
     {
-        id: 3004,
-        name: "Sobako Kurakkan Pasta 350g",
-        category: "Company",
-        description: "A traditional Sri Lankan pasta product made with a blend of wholesome grains.",
-        benefits: ["Traditional", "Wholesome Grains", "Sri Lankan Pasta"],
-        price: 650,
-        image: sobakoKurakkanPastaImage,
-        isExclusive: false,
-    },
-    {
-        id: 3005,
-        name: "Sobako Murunga Pasta",
-        category: "Company",
-        description: "Sobako Moringa Pasta is a traditional Sri Lankan health-food product that combines standard grains with the nutritional benefits of the Moringa plant. It is marketed as a 'Local Moringa Pasta' (දේශීය මුරුංගා පැස්ටා).",
-        benefits: ["Moringa", "Health Food", "Traditional", "Sri Lankan Pasta"],
-        price: 650,
-        image: sobakoMoringoPastaImage,
-        isExclusive: false,
-    },
-    {
         id: 4001,
         name: "Sobako Pachchaperumal rice 800g",
         category: "Company",
@@ -303,16 +280,6 @@ const Products = () => {
         image: sobakoSuwandalImage,
         isExclusive: false,
     },
-    {
-        id: 4003,
-        name: "Sobako Traditional rice Porridge 200g",
-        category: "Company",
-        description: "A convenient porridge mix featuring corn and traditional Sri Lankan rice.",
-        benefits: ["Porridge Mix", "Corn", "Traditional Rice"],
-        price: 395,
-        image: sobakoSahalKandaImage,
-        isExclusive: false,
-    },  
     {
         id: 4004,
         name: "Waharaka Una Paniya 28ml",
