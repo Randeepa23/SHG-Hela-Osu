@@ -1,6 +1,5 @@
 import handiOilImage from '@/assets/rajapura handithela.jpg';
 import basmatiRiceSobakoImage from '@/assets/basmati rice sobako.png';
-import karapinchaGarlicCapsulesImage from '@/assets/karapincha and garlic capsules naturali.png';
 import korasduweThalumThelImage from '@/assets/korasduwe thalum thel.png';
 import sobakoKurakkanPastaImage from '@/assets/sobako kurakkan pasta.png';
 import sobakoMoringoPastaImage from '@/assets/sobako moringo pasta.png';
@@ -252,16 +251,6 @@ const Products = () => {
         benefits: ["Long Grain", "Fragrant", "Fluffy Texture"],
         price: 595,
         image: basmatiRiceSobakoImage,
-        isExclusive: false,
-    },
-    {
-        id: 3002,
-        name: "Naturelle Karapincha Garlic Capsules 60",
-        category: "Company",
-        description: "These high-quality capsules contain a dry Gotukola powder produced through a specialized process that preserves all the active ingredients of the fresh juice. Considered a powerful Ayurvedic 'youth-maintaining' herb, Gotukola is used to promote vigor and physical strength.",
-        benefits: ["Gotukola", "Ayurvedic Herb", "Vigor", "Physical Strength"],
-        price: 650,
-        image: karapinchaGarlicCapsulesImage,
         isExclusive: false,
     },
     {
