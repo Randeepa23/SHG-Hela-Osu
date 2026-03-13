@@ -1,21 +1,21 @@
 import handiOilImage from '@/assets/rajapura handithela.jpg';
 import basmatiRiceSobakoImage from '@/assets/basmati rice sobako.png';
-import korasduweThalumThelImage from '@/assets/korasduwe thalum thel.png';
-import sobakoPachchaperumaImage from '@/assets/sobako pachchaperuma.png';
-import sobakoSuwandalImage from '@/assets/sobako suwandal.png';
-import unupaniyaImage from '@/assets/Waharaka Una Paniya 28ml.png';
-import sadesaWedanaharaOilImage from '@/assets/Sadesa Wedanahara Oil 28ml.png';
-import leavesMultiVitaminLotionImage from '@/assets/Leaves Multi Vitamin Lotion 3 In 1 Hair Treatment.png';
-import denagamaMinipuraAnshabagaWathaOilImage from '@/assets/Denagama Minipura Anshabaga Watha Oil 180ml.png';
-import sethsuwaMahaNarayanaOilImage from '@/assets/Sethsuwa Maha Narayana Oil 180ml.png';
-import sethsuwaGugguladiHandiOilImage from '@/assets/Sethsuwa Gugguladi Handi Oil 60ml.png';
-import ayurvedaCorporationThaviliPottaniyaImage from '@/assets/Ayurveda Corporation Thavili Pottaniya.png';
-import greenHerbalPainReliefPackImage from '@/assets/Green Herbal Pain Relief Pack.png';
-import naharagataImage from '@/assets/Waharaka Nahara Gata Samana Oil 28ml.png';
+import karapinchaGarlicCapsulesImage from '@/assets/karapincha and garlic capsules naturali.png';
+import korasduweThalumThelImage from '@/assets/korasduwe thalum thel.jpg';
 import sobakoKurakkanPastaImage from '@/assets/sobako kurakkan pasta.png';
 import sobakoMoringoPastaImage from '@/assets/sobako moringo pasta.png';
+import sobakoPachchaperumaImage from '@/assets/sobako pachchaperuma.png';
+import sobakoSuwandalImage from '@/assets/sobako suwandal.png';
 import sobakoSahalKandaImage from '@/assets/traditional rice forridge sobako.png';
-import karapinchaGarlicCapsulesImage from '@/assets/karapincha and garlic capsules naturali.png';
+import unupaniyaImage from '@/assets/Waharaka Una Paniya 28ml.jpg';
+import sadesaWedanaharaOilImage from '@/assets/Sadesa Wedanahara Oil 28ml.jpg';
+import leavesMultiVitaminLotionImage from '@/assets/Leaves Multi Vitamin Lotion 3 In 1 Hair Treatment.jpg';
+import denagamaMinipuraAnshabagaWathaOilImage from '@/assets/Denagama Minipura Anshabaga Watha Oil 180ml.jpg';
+import sethsuwaMahaNarayanaOilImage from '@/assets/Sethsuwa Maha Narayana Oil 180ml.jpg';
+import sethsuwaGugguladiHandiOilImage from '@/assets/Sethsuwa Gugguladi Handi Oil 60ml.jpg';
+import ayurvedaCorporationThaviliPottaniyaImage from '@/assets/Ayurveda Corporation Thavili Pottaniya.jpg';
+import greenHerbalPainReliefPackImage from '@/assets/Green Herbal Pain Relief Pack.jpg';
+import naharagataImage from '@/assets/Waharaka Nahara Gata Samana Oil 28ml.jpg';
 
 import suwandelStringHoppersImage from '@/assets/suwandel string hoppers powder.png';
 import turmericCapsulesImage from '@/assets/turmeric capsules.png';
@@ -43,22 +43,34 @@ import suensuImage from '@/assets/Products/Suensu Syrup.jpg';
 import ukwattageImage from '@/assets/Products/Ukwattage Nethrananda Oil.jpg';
 import wickramarachchiImage from '@/assets/Products/Wickramarachchi Oral Care.jpg';
 
+// New Ayurvedic products imports
+import morawakaNethra from '@/assets/Morawaka Shri Nethrakanthi Oil 200ml.png';
+import wanaPawana from '@/assets/Wana Pawana Diabetic Oil 15ml.png';
+import kadahapolaVata from '@/assets/Kadahapola Vata Thailaya 28ml.png';
+import sandanathiLotus from '@/assets/Sandanathi Lotus Oil 200ml.png';
+import osethmaMorenga from '@/assets/Osethma Moringa Capsules.png';
+import herbalBloomsShampoo from '@/assets/Herbal Blooms Lime & Fenugreek Shampoo 80ml 200ml.png';
+import morawakaKidney from '@/assets/Morawaka Kidney Tonic 100ml.png';
+import minipuraSunaka from '@/assets/Minipura Sunaka Thailaya 60ml.png';
+import minipuraSunakaShampoo from '@/assets/Minipura Ayurvedic Sunaka Shampoo 100ml.png';
+import minipuraSunakaOil from '@/assets/Minipura Sunaka Thailaya 60ml.png';
+
 const Products = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [viewMode, setViewMode] = useState('grid');
 
   const categories = [
-    { id: 'all', name: 'All Products', count: 35 },
+    { id: 'all', name: 'All Products', count: 45 },
     { id: 'arishta', name: 'අරිෂ්ට Arishta', count: 1 },
     { id: 'kwatha', name: 'ක්වාථ Kwatha', count: 1 },
     { id: 'watee', name: 'වටි Watee', count: 1 },
     { id: 'gritha', name: 'ග්‍රිථ Gritha', count: 0 },
     { id: 'lepa', name: 'ලේප Lepa', count: 1 },
-    { id: 'oils', name: 'තෛල Oil', count:12 },
-    { id: 'rasayana', name: 'රසායන Rasayana', count: 1 },
+    { id: 'oils', name: 'තෛල Oil', count:17 },
+    { id: 'rasayana', name: 'රසායන Rasayana', count: 3 },
     { id: 'churna', name: 'චූර්ණ Churna', count: 2 },
-    { id: 'company', name: 'Company Products', count: 17 },
+    { id: 'company', name: 'Company Products', count: 20 },
   ];
 
   const products = [
@@ -182,8 +194,8 @@ const Products = () => {
         price: 590,
         image: suwandelStringHoppersImage,
         isExclusive: false,
-    },
-    {
+      },
+      {
         id: 2003,
         name: "Turmeric Capsules",
         category: "Company",
@@ -192,8 +204,8 @@ const Products = () => {
         price: 590,
         image: turmericCapsulesImage,
         isExclusive: false,
-    },
-    {
+      },
+      {
         id: 11,
         name: "Kirineliya Bone Marrow Paththuwa",
         category: "Lepa",
@@ -202,8 +214,8 @@ const Products = () => {
         price: 800,
         image: boneMarrowPaththuwaImage,
         isExclusive: false,
-    },
-    {
+      },
+      {
         id: 12,
         name: "Naturelle Gotukola Capsules 60",
         category: "Company",
@@ -212,8 +224,8 @@ const Products = () => {
         price: 750,
         image: gotukolaCapsulesImage,
         isExclusive: false,
-    },
-    {
+      },
+      {
         id: 13,
         name: "Rajapura Panchajeewa Arshas Oil",
         category: "Oils",
@@ -222,8 +234,8 @@ const Products = () => {
         price: 2800,
         image: panchajeewaOilImage,
         isExclusive: false,
-    },
-    {
+      },
+      {
         id: 14,
         name: "Rajapura Panchakeshi Hearble Hair Oil 100ml",
         category: "Oils",
@@ -232,8 +244,8 @@ const Products = () => {
         price: 2700,
         image: panchakesiHairOilImage,
         isExclusive: false,
-    },
-    {
+      },
+      {
         id: 15,
         name: "Rajapura Peenas Oil 100ml",
         category: "Oils",
@@ -242,9 +254,9 @@ const Products = () => {
         price: 1350,
         image: peenasThailayaImage,
         isExclusive: false,
-    },
+      },
       // Newly added products
-    {
+      {
         id: 3001,
         name: "Sobako Lanka Basmathi",
         category: "Company",
@@ -253,8 +265,8 @@ const Products = () => {
         price: 595,
         image: basmatiRiceSobakoImage,
         isExclusive: false,
-    },
-    {
+      },
+      {
         id: 3002,
         name: "Naturelle Karapincha Garlic Capsules 60",
         category: "Company",
@@ -263,8 +275,8 @@ const Products = () => {
         price: 650,
         image: karapinchaGarlicCapsulesImage,
         isExclusive: false,
-    },
-    {
+      },
+      {
         id: 3003,
         name: "Korosduwa Thalum Oil 175ml",
         category: "Oils",
@@ -273,8 +285,8 @@ const Products = () => {
         price: 900,
         image: korasduweThalumThelImage,
         isExclusive: false,
-    },
-    {
+      },
+      {
         id: 3004,
         name: "Sobako Kurakkan Pasta 350g",
         category: "Company",
@@ -283,8 +295,8 @@ const Products = () => {
         price: 650,
         image: sobakoKurakkanPastaImage,
         isExclusive: false,
-    },
-    {
+      },
+      {
         id: 3005,
         name: "Sobako Murunga Pasta",
         category: "Company",
@@ -293,8 +305,8 @@ const Products = () => {
         price: 650,
         image: sobakoMoringoPastaImage,
         isExclusive: false,
-    },
-    {
+      },
+      {
         id: 4001,
         name: "Sobako Pachchaperumal rice 800g",
         category: "Company",
@@ -303,8 +315,8 @@ const Products = () => {
         price: 525,
         image: sobakoPachchaperumaImage,
         isExclusive: false,
-    },
-    {
+      },
+      {
         id: 4002,
         name: "Sobako Suwandel rice 800g",
         category: "Company",
@@ -313,8 +325,8 @@ const Products = () => {
         price: 720,
         image: sobakoSuwandalImage,
         isExclusive: false,
-    },
-    {
+      },
+      {
         id: 4003,
         name: "Sobako Traditional rice Porridge 200g",
         category: "Company",
@@ -323,8 +335,8 @@ const Products = () => {
         price: 395,
         image: sobakoSahalKandaImage,
         isExclusive: false,
-    },
-    {
+      },  
+{
         id: 4004,
         name: "Waharaka Una Paniya 28ml",
         category: "Company",
@@ -333,8 +345,8 @@ const Products = () => {
         price: 440,
         image: unupaniyaImage,
         isExclusive: false,
-    },
-    {
+      },
+      {
         id: 4005,
         name: "Waharaka Nahara Gata Samana Oil 28ml",
         category: "oils",
@@ -343,8 +355,8 @@ const Products = () => {
         price: 560,
         image: naharagataImage,
         isExclusive: false,
-    },
-    {
+      },
+       {
         id: 4006,
         name: "Sadesa Wedanahara Oil 28ml",
         category: "oils",
@@ -353,8 +365,8 @@ const Products = () => {
         price: 280,
         image: sadesaWedanaharaOilImage,
         isExclusive: false,
-    },
-    {
+      },
+       {
         id: 4007,
         name: "Leaves Multi Vitamin Lotion 3 In 1 Hair Treatment",
         category: "Company",
@@ -363,8 +375,8 @@ const Products = () => {
         price: 980,
         image: leavesMultiVitaminLotionImage,
         isExclusive: false,
-    },
-    {
+      },
+       {
         id: 4008,
         name: "Denagama Minipura Anshabaga Watha Oil 180ml",
         category: "oils",
@@ -373,8 +385,8 @@ const Products = () => {
         price: 1500,
         image: denagamaMinipuraAnshabagaWathaOilImage,
         isExclusive: false,
-    },
-    {
+      },
+       {
         id: 4009,
         name: "Sethsuwa Maha Narayana Oil 180ml",
         category: "oils",
@@ -383,8 +395,8 @@ const Products = () => {
         price: 1250,
         image: sethsuwaMahaNarayanaOilImage,
         isExclusive: false,
-    },
-    {
+      },
+       {
         id: 4010,
         name: "Sethsuwa Gugguladi Handi Oil 60ml",
         category: "oils",
@@ -393,8 +405,8 @@ const Products = () => {
         price: 1400,
         image: sethsuwaGugguladiHandiOilImage,
         isExclusive: false,
-    },
-    {
+      },
+       {
         id: 4011,
         name: "Ayurveda Corporation Thavili Pottaniya",
         category: "Company",
@@ -403,8 +415,8 @@ const Products = () => {
         price: 500,
         image: ayurvedaCorporationThaviliPottaniyaImage,
         isExclusive: false,
-    },
-    {
+      },
+       {
         id: 4012,
         name: "Green Herbal Pain Relief Pack",
         category: "Company",
@@ -413,7 +425,107 @@ const Products = () => {
         price: 4000,
         image: greenHerbalPainReliefPackImage,
         isExclusive: false,
-    },
+      },
+      {
+        id: 5001,
+        name: "Morawaka Shri Nethrakanthi Oil 200ml",
+        category: "Oils",
+        description: "Viradawamu is a traditional Sri Lankan Ayurvedic herbal tonic made by B.P. Morawaka & Sons since 1934 (AYUR. RGND No. 36). It's a dark, syrupy remedy with herbs like බිත්තර, වල්මල්, බෝංචි etc., used as a general health booster. Classic red label with the iconic lady portrait – a household name for decades.",
+        benefits: ["Traditional Remedy", "Health Booster", "Household Favorite", "Heritage Brand"],
+        price: 900,
+        image: morawakaNethra,
+        isExclusive: false,
+      },
+      {
+        id: 5002,
+        name: "Wana Pawana Diabetic Oil 15ml",
+        category: "Oils",
+        description: "විත කවි කිස්සකරුණු ඔස්මත්තුව is a traditional Sri Lankan Ayurvedic aromatic/medicinal oil in a 15ml bottle. Yellow-green packaging with leaf motifs, includes a dropper, and claims natural ingredients for quick relief from cold-related discomforts. A pocket-sized home remedy popular in Sri Lanka for everyday minor ailments.",
+        benefits: ["Cold Relief", "Natural Ingredients", "Portable Size", "Quick Relief"],
+        price: 1990,
+        image: wanaPawana,
+        isExclusive: false,
+      },
+      {
+        id: 5003,
+        name: "Kadahapola Vata Thailaya 28ml",
+        category: "Oils",
+        description: "කkönig හපොල වාත තෛලය is a traditional Sri Lankan Ayurvedic external massage oil from the Kadahapola Dharmarathna Ayurveda family, established since 1948. It's a herbal Vata balancing thailaya designed for quick relief from joint pains, muscle stiffness, backaches, leg/arm pains, sprains, and rheumatic issues. Apply externally by massaging on affected areas.",
+        benefits: ["Joint Pain Relief", "Muscle Stiffness", "Vata Balancing", "Heritage Formula"],
+        price: 300,
+        image: kadahapolaVata,
+        isExclusive: false,
+      },
+      {
+        id: 5004,
+        name: "Sandanathi Lotus Oil 200ml",
+        category: "Oils",
+        description: "ලෝටස් බ්‍රෑන්ඩ් බල්දනාති තෛලම් (Baldanathi Thailam) is a 200ml traditional Sri Lankan Ayurvedic external herbal oil produced by Sithumini Osu (a GMP & ISO certified company). It's a dark massage oil likely for relieving joint/muscle pains, vata imbalances, stiffness, or general body aches. Vibrant yellow-red label with Lotus brand logo.",
+        benefits: ["Joint/Muscle Relief", "Vata Balancing", "Body Aches", "GMP Certified"],
+        price: 620,
+        image: sandanathiLotus,
+        isExclusive: false,
+      },
+      {
+        id: 5005,
+        name: "Osethma Moringa Capsules",
+        category: "Rasayana",
+        description: "Osesthma Moringa Capsules (100 capsules, 400mg each) is a 100% pure herbal dietary supplement from Osesthma Healing Hands, a certified Ayurvedic company in Maharagama, Sri Lanka. Made from Moringa oleifera (drumstick tree leaves), it's packed with vitamins (A, C, D), minerals (calcium, potassium, iron), proteins, and antioxidants.",
+        benefits: ["Immunity Boost", "Natural Multivitamin", "Energy Support", "Mental Alertness", "Antioxidant Rich"],
+        price: 1900,
+        image: osethmaMorenga,
+        isExclusive: false,
+      },
+      {
+        id: 5006,
+        name: "Herbal Blooms Lime & Fenugreek Shampoo 80ml 200ml",
+        category: "Company",
+        description: "Limeee Lime & Fenugreek Shampoo (from Herbal Blooms by Medichemistry Pharmaceuticals, Gampaha, Sri Lanka – ISO & GMP certified) is a natural herbal anti-dandruff shampoo. Infused with lime (dehi) and fenugreek (uluhal) extracts, it effectively controls dandruff, prevents hair fall, reduces itching, nourishes dry/damaged hair, strengthens roots.",
+        benefits: ["Anti-Dandruff", "Hair Fall Prevention", "Scalp Health", "Natural Ingredients", "GMP Certified"],
+        price: 1360,
+        image: herbalBloomsShampoo,
+        isExclusive: false,
+      },
+      {
+        id: 5007,
+        name: "Morawaka Kidney Tonic 100ml",
+        category: "Rasayana",
+        description: "Morawaka Kidney Tonic from B.P. Morawaka & Sons is a traditional herbal syrup designed to support efficient kidney function and the urinary tract. Purple packaging with the BPM sun logo and tree motif, it's marketed for promoting healthy kidney operations, urinary health, and related issues. A household Ayurvedic remedy for natural urinary/kidney wellness.",
+        benefits: ["Kidney Support", "Urinary Health", "Traditional Remedy", "Household Name"],
+        price: 600,
+        image: morawakaKidney,
+        isExclusive: false,
+      },
+      {
+        id: 5008,
+        name: "Minipura Sunaka Thailaya 60ml",
+        category: "Company",
+        description: "Sunanaka Ayurvedic Shampoo (සුනඛ ආයුර්වේදික ෂැම්පූ) is a traditional Sri Lankan herbal pet shampoo formulated for dogs and other animals, featuring a prominent German Shepherd image on the label. It's an Ayurvedic bathing product aimed at cleaning, soothing skin issues, and maintaining coat health in pets.",
+        benefits: ["Pet Shampoo", "Skin Health", "Coat Shine", "Herbal Care"],
+        price: 450,
+        image: minipuraSunaka,
+        isExclusive: false,
+      },
+      {
+        id: 5009,
+        name: "Minipura Ayurvedic Sunaka Shampoo 100ml",
+        category: "Company",
+        description: "Sunanaka Ayurvedic Shampoo (සුනඛ ආයුර්වේදික ෂැම්පූ) is a traditional Sri Lankan herbal pet shampoo (100ml bottle) formulated for dogs and possibly other animals. This shampoo variant offers gentle, natural cleansing with Ayurvedic herbs for flea/tick prevention, coat shine, and minor skin relief. A popular, affordable home remedy option in Sri Lanka for pet grooming.",
+        benefits: ["Pet Care", "Flea Prevention", "Natural Cleansing", "Skin Relief"],
+        price: 390,
+        image: minipuraSunakaShampoo,
+        isExclusive: false,
+      },
+      {
+        id: 5010,
+        name: "Minipura Sunaka Ayurvedic Oil 60ml",
+        category: "Oils",
+        description: "Sunanaka Thailalaya (සුනඛ තෛලය) is a traditional Sri Lankan Ayurvedic herbal oil from Denagama Minipura Ayurvedic Rasayanagaraya. Formulated specifically for pets (mainly dogs, but also cats, goats, etc.), it's an external application oil using indigenous herbs like turmeric (කහ) and neem (කොහොඹ) to address common issues: skin diseases, itching, wounds, flea/insect bites, hair shedding, parasites/worms.",
+        benefits: ["Pet Skin Care", "Flea/Tick Relief", "Wound Healing", "Herbal Remedy"],
+        price: 450,
+        image: minipuraSunakaOil,
+        isExclusive: false,
+      },
   ];
 
   const filteredProducts = products.filter(product => {
