@@ -5,6 +5,12 @@ import sobakoKurakkanPastaImage from '@/assets/sobako kurakkan pasta.png';
 import sobakoMoringoPastaImage from '@/assets/sobako moringo pasta.png';
 import sobakoPachchaperumaImage from '@/assets/sobako pachchaperuma.png';
 import sobakoSuwandalImage from '@/assets/sobako suwandal.png';
+import unupaniyaImage from '@/assets/Waharaka Una Paniya 28ml.png';
+import naharagataImage from '@/assets/Waharaka Nahara Gata Samana Oil 28ml.png';
+import peenasThailayaImage from '@/assets/peenas thailaya.png';
+import korasduweThalumThelImage from '@/assets/korasduwe thalum thel.png';
+import wanaPawana from '@/assets/Wana Pawana Diabetic Oil 15ml.png';
+import osethmaMorenga from '@/assets/Osethma Moringa Capsules.png';
 
 import sobakoSahalKandaImage from '@/assets/traditional rice forridge sobako.png';
 import sadesaWedanaharaOilImage from '@/assets/Sadesa Wedanahara Oil 28ml.png';
@@ -171,6 +177,16 @@ const Products = () => {
       image: wickramarachchiImage,
       isExclusive: false,
     },
+    {
+        id: 15,
+        name: "Rajapura Peenas Oil 100ml",
+        category: "Oils",
+        description: "for all Catarrh problems such as Sneezing, Runny nose,Growths in nose, Itching eyes, Itching ears, Sorethroat, Bad odour of nose,Untimely hair whitening.Com wasting, Bad odour ofmouth Ooging mucus and 6tears Low vision.Senseleisness for smells,Serdelessness for taste of foods.",
+        benefits: ["Catarrh Relief", "Nasal Health", "Itching Relief", "Sore Throat", "Bad Odour Control", "Hair Whitening Prevention", "Vision Support", "Taste & Smell Support"],
+        price: 1350,
+        image: peenasThailayaImage,
+        isExclusive: false,
+      },
       // New products
     {
         id: 2001,
@@ -263,6 +279,16 @@ const Products = () => {
         image: karapinchaGarlicCapsulesImage,
         isExclusive: false,
       },
+    {
+        id: 3003,
+        name: "Korosduwa Thalum Oil 175ml",
+        category: "Oils",
+        description: "This is an Ayurvedic medicinal oil produced and distributed by Korosduwa Herbal.",
+        benefits: ["Ayurvedic Oil", "Herbal", "Medicinal"],
+        price: 900,
+        image: korasduweThalumThelImage,
+        isExclusive: false,
+      },
       {
         id: 3004,
         name: "Sobako Kurakkan Pasta 350g",
@@ -312,7 +338,28 @@ const Products = () => {
         price: 395,
         image: sobakoSahalKandaImage,
         isExclusive: false,
-      },  
+      },
+    {
+        id: 4004,
+        name: "Waharaka Una Paniya 28ml",
+        category: "Company",
+        description: "Waharaka Una Peniya is a powerful, 100% natural remedy designed to provide quick and effective relief from all types of fevers.",
+        benefits: ["Comprehensive Fever Relief", "Eliminates Root Cause", "100% Natural & Safe"],
+        price: 440,
+        image: unupaniyaImage,
+        isExclusive: false,
+      },
+     {
+        id: 4005,
+        name: "Waharaka Nahara Gata Samana Oil 28ml",
+        category: "oils",
+        description: "100% natural health mixture, crafted with care to support overall wellness. True to traditional roots, this blend offers a pure and wholesome approach to daily health.",
+        benefits: ["Health Support", "Trusted Quality", "100% Natural"],
+        price: 560,
+        image: naharagataImage,
+        isExclusive: false,
+      },
+
        {
         id: 4006,
         name: "Sadesa Wedanahara Oil 28ml",
@@ -387,17 +434,28 @@ const Products = () => {
         id: 5001,
         name: "Morawaka Shri Nethrakanthi Oil 200ml",
         category: "Oils",
-        description: "Viradawamu is a traditional Sri Lankan Ayurvedic herbal tonic made by B.P. Morawaka & Sons since 1934 (AYUR. RGND No. 36). It's a dark, syrupy remedy with herbs like බිත්තර, වල්මල්, බෝංචි etc., used as a general health booster. Classic red label with the iconic lady portrait – a household name for decades.",
+        description: "Morawaka Shri Nethrakanthi is a traditional Sri Lankan Ayurvedic herbal tonic made by B.P. Morawaka & Sons since 1934 (AYUR. RGND No. 36). It's a dark, syrupy remedy with herbs like බිත්තර, වල්මල්, බෝංචි etc., used as a general health booster. Classic red label with the iconic lady portrait – a household name for decades.",
         benefits: ["Traditional Remedy", "Health Booster", "Household Favorite", "Heritage Brand"],
         price: 900,
         image: morawakaNethra,
         isExclusive: false,
       },
+    {
+        id: 5002,
+        name: "Wana Pawana Diabetic Oil 15ml",
+        category: "Oils",
+        description: "Wana Pawana Diabetic Oil is a traditional Sri Lankan Ayurvedic aromatic/medicinal oil in a 15ml bottle. Yellow-green packaging with leaf motifs, includes a dropper, and claims natural ingredients for quick relief from cold-related discomforts. A pocket-sized home remedy popular in Sri Lanka for everyday minor ailments.",
+        benefits: ["Cold Relief", "Natural Ingredients", "Portable Size", "Quick Relief"],
+        price: 1990,
+        image: wanaPawana,
+        isExclusive: false,
+      },
+
       {
         id: 5003,
         name: "Kadahapola Vata Thailaya 28ml",
         category: "Oils",
-        description: "කkönig හපොල වාත තෛලය is a traditional Sri Lankan Ayurvedic external massage oil from the Kadahapola Dharmarathna Ayurveda family, established since 1948. It's a herbal Vata balancing thailaya designed for quick relief from joint pains, muscle stiffness, backaches, leg/arm pains, sprains, and rheumatic issues. Apply externally by massaging on affected areas.",
+        description: "Kadahapola Vata Thailaya is a traditional Sri Lankan Ayurvedic external massage oil from the Kadahapola Dharmarathna Ayurveda family, established since 1948. It's a herbal Vata balancing thailaya designed for quick relief from joint pains, muscle stiffness, backaches, leg/arm pains, sprains, and rheumatic issues. Apply externally by massaging on affected areas.",
         benefits: ["Joint Pain Relief", "Muscle Stiffness", "Vata Balancing", "Heritage Formula"],
         price: 300,
         image: kadahapolaVata,
@@ -407,10 +465,20 @@ const Products = () => {
         id: 5004,
         name: "Sandanathi Lotus Oil 200ml",
         category: "Oils",
-        description: "ලෝටස් බ්‍රෑන්ඩ් බල්දනාති තෛලම් (Baldanathi Thailam) is a 200ml traditional Sri Lankan Ayurvedic external herbal oil produced by Sithumini Osu (a GMP & ISO certified company). It's a dark massage oil likely for relieving joint/muscle pains, vata imbalances, stiffness, or general body aches. Vibrant yellow-red label with Lotus brand logo.",
+        description: "Sandanathi Lotus Oil is a 200ml traditional Sri Lankan Ayurvedic external herbal oil produced by Sithumini Osu (a GMP & ISO certified company). It's a dark massage oil likely for relieving joint/muscle pains, vata imbalances, stiffness, or general body aches. Vibrant yellow-red label with Lotus brand logo.",
         benefits: ["Joint/Muscle Relief", "Vata Balancing", "Body Aches", "GMP Certified"],
         price: 620,
         image: sandanathiLotus,
+        isExclusive: false,
+      },
+    {
+        id: 5005,
+        name: "Osethma Moringa Capsules",
+        category: "Rasayana",
+        description: "Osesthma Moringa Capsules (100 capsules, 400mg each) is a 100% pure herbal dietary supplement from Osesthma Healing Hands, a certified Ayurvedic company in Maharagama, Sri Lanka. Made from Moringa oleifera (drumstick tree leaves), it's packed with vitamins (A, C, D), minerals (calcium, potassium, iron), proteins, and antioxidants.",
+        benefits: ["Immunity Boost", "Natural Multivitamin", "Energy Support", "Mental Alertness", "Antioxidant Rich"],
+        price: 1900,
+        image: osethmaMorenga,
         isExclusive: false,
       },
       {
@@ -447,7 +515,7 @@ const Products = () => {
         id: 5009,
         name: "Minipura Sunaka Thailaya 60ml",
         category: "Company",
-        description: "Sunanaka Ayurvedic Shampoo (සුනඛ ආයුර්වේදික ෂැම්පූ) is a traditional Sri Lankan herbal pet shampoo formulated for dogs and other animals, featuring a prominent German Shepherd image on the label. It's an Ayurvedic bathing product aimed at cleaning, soothing skin issues, and maintaining coat health in pets.",
+        description: "Sunanaka Ayurvedic Shampoo is a traditional Sri Lankan herbal pet shampoo formulated for dogs and other animals, featuring a prominent German Shepherd image on the label. It's an Ayurvedic bathing product aimed at cleaning, soothing skin issues, and maintaining coat health in pets.",
         benefits: ["Pet Shampoo", "Skin Health", "Coat Shine", "Herbal Care"],
         price: 450,
         image: minipuraSunaka,
@@ -457,7 +525,7 @@ const Products = () => {
         id: 5010,
         name: "Minipura Ayurvedic Sunaka Shampoo 100ml",
         category: "Company",
-        description: "Sunanaka Ayurvedic Shampoo (සුනඛ ආයුර්වේදික ෂැම්පූ) is a traditional Sri Lankan herbal pet shampoo (100ml bottle) formulated for dogs and possibly other animals. This shampoo variant offers gentle, natural cleansing with Ayurvedic herbs for flea/tick prevention, coat shine, and minor skin relief. A popular, affordable home remedy option in Sri Lanka for pet grooming.",
+        description: "Sunanaka Ayurvedic Shampoo is a traditional Sri Lankan herbal pet shampoo (100ml bottle) formulated for dogs and possibly other animals. This shampoo variant offers gentle, natural cleansing with Ayurvedic herbs for flea/tick prevention, coat shine, and minor skin relief. A popular, affordable home remedy option in Sri Lanka for pet grooming.",
         benefits: ["Pet Care", "Flea Prevention", "Natural Cleansing", "Skin Relief"],
         price: 390,
         image: minipuraSunakaShampoo,
@@ -467,7 +535,7 @@ const Products = () => {
         id: 5011,
         name: "Minipura Sunaka Ayurvedic Oil 60ml",
         category: "Oils",
-        description: "Sunanaka Thailalaya (සුනඛ තෛලය) is a traditional Sri Lankan Ayurvedic herbal oil from Denagama Minipura Ayurvedic Rasayanagaraya. Formulated specifically for pets (mainly dogs, but also cats, goats, etc.), it's an external application oil using indigenous herbs like turmeric (කහ) and neem (කොහොඹ) to address common issues: skin diseases, itching, wounds, flea/insect bites, hair shedding, parasites/worms.",
+        description: "Sunanaka Thailalaya is a traditional Sri Lankan Ayurvedic herbal oil from Denagama Minipura Ayurvedic Rasayanagaraya. Formulated specifically for pets (mainly dogs, but also cats, goats, etc.), it's an external application oil using indigenous herbs like turmeric (කහ) and neem (කොහොඹ) to address common issues: skin diseases, itching, wounds, flea/insect bites, hair shedding, parasites/worms.",
         benefits: ["Pet Skin Care", "Flea/Tick Relief", "Wound Healing", "Herbal Remedy"],
         price: 450,
         image: minipuraSunakaOil,
