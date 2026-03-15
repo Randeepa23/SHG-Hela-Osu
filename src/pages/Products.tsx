@@ -1,7 +1,6 @@
 import handiOilImage from '@/assets/rajapura handithela.jpg';
 import basmatiRiceSobakoImage from '@/assets/basmati rice sobako.png';
 import karapinchaGarlicCapsulesImage from '@/assets/karapincha and garlic capsules naturali.png';
-import korasduweThalumThelImage from '@/assets/korasduwe thalum thel.png';
 import sobakoKurakkanPastaImage from '@/assets/sobako kurakkan pasta.png';
 import sobakoMoringoPastaImage from '@/assets/sobako moringo pasta.png';
 import sobakoPachchaperumaImage from '@/assets/sobako pachchaperuma.png';
@@ -23,7 +22,7 @@ import boneMarrowPaththuwaImage from '@/assets/bone marrow paththuwa.png';
 import gotukolaCapsulesImage from '@/assets/gotukola capsules.png';
 import panchajeewaOilImage from '@/assets/panchajeewa homoroil oil.png';
 import panchakesiHairOilImage from '@/assets/panchakesi hair oil.png';
-import peenasThailayaImage from '@/assets/peenas thailaya.png';
+
 
 import { useState } from 'react';
 import { Search, Filter, Grid, List } from 'lucide-react';
@@ -45,10 +44,8 @@ import wickramarachchiImage from '@/assets/Products/Wickramarachchi Oral Care.jp
 
 // New Ayurvedic products imports
 import morawakaNethra from '@/assets/Morawaka Shri Nethrakanthi Oil 200ml.png';
-import wanaPawana from '@/assets/Wana Pawana Diabetic Oil 15ml.png';
 import kadahapolaVata from '@/assets/Kadahapola Vata Thailaya 28ml.png';
 import sandanathiLotus from '@/assets/Sandanathi Lotus Oil 200ml.png';
-import osethmaMorenga from '@/assets/Osethma Moringa Capsules.png';
 import herbalBloomsShampoo from '@/assets/Herbal Blooms Lime & Fenugreek Shampoo 80ml 200ml.png';
 import morawakaKidney from '@/assets/Morawaka Kidney Tonic 100ml.png';
 import minipuraSunaka from '@/assets/Minipura Sunaka Thailaya 60ml.png';
@@ -245,16 +242,6 @@ const Products = () => {
         image: panchakesiHairOilImage,
         isExclusive: false,
       },
-      {
-        id: 15,
-        name: "Rajapura Peenas Oil 100ml",
-        category: "Oils",
-        description: "for all Catarrh problems such as Sneezing, Runny nose,Growths in nose, Itching eyes, Itching ears, Sorethroat, Bad odour of nose,Untimely hair whitening.Com wasting, Bad odour ofmouth Ooging mucus and 6tears Low vision.Senseleisness for smells,Serdelessness for taste of foods.",
-        benefits: ["Catarrh Relief", "Nasal Health", "Itching Relief", "Sore Throat", "Bad Odour Control", "Hair Whitening Prevention", "Vision Support", "Taste & Smell Support"],
-        price: 1350,
-        image: peenasThailayaImage,
-        isExclusive: false,
-      },
       // Newly added products
       {
         id: 3001,
@@ -274,16 +261,6 @@ const Products = () => {
         benefits: ["Gotukola", "Ayurvedic Herb", "Vigor", "Physical Strength"],
         price: 650,
         image: karapinchaGarlicCapsulesImage,
-        isExclusive: false,
-      },
-      {
-        id: 3003,
-        name: "Korosduwa Thalum Oil 175ml",
-        category: "Oils",
-        description: "This is an Ayurvedic medicinal oil produced and distributed by Korosduwa Herbal.",
-        benefits: ["Ayurvedic Oil", "Herbal", "Medicinal"],
-        price: 900,
-        image: korasduweThalumThelImage,
         isExclusive: false,
       },
       {
@@ -417,16 +394,6 @@ const Products = () => {
         isExclusive: false,
       },
       {
-        id: 5002,
-        name: "Wana Pawana Diabetic Oil 15ml",
-        category: "Oils",
-        description: "විත කවි කිස්සකරුණු ඔස්මත්තුව is a traditional Sri Lankan Ayurvedic aromatic/medicinal oil in a 15ml bottle. Yellow-green packaging with leaf motifs, includes a dropper, and claims natural ingredients for quick relief from cold-related discomforts. A pocket-sized home remedy popular in Sri Lanka for everyday minor ailments.",
-        benefits: ["Cold Relief", "Natural Ingredients", "Portable Size", "Quick Relief"],
-        price: 1990,
-        image: wanaPawana,
-        isExclusive: false,
-      },
-      {
         id: 5003,
         name: "Kadahapola Vata Thailaya 28ml",
         category: "Oils",
@@ -447,18 +414,18 @@ const Products = () => {
         isExclusive: false,
       },
       {
-        id: 5005,
-        name: "Osethma Moringa Capsules",
-        category: "Rasayana",
-        description: "Osesthma Moringa Capsules (100 capsules, 400mg each) is a 100% pure herbal dietary supplement from Osesthma Healing Hands, a certified Ayurvedic company in Maharagama, Sri Lanka. Made from Moringa oleifera (drumstick tree leaves), it's packed with vitamins (A, C, D), minerals (calcium, potassium, iron), proteins, and antioxidants.",
-        benefits: ["Immunity Boost", "Natural Multivitamin", "Energy Support", "Mental Alertness", "Antioxidant Rich"],
-        price: 1900,
-        image: osethmaMorenga,
+        id: 5006,
+        name: "Herbal Blooms Lime & Fenugreek Shampoo 80ml",
+        category: "Company",
+        description: "Limeee Lime & Fenugreek Shampoo (from Herbal Blooms by Medichemistry Pharmaceuticals, Gampaha, Sri Lanka – ISO & GMP certified) is a natural herbal anti-dandruff shampoo. Infused with lime (dehi) and fenugreek (uluhal) extracts, it effectively controls dandruff, prevents hair fall, reduces itching, nourishes dry/damaged hair, strengthens roots.",
+        benefits: ["Anti-Dandruff", "Hair Fall Prevention", "Scalp Health", "Natural Ingredients", "GMP Certified"],
+        price: 585,
+        image: herbalBloomsShampoo,
         isExclusive: false,
       },
-      {
-        id: 5006,
-        name: "Herbal Blooms Lime & Fenugreek Shampoo 80ml 200ml",
+     {
+        id: 5007,
+        name: "Herbal Blooms Lime & Fenugreek Shampoo 200ml",
         category: "Company",
         description: "Limeee Lime & Fenugreek Shampoo (from Herbal Blooms by Medichemistry Pharmaceuticals, Gampaha, Sri Lanka – ISO & GMP certified) is a natural herbal anti-dandruff shampoo. Infused with lime (dehi) and fenugreek (uluhal) extracts, it effectively controls dandruff, prevents hair fall, reduces itching, nourishes dry/damaged hair, strengthens roots.",
         benefits: ["Anti-Dandruff", "Hair Fall Prevention", "Scalp Health", "Natural Ingredients", "GMP Certified"],
@@ -467,7 +434,7 @@ const Products = () => {
         isExclusive: false,
       },
       {
-        id: 5007,
+        id: 5008,
         name: "Morawaka Kidney Tonic 100ml",
         category: "Rasayana",
         description: "Morawaka Kidney Tonic from B.P. Morawaka & Sons is a traditional herbal syrup designed to support efficient kidney function and the urinary tract. Purple packaging with the BPM sun logo and tree motif, it's marketed for promoting healthy kidney operations, urinary health, and related issues. A household Ayurvedic remedy for natural urinary/kidney wellness.",
@@ -477,7 +444,7 @@ const Products = () => {
         isExclusive: false,
       },
       {
-        id: 5008,
+        id: 5009,
         name: "Minipura Sunaka Thailaya 60ml",
         category: "Company",
         description: "Sunanaka Ayurvedic Shampoo (සුනඛ ආයුර්වේදික ෂැම්පූ) is a traditional Sri Lankan herbal pet shampoo formulated for dogs and other animals, featuring a prominent German Shepherd image on the label. It's an Ayurvedic bathing product aimed at cleaning, soothing skin issues, and maintaining coat health in pets.",
@@ -487,7 +454,7 @@ const Products = () => {
         isExclusive: false,
       },
       {
-        id: 5009,
+        id: 5010,
         name: "Minipura Ayurvedic Sunaka Shampoo 100ml",
         category: "Company",
         description: "Sunanaka Ayurvedic Shampoo (සුනඛ ආයුර්වේදික ෂැම්පූ) is a traditional Sri Lankan herbal pet shampoo (100ml bottle) formulated for dogs and possibly other animals. This shampoo variant offers gentle, natural cleansing with Ayurvedic herbs for flea/tick prevention, coat shine, and minor skin relief. A popular, affordable home remedy option in Sri Lanka for pet grooming.",
@@ -497,7 +464,7 @@ const Products = () => {
         isExclusive: false,
       },
       {
-        id: 5010,
+        id: 5011,
         name: "Minipura Sunaka Ayurvedic Oil 60ml",
         category: "Oils",
         description: "Sunanaka Thailalaya (සුනඛ තෛලය) is a traditional Sri Lankan Ayurvedic herbal oil from Denagama Minipura Ayurvedic Rasayanagaraya. Formulated specifically for pets (mainly dogs, but also cats, goats, etc.), it's an external application oil using indigenous herbs like turmeric (කහ) and neem (කොහොඹ) to address common issues: skin diseases, itching, wounds, flea/insect bites, hair shedding, parasites/worms.",
