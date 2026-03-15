@@ -15,7 +15,7 @@ import sethsuwaMahaNarayanaOilImage from '@/assets/Sethsuwa Maha Narayana Oil 18
 import sethsuwaGugguladiHandiOilImage from '@/assets/Sethsuwa Gugguladi Handi Oil 60ml.png';
 import ayurvedaCorporationThaviliPottaniyaImage from '@/assets/Ayurveda Corporation Thavili Pottaniya.png';
 import greenHerbalPainReliefPackImage from '@/assets/Green Herbal Pain Relief Pack.png';
-import naharagataImage from '@/assets/Waharaka Nahara Gata Samana Oil 28ml.png';
+
 
 import suwandelStringHoppersImage from '@/assets/suwandel string hoppers powder.png';
 import turmericCapsulesImage from '@/assets/turmeric capsules.png';
@@ -336,26 +336,6 @@ const Products = () => {
         image: sobakoSahalKandaImage,
         isExclusive: false,
       },  
-{
-        id: 4004,
-        name: "Waharaka Una Paniya 28ml",
-        category: "Company",
-        description: "Waharaka Una Peniya is a powerful, 100% natural remedy designed to provide quick and effective relief from all types of fevers.",
-        benefits: ["Comprehensive Fever Relief", "Eliminates Root Cause", "100% Natural & Safe"],
-        price: 440,
-        image: unupaniyaImage,
-        isExclusive: false,
-      },
-      {
-        id: 4005,
-        name: "Waharaka Nahara Gata Samana Oil 28ml",
-        category: "oils",
-        description: "100% natural health mixture, crafted with care to support overall wellness. True to traditional roots, this blend offers a pure and wholesome approach to daily health.",
-        benefits: ["Health Support", "Trusted Quality", "100% Natural"],
-        price: 560,
-        image: naharagataImage,
-        isExclusive: false,
-      },
        {
         id: 4006,
         name: "Sadesa Wedanahara Oil 28ml",
