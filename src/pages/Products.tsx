@@ -6,6 +6,7 @@ import sobakoMoringoPastaImage from '@/assets/sobako moringo pasta.png';
 import sobakoPachchaperumaImage from '@/assets/sobako pachchaperuma.png';
 import sobakoSuwandalImage from '@/assets/sobako suwandal.png';
 
+import unupaniyaImage from '@/assets/Waharaka Una Paniya 28ml.png';
 import naharagataImage from '@/assets/Waharaka Nahara Gata Samana Oil 28ml.png';
 import peenasThailayaImage from '@/assets/peenas thailaya.png';
 import korasduweThalumThelImage from '@/assets/korasduwe thalum thel.png';
@@ -337,6 +338,16 @@ const Products = () => {
         benefits: ["Porridge Mix", "Corn", "Traditional Rice"],
         price: 395,
         image: sobakoSahalKandaImage,
+        isExclusive: false,
+      },
+      {
+        id: 4004,
+        name: "Waharaka Una Paniya 28ml",
+        category: "Company",
+        description: "Waharaka Una Peniya is a powerful, 100% natural remedy designed to provide quick and effective relief from all types of fevers.",
+        benefits: ["Comprehensive Fever Relief", "Eliminates Root Cause", "100% Natural & Safe"],
+        price: 440,
+        image: unupaniyaImage,
         isExclusive: false,
       },
      {
