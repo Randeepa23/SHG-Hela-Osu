@@ -177,16 +177,6 @@ const Products = () => {
       image: wickramarachchiImage,
       isExclusive: false,
     },
-    {
-        id: 15,
-        name: "Rajapura Peenas Oil 100ml",
-        category: "Oils",
-        description: "for all Catarrh problems such as Sneezing, Runny nose,Growths in nose, Itching eyes, Itching ears, Sorethroat, Bad odour of nose,Untimely hair whitening.Com wasting, Bad odour ofmouth Ooging mucus and 6tears Low vision.Senseleisness for smells,Serdelessness for taste of foods.",
-        benefits: ["Catarrh Relief", "Nasal Health", "Itching Relief", "Sore Throat", "Bad Odour Control", "Hair Whitening Prevention", "Vision Support", "Taste & Smell Support"],
-        price: 1350,
-        image: peenasThailayaImage,
-        isExclusive: false,
-      },
       // New products
     {
         id: 2001,
@@ -256,6 +246,16 @@ const Products = () => {
         benefits: ["Hair Care", "Scalp Massage", "Traditional Medicine"],
         price: 2700,
         image: panchakesiHairOilImage,
+        isExclusive: false,
+      },
+      {
+        id: 15,
+        name: "Rajapura Peenas Oil 100ml",
+        category: "Oils",
+        description: "for all Catarrh problems such as Sneezing, Runny nose,Growths in nose, Itching eyes, Itching ears, Sorethroat, Bad odour of nose,Untimely hair whitening.Com wasting, Bad odour ofmouth Ooging mucus and 6tears Low vision.Senseleisness for smells,Serdelessness for taste of foods.",
+        benefits: ["Catarrh Relief", "Nasal Health", "Itching Relief", "Sore Throat", "Bad Odour Control", "Hair Whitening Prevention", "Vision Support", "Taste & Smell Support"],
+        price: 1350,
+        image: peenasThailayaImage,
         isExclusive: false,
       },
       // Newly added products
