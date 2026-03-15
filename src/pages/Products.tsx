@@ -6,7 +6,7 @@ import sobakoKurakkanPastaImage from '@/assets/sobako kurakkan pasta.png';
 import sobakoMoringoPastaImage from '@/assets/sobako moringo pasta.png';
 import sobakoPachchaperumaImage from '@/assets/sobako pachchaperuma.png';
 import sobakoSuwandalImage from '@/assets/sobako suwandal.png';
-import unupaniyaImage from '@/assets/Waharaka Una Paniya 28ml.png';
+
 import sobakoSahalKandaImage from '@/assets/traditional rice forridge sobako.png';
 import sadesaWedanaharaOilImage from '@/assets/Sadesa Wedanahara Oil 28ml.png';
 import leavesMultiVitaminLotionImage from '@/assets/Leaves Multi Vitamin Lotion 3 In 1 Hair Treatment.png';
