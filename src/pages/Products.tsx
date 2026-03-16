@@ -482,17 +482,20 @@ const Products = () => {
         isExclusive: false,
       },
       {
-        id: 5006,
-        name: "Herbal Blooms Lime & Fenugreek Shampoo",
-        category: "Company",
-        description: "Limeee Lime & Fenugreek Shampoo (from Herbal Blooms by Medichemistry Pharmaceuticals, Gampaha, Sri Lanka – ISO & GMP certified) is a natural herbal anti-dandruff shampoo. Infused with lime (dehi) and fenugreek (uluhal) extracts, it effectively controls dandruff, prevents hair fall, reduces itching, nourishes dry/damaged hair, strengthens roots.",
-        benefits: ["Anti-Dandruff", "Hair Fall Prevention", "Scalp Health", "Natural Ingredients", "GMP Certified"],
-        price: "80ml - Rs.585 | 200ml - Rs.1360",
-        image: herbalBloomsShampoo,
-        isExclusive: false,
-      },
+       id: 5006,
+       name: "Herbal Blooms Lime & Fenugreek Shampoo",
+       category: "Company",
+       description: "Limeee Lime & Fenugreek Shampoo (from Herbal Blooms by Medichemistry Pharmaceuticals, Gampaha, Sri Lanka – ISO & GMP certified) is a natural herbal anti-dandruff shampoo. Infused with lime (dehi) and fenugreek (uluhal) extracts, it effectively controls dandruff, prevents hair fall, reduces itching, nourishes dry/damaged hair, strengthens roots.",
+       benefits: ["Anti-Dandruff", "Hair Fall Prevention", "Scalp Health", "Natural Ingredients", "GMP Certified"],
+       variants: [
+         { size: "80ml", price: 585 },
+         { size: "200ml", price: 1360 }
+      ],
+      image: herbalBloomsShampoo,
+      isExclusive: false,
+     },
       {
-        id: 5008,
+        id: 5007,
         name: "Morawaka Kidney Tonic 100ml",
         category: "Rasayana",
         description: "Morawaka Kidney Tonic from B.P. Morawaka & Sons is a traditional herbal syrup designed to support efficient kidney function and the urinary tract. Purple packaging with the BPM sun logo and tree motif, it's marketed for promoting healthy kidney operations, urinary health, and related issues. A household Ayurvedic remedy for natural urinary/kidney wellness.",
@@ -502,7 +505,7 @@ const Products = () => {
         isExclusive: false,
       },
       {
-        id: 5009,
+        id: 5008,
         name: "Minipura Sunaka Thailaya 60ml",
         category: "Company",
         description: "Sunanaka Ayurvedic Shampoo is a traditional Sri Lankan herbal pet shampoo formulated for dogs and other animals, featuring a prominent German Shepherd image on the label. It's an Ayurvedic bathing product aimed at cleaning, soothing skin issues, and maintaining coat health in pets.",
@@ -512,7 +515,7 @@ const Products = () => {
         isExclusive: false,
       },
       {
-        id: 5010,
+        id: 5009,
         name: "Minipura Ayurvedic Sunaka Shampoo 100ml",
         category: "Company",
         description: "Sunanaka Ayurvedic Shampoo is a traditional Sri Lankan herbal pet shampoo (100ml bottle) formulated for dogs and possibly other animals. This shampoo variant offers gentle, natural cleansing with Ayurvedic herbs for flea/tick prevention, coat shine, and minor skin relief. A popular, affordable home remedy option in Sri Lanka for pet grooming.",
@@ -522,7 +525,7 @@ const Products = () => {
         isExclusive: false,
       },
       {
-        id: 5011,
+        id: 5010,
         name: "Minipura Sunaka Ayurvedic Oil 60ml",
         category: "Oils",
         description: "Sunanaka Thailalaya is a traditional Sri Lankan Ayurvedic herbal oil from Denagama Minipura Ayurvedic Rasayanagaraya. Formulated specifically for pets (mainly dogs, but also cats, goats, etc.), it's an external application oil using indigenous herbs like turmeric (කහ) and neem (කොහොඹ) to address common issues: skin diseases, itching, wounds, flea/insect bites, hair shedding, parasites/worms.",
