@@ -524,16 +524,6 @@ const Products = () => {
         image: minipuraSunakaShampoo,
         isExclusive: false,
       },
-      {
-        id: 5010,
-        name: "Minipura Sunaka Ayurvedic Oil 60ml",
-        category: "Oils",
-        description: "Sunanaka Thailalaya is a traditional Sri Lankan Ayurvedic herbal oil from Denagama Minipura Ayurvedic Rasayanagaraya. Formulated specifically for pets (mainly dogs, but also cats, goats, etc.), it's an external application oil using indigenous herbs like turmeric (කහ) and neem (කොහොඹ) to address common issues: skin diseases, itching, wounds, flea/insect bites, hair shedding, parasites/worms.",
-        benefits: ["Pet Skin Care", "Flea/Tick Relief", "Wound Healing", "Herbal Remedy"],
-        price: 450,
-        image: minipuraSunakaOil,
-        isExclusive: false,
-      },
   ];
 
   const filteredProducts = products.filter(product => {
