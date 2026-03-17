@@ -626,17 +626,6 @@ const Products = () => {
         image: seeduwePeenasThailaya180mlImage,
         isExclusive: false,
       },
-      {
-        id: 5023,
-        name: "Seeduwe Peenas Thailaya 180ml",
-        category: "Oils",
-        description:
-          "Seeduwe Peenas Thailaya is a traditional Ayurvedic herbal oil specially formulated to support respiratory and sinus health. Made with natural ingredients, it helps relieve nasal congestion, sinus pressure, headaches, and symptoms associated with colds and allergies. The oil can be used externally or as directed to promote clear breathing and overall comfort. Available in multiple sizes, it provides a natural and effective solution for daily respiratory care.",
-        benefits: ["Sinus Relief", "Eases Congestion", "Headache Relief", "Respiratory Comfort"],
-        price: 730,
-        image: seeduwePeenasThailaya180mlImage,
-        isExclusive: false,
-      },
   ];
 
   const filteredProducts = products.filter(product => {
