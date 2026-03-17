@@ -536,24 +536,16 @@ const Products = () => {
 
       // Requested new products
       {
-        id: 5010,
-        name: "Amrine Godapara Anti-Dandruff Lotion 50ml",
-        category: "Company",
-        description:
-          "Amrine Godapara Anti-Dandruff Lotion is a herbal-based solution formulated to effectively combat dandruff and promote a healthy scalp. Enriched with natural ingredients such as Godapara, it helps reduce itching, flaking, and scalp irritation while nourishing the hair roots. The lotion is suitable for regular use and supports stronger, cleaner, and more manageable hair. Available in convenient 50ml and 100ml sizes, it offers a natural approach to maintaining scalp hygiene and hair health.",
-        benefits: ["Anti-Dandruff", "Reduces Itching", "Reduces Flaking", "Scalp Nourishment"],
-        price: 199,
-        image: amrineGodaparaAntiDandruffLotion100mlImage,
-        isExclusive: false,
-      },
-      {
         id: 5011,
-        name: "Amrine Godapara Anti-Dandruff Lotion 100ml",
+        name: "Amrine Godapara Anti-Dandruff Lotion 50ml 100ml",
         category: "Company",
         description:
           "Amrine Godapara Anti-Dandruff Lotion is a herbal-based solution formulated to effectively combat dandruff and promote a healthy scalp. Enriched with natural ingredients such as Godapara, it helps reduce itching, flaking, and scalp irritation while nourishing the hair roots. The lotion is suitable for regular use and supports stronger, cleaner, and more manageable hair. Available in convenient 50ml and 100ml sizes, it offers a natural approach to maintaining scalp hygiene and hair health.",
         benefits: ["Anti-Dandruff", "Reduces Itching", "Reduces Flaking", "Scalp Nourishment"],
-        price: 490,
+        variants: [
+         { size: "50ml", price: 199 },
+         { size: "100ml", price: 490 }
+       ],
         image: amrineGodaparaAntiDandruffLotion100mlImage,
         isExclusive: false,
       },
@@ -581,78 +573,31 @@ const Products = () => {
       },
       {
         id: 5014,
-        name: "Osunima Horiwila Sandi Thailaya 30ml",
+        name: "Osunima Horiwila Sandi Thailaya 30ml 60ml 100ml 180ml",
         category: "Oils",
         description:
           "Osunima Horiwila Sandi Thailya is a traditional Ayurvedic herbal oil specially formulated to support joint and muscle health. Enriched with natural ingredients, it helps relieve joint pain, stiffness, and inflammation while improving mobility and flexibility. Ideal for external application, it can be used for therapeutic massage to promote relaxation and enhance blood circulation. Available in multiple sizes, it provides a natural and effective solution for daily pain management and body care.",
         benefits: ["Joint Pain Relief", "Reduces Stiffness", "Improves Mobility", "Massage Therapy"],
-        price: 300,
+        variants: [
+         { size: "30ml", price: 300 },
+         { size: "60ml", price: 580 },
+         { size: "100ml", price: 980 },
+         { size: "180ml", price: 1720 }   
+      ],
         image: osunimaHoriwilaSandiThailaya100mlImage,
-        isExclusive: false,
-      },
-      {
-        id: 5015,
-        name: "Osunima Horiwila Sandi Thailaya 60ml",
-        category: "Oils",
-        description:
-          "Osunima Horiwila Sandi Thailya is a traditional Ayurvedic herbal oil specially formulated to support joint and muscle health. Enriched with natural ingredients, it helps relieve joint pain, stiffness, and inflammation while improving mobility and flexibility. Ideal for external application, it can be used for therapeutic massage to promote relaxation and enhance blood circulation. Available in multiple sizes, it provides a natural and effective solution for daily pain management and body care.",
-        benefits: ["Joint Pain Relief", "Reduces Stiffness", "Improves Mobility", "Massage Therapy"],
-        price: 580,
-        image: osunimaHoriwilaSandiThailaya100mlImage,
-        isExclusive: false,
-      },
-      {
-        id: 5016,
-        name: "Osunima Horiwila Sandi Thailaya 100ml",
-        category: "Oils",
-        description:
-          "Osunima Horiwila Sandi Thailya is a traditional Ayurvedic herbal oil specially formulated to support joint and muscle health. Enriched with natural ingredients, it helps relieve joint pain, stiffness, and inflammation while improving mobility and flexibility. Ideal for external application, it can be used for therapeutic massage to promote relaxation and enhance blood circulation. Available in multiple sizes, it provides a natural and effective solution for daily pain management and body care.",
-        benefits: ["Joint Pain Relief", "Reduces Stiffness", "Improves Mobility", "Massage Therapy"],
-        price: 980,
-        image: osunimaHoriwilaSandiThailaya100mlImage,
-        isExclusive: false,
-      },
-      {
-        id: 5017,
-        name: "Osunima Horiwila Sandi Thailaya 180ml",
-        category: "Oils",
-        description:
-          "Osunima Horiwila Sandi Thailya is a traditional Ayurvedic herbal oil specially formulated to support joint and muscle health. Enriched with natural ingredients, it helps relieve joint pain, stiffness, and inflammation while improving mobility and flexibility. Ideal for external application, it can be used for therapeutic massage to promote relaxation and enhance blood circulation. Available in multiple sizes, it provides a natural and effective solution for daily pain management and body care.",
-        benefits: ["Joint Pain Relief", "Reduces Stiffness", "Improves Mobility", "Massage Therapy"],
-        price: 1720,
-        image: osunimaHoriwilaSandiThailaya100mlImage,
-        isExclusive: false,
-      },
-      {
-        id: 5018,
-        name: "Osunima Horiwila Urinary Calculi Syrup 100ml",
-        category: "Rasayana",
-        description:
-          "Osunima Horiwila Urinary Calculi Syrup is a herbal formulation designed to support urinary tract health and help manage kidney stones. Made with natural Ayurvedic ingredients, it aids in dissolving and flushing out urinary calculi while reducing associated pain and discomfort. The syrup also helps promote proper kidney function and improves urinary flow. Available in a 100ml bottle, it offers a natural and effective approach to maintaining urinary system wellness.",
-        benefits: ["Urinary Tract Support", "Kidney Stone Support", "Improves Urinary Flow", "Herbal Formula"],
-        price: 600,
-        image: osunimaHoriwilaUrinaryCalculiSyrup100mlImage,
         isExclusive: false,
       },
       {
         id: 5019,
-        name: "Rathpiththalepa Kokatath Thailaya 60ml",
+        name: "Rathpiththalepa Kokatath Thailaya 60ml 180ml",
         category: "Oils",
         description:
           "Rathpiththalepa Kokatath Thailaya is a traditional Ayurvedic herbal oil formulated to support respiratory and sinus health. Made from natural ingredients, it is commonly used to relieve nasal congestion, headaches, and symptoms associated with sinusitis and colds. The oil can be applied externally or used as directed to promote clear breathing and overall comfort. Available in multiple sizes, it offers a natural and effective remedy for daily respiratory care.",
         benefits: ["Sinus Relief", "Eases Congestion", "Headache Relief", "Respiratory Comfort"],
-        price: 600,
-        image: rathpiththalepaKokatathThailaya180mlImage,
-        isExclusive: false,
-      },
-      {
-        id: 5020,
-        name: "Rathpiththalepa Kokatath Thailaya 180ml",
-        category: "Oils",
-        description:
-          "Rathpiththalepa Kokatath Thailaya is a traditional Ayurvedic herbal oil formulated to support respiratory and sinus health. Made from natural ingredients, it is commonly used to relieve nasal congestion, headaches, and symptoms associated with sinusitis and colds. The oil can be applied externally or used as directed to promote clear breathing and overall comfort. Available in multiple sizes, it offers a natural and effective remedy for daily respiratory care.",
-        benefits: ["Sinus Relief", "Eases Congestion", "Headache Relief", "Respiratory Comfort"],
-        price: 1400,
+        variants: [
+         { size: "60ml", price: 600 },
+         { size: "180ml", price: 1400 }
+        ],
         image: rathpiththalepaKokatathThailaya180mlImage,
         isExclusive: false,
       },
@@ -669,12 +614,15 @@ const Products = () => {
       },
       {
         id: 5022,
-        name: "Seeduwe Peenas Thailaya 60ml",
+        name: "Seeduwe Peenas Thailaya 60ml 180ml",
         category: "Oils",
         description:
           "Seeduwe Peenas Thailaya is a traditional Ayurvedic herbal oil specially formulated to support respiratory and sinus health. Made with natural ingredients, it helps relieve nasal congestion, sinus pressure, headaches, and symptoms associated with colds and allergies. The oil can be used externally or as directed to promote clear breathing and overall comfort. Available in multiple sizes, it provides a natural and effective solution for daily respiratory care.",
         benefits: ["Sinus Relief", "Eases Congestion", "Headache Relief", "Respiratory Comfort"],
-        price: 300,
+        variants: [
+         { size: "60ml", price: 300 },
+         { size: "180ml", price: 730 }
+        ]
         image: seeduwePeenasThailaya180mlImage,
         isExclusive: false,
       },
