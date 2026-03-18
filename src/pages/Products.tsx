@@ -626,6 +626,17 @@ const Products = () => {
         image: seeduwePeenasThailaya180mlImage,
         isExclusive: false,
       },
+      {
+        id: 5023,
+        name: "Osunima Horiwila Urinary Calculi Syrup 100ml",
+        category: "Company",
+        description:
+        "A traditional herbal urinary calculi treatment syrup packaged in a brown medicinal bottle and a colorful box. The branding and multilingual labeling suggest it is a locally produced herbal remedy for kidney stone relief.",
+        benefits: ["Improves Skin Clarity", "Reduces Acne", "Fades Dark Spots", "Nourishes Skin"],
+        price: 600,
+        image: osunimaHoriwilaUrinaryCalculiSyrup100mlImage,
+        isExclusive: false,
+       },
   ];
 
   const filteredProducts = products.filter(product => {
