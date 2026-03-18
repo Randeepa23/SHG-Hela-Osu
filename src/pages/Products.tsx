@@ -632,7 +632,7 @@ const Products = () => {
         category: "Company",
         description:
         "A traditional herbal urinary calculi treatment syrup packaged in a brown medicinal bottle and a colorful box. The branding and multilingual labeling suggest it is a locally produced herbal remedy for kidney stone relief.",
-        benefits: ["Improves Skin Clarity", "Reduces Acne", "Fades Dark Spots", "Nourishes Skin"],
+        benefits: ["Supports kidney health", "urinary function", "Assists in reducing discomfort during urination", "Promotes natural flushing"],
         price: 600,
         image: osunimaHoriwilaUrinaryCalculiSyrup100mlImage,
         isExclusive: false,
