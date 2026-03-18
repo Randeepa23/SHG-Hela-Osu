@@ -622,7 +622,7 @@ const Products = () => {
         variants: [
          { size: "60ml", price: 300 },
          { size: "180ml", price: 730 }
-        ]
+        ],
         image: seeduwePeenasThailaya180mlImage,
         isExclusive: false,
       },
