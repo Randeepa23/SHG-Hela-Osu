@@ -87,15 +87,15 @@ const Products = () => {
   const [viewMode, setViewMode] = useState('grid');
 
   const categories = [
-    { id: 'all', name: 'All Products', count: 70 },
+    { id: 'all', name: 'All Products', count: 63 },
     { id: 'arishta', name: 'අරිෂ්ට Arishta', count: 1 },
     { id: 'kwatha', name: 'ක්වාථ Kwatha', count: 1 },
     { id: 'watee', name: 'වටි Watee', count: 1 },
     { id: 'gritha', name: 'ග්‍රිථ Gritha', count: 0 },
     { id: 'lepa', name: 'ලේප Lepa', count: 1 },
-    { id: 'oils', name: 'තෛල Oil', count: 30 },
-    { id: 'rasayana', name: 'රසායන Rasayana', count: 5 },
-    { id: 'churna', name: 'චූර්ණ Churna', count: 9 },
+    { id: 'oils', name: 'තෛල Oil', count: 23 },
+    { id: 'rasayana', name: 'රසායන Rasayana', count: 4 },
+    { id: 'churna', name: 'චූර්ණ Churna', count: 8 },
     { id: 'company', name: 'Company Products', count: 24 },
   ];
 
