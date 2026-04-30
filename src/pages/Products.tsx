@@ -901,8 +901,8 @@ const Products = () => {
                 {filteredProducts.length} Products Found
               </h2>
               <p className="text-muted-foreground">
-                {selectedCategory === 'all' 
-                  ? 'Showing all available products' 
+                {selectedCategory === 'all'
+                  ? 'Showing all available products'
                   : `Showing products in ${categories.find(c => c.id === selectedCategory)?.name}`
                 }
               </p>
@@ -913,14 +913,13 @@ const Products = () => {
           </div>
 
           {filteredProducts.length > 0 ? (
-            <div className={`grid gap-8 ${
-              viewMode === 'grid' 
-                ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4' 
-                : 'grid-cols-1 max-w-5xl mx-auto'
-            }`}>
+            <div className={`grid gap-8 ${viewMode === 'grid'
+              ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'
+              : 'grid-cols-1 max-w-5xl mx-auto'
+              }`}>
               {filteredProducts.map((product, index) => (
-                <div 
-                  key={index} 
+                <div
+                  key={index}
                   className="animate-fade-in hover-lift"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
@@ -937,10 +936,10 @@ const Products = () => {
                 No products found
               </h3>
               <p className="text-lg text-muted-foreground mb-8 max-w-md mx-auto">
-                We couldn't find any products matching your search criteria. 
+                We couldn't find any products matching your search criteria.
                 Try adjusting your search terms or filters.
               </p>
-              <Button 
+              <Button
                 onClick={() => {
                   setSearchTerm('');
                   setSelectedCategory('all');
