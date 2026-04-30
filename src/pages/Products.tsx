@@ -6,7 +6,7 @@ import sobakoMoringoPastaImage from '@/assets/sobako moringo pasta.png';
 import sobakoPachchaperumaImage from '@/assets/sobako pachchaperuma.png';
 import sobakoSuwandalImage from '@/assets/sobako suwandal.png';
 import naturistaAshwagandhaImage from '@/assets/Naturista Ashwagandha Powder 125g.png';
-import krimirajaCoughSyrupImage from '@/assets/Krimiraja Ayurvedic Cough Syrup 90ml 180ml.jpg';
+import krimirajaCoughSyrupImage from '@/assets/Krimiraja Ayurvedic Cough Syrup 90ml 180ml.png';
 import naturistaBluePeaImage from '@/assets/Naturista Blue Pea Flower Powder 125g.png';
 import sithumninaOsuWedanaImage from '@/assets/Sithumina Osu wedana Suwaya 60ml 100ml.png';
 import naturistaThebuLeavesImage from '@/assets/Naturista Thebu Leaves Powder 125g.png';
