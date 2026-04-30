@@ -5,6 +5,17 @@ import sobakoKurakkanPastaImage from '@/assets/sobako kurakkan pasta.png';
 import sobakoMoringoPastaImage from '@/assets/sobako moringo pasta.png';
 import sobakoPachchaperumaImage from '@/assets/sobako pachchaperuma.png';
 import sobakoSuwandalImage from '@/assets/sobako suwandal.png';
+import naturistaAshwagandhaImage from '@/assets/Naturista Ashwagandha Powder 125g.png';
+import krimirajaCoughSyrupImage from '@/assets/Krimiraja Ayurvedic Cough Syrup 90ml 180ml.jpg';
+import naturistaBluePeaImage from '@/assets/Naturista Blue Pea Flower Powder 125g.png';
+import sithumninaOsuWedanaImage from '@/assets/Sithumina Osu wedana Suwaya 60ml 100ml.png';
+import naturistaThebuLeavesImage from '@/assets/Naturista Thebu Leaves Powder 125g.png';
+import naturistaKatupilaImage from '@/assets/Naturista Katupila Powder 125g.png';
+import naturistaVaricoseOilImage from '@/assets/Naturista Varicose Oil 100ml.png';
+import kiriwandeniyaMasbeddaImage from '@/assets/Kiriwandeniya Masbedda Capsules.png';
+import naturistaYakinaranImage from '@/assets/Naturista Yakinaran Powder 125g.png';
+import secretHerbalsRosemaryOilImage from '@/assets/Secret Herbals Rosemary &Castor Nourishing Hair Oil.png';
+import naturistaHeenBovitiyaPowderImage from '@/assets/Naturista Heen Bovitiya Powder 125g.png';
 
 import unupaniyaImage from '@/assets/Waharaka Una Paniya 28ml.png';
 import naharagataImage from '@/assets/Waharaka Nahara Gata Samana Oil 28ml.png';
@@ -74,16 +85,16 @@ const Products = () => {
   const [viewMode, setViewMode] = useState('grid');
 
   const categories = [
-    { id: 'all', name: 'All Products', count: 59 },
+    { id: 'all', name: 'All Products', count: 70 },
     { id: 'arishta', name: 'අරිෂ්ට Arishta', count: 1 },
     { id: 'kwatha', name: 'ක්වාථ Kwatha', count: 1 },
     { id: 'watee', name: 'වටි Watee', count: 1 },
     { id: 'gritha', name: 'ග්‍රිථ Gritha', count: 0 },
     { id: 'lepa', name: 'ලේප Lepa', count: 1 },
-    { id: 'oils', name: 'තෛල Oil', count: 27 },
-    { id: 'rasayana', name: 'රසායන Rasayana', count: 4 },
-    { id: 'churna', name: 'චූර්ණ Churna', count: 2 },
-    { id: 'company', name: 'Company Products', count: 23 },
+    { id: 'oils', name: 'තෛල Oil', count: 30 },
+    { id: 'rasayana', name: 'රසායන Rasayana', count: 5 },
+    { id: 'churna', name: 'චූර්ණ Churna', count: 9 },
+    { id: 'company', name: 'Company Products', count: 24 },
   ];
 
   const products = [
@@ -637,6 +648,123 @@ const Products = () => {
         image: osunimaHoriwilaUrinaryCalculiSyrup100mlImage,
         isExclusive: false,
        },
+      // Naturista & new herbal products
+      {
+        id: 6001,
+        name: "Naturista Ashwagandha Powder 125g",
+        category: "Churna",
+        description: "Premium Ashwagandha (Withania somnifera) powder, a powerful adaptogenic herb traditionally used in Ayurveda to reduce stress, boost energy, and enhance overall vitality. Sourced and processed to preserve maximum potency.",
+        benefits: ["Stress Relief", "Energy Boost", "Vitality", "Adaptogenic"],
+        price: 2490,
+        image: naturistaAshwagandhaImage,
+        isExclusive: false,
+      },
+      {
+        id: 6002,
+        name: "Krimiraja Ayurvedic Cough Syrup 90ml 180ml",
+        category: "Rasayana",
+        description: "Krimiraja Ayurvedic Cough Syrup is a traditional herbal formulation designed to provide relief from cough, cold, sore throat, and respiratory discomfort. Made with natural ingredients, it soothes irritation and supports clear breathing.",
+        benefits: ["Cough Relief", "Sore Throat", "Respiratory Support", "Natural Ingredients"],
+        variants: [
+          { size: "90ml", price: 480 },
+          { size: "180ml", price: 800 }
+        ],
+        image: krimirajaCoughSyrupImage,
+        isExclusive: false,
+      },
+      {
+        id: 6003,
+        name: "Naturista Blue Pea Flower Powder 125g",
+        category: "Churna",
+        description: "Pure Blue Pea Flower (Clitoria ternatea) powder, rich in antioxidants and traditionally used to enhance cognitive function, promote healthy hair, and support skin health. A vibrant natural superfood.",
+        benefits: ["Antioxidant Rich", "Cognitive Support", "Skin Health", "Hair Health"],
+        price: 2490,
+        image: naturistaBluePeaImage,
+        isExclusive: false,
+      },
+      {
+        id: 6004,
+        name: "Sithumina Osu Wedana Suwaya 60ml 100ml",
+        category: "Oils",
+        description: "Sithumina Osu Wedana Suwaya is a traditional Ayurvedic herbal oil formulated to provide fast and effective relief from body aches, joint pains, muscle stiffness, and general discomfort. Suitable for external massage application.",
+        benefits: ["Pain Relief", "Joint Support", "Muscle Relaxation", "External Application"],
+        variants: [
+          { size: "60ml", price: 750 },
+          { size: "100ml", price: 1500 }
+        ],
+        image: sithumninaOsuWedanaImage,
+        isExclusive: false,
+      },
+      {
+        id: 6005,
+        name: "Naturista Thebu Leaves Powder 125g",
+        category: "Churna",
+        description: "Pure Thebu Leaves (Costus speciosus) powder, traditionally used in Ayurveda for its anti-diabetic properties, blood sugar management, and overall metabolic health support. A natural herbal supplement.",
+        benefits: ["Blood Sugar Support", "Metabolic Health", "Anti-Diabetic", "Natural Supplement"],
+        price: 2490,
+        image: naturistaThebuLeavesImage,
+        isExclusive: false,
+      },
+      {
+        id: 6006,
+        name: "Naturista Katupila Powder 125g",
+        category: "Churna",
+        description: "Premium Katupila (Securinega leucopyrus) powder, a traditional Ayurvedic herb known for its anti-inflammatory and wound-healing properties. Used to support skin health, digestion, and overall immunity.",
+        benefits: ["Anti-Inflammatory", "Wound Healing", "Skin Health", "Immunity Support"],
+        price: 2490,
+        image: naturistaKatupilaImage,
+        isExclusive: false,
+      },
+      {
+        id: 6007,
+        name: "Naturista Varicose Oil 100ml",
+        category: "Oils",
+        description: "Naturista Varicose Oil is a specially formulated Ayurvedic herbal oil designed to support healthy blood circulation and provide relief from varicose veins, leg heaviness, and swelling. For external application.",
+        benefits: ["Varicose Vein Relief", "Blood Circulation", "Reduces Swelling", "Leg Comfort"],
+        price: 2490,
+        image: naturistaVaricoseOilImage,
+        isExclusive: false,
+      },
+      {
+        id: 6008,
+        name: "Kiriwandeniya Masbedda Capsules",
+        category: "Company",
+        description: "Kiriwandeniya Masbedda Capsules are a traditional Ayurvedic herbal supplement formulated to support digestive health, improve appetite, and promote overall gut wellness. Made from natural herbal ingredients.",
+        benefits: ["Digestive Health", "Appetite Support", "Gut Wellness", "Herbal Formula"],
+        price: 495,
+        image: kiriwandeniyaMasbeddaImage,
+        isExclusive: false,
+      },
+      {
+        id: 6009,
+        name: "Naturista Yakinaran Powder 125g",
+        category: "Churna",
+        description: "Pure Yakinaran powder, a traditional Ayurvedic herbal remedy known for its liver-supporting and detoxification properties. Used to promote healthy liver function and cleanse the body naturally.",
+        benefits: ["Liver Support", "Detoxification", "Body Cleansing", "Herbal Remedy"],
+        price: 2490,
+        image: naturistaYakinaranImage,
+        isExclusive: false,
+      },
+      {
+        id: 6010,
+        name: "Secret Herbals Rosemary & Castor Nourishing Hair Oil",
+        category: "Oils",
+        description: "Secret Herbals Rosemary & Castor Nourishing Hair Oil is a premium blend of rosemary and castor oils designed to strengthen hair, reduce hair fall, and promote healthy hair growth. Enriched with natural ingredients for deep nourishment.",
+        benefits: ["Hair Strengthening", "Reduces Hair Fall", "Promotes Growth", "Deep Nourishment"],
+        price: 680,
+        image: secretHerbalsRosemaryOilImage,
+        isExclusive: false,
+      },
+    {
+        id: 6011,
+        name: "Naturista Heen Bovitiya Powder 125g",
+        category: "Churna",
+        description: "Pure Heen Bovitiya (Osbeckia octandra) powder, a traditional Sri Lankan Ayurvedic herb renowned for its anti-diabetic and blood-purifying properties. Widely used to support healthy blood sugar levels, liver function, and overall metabolic wellness.",
+        benefits: ["Blood Sugar Support", "Blood Purification", "Liver Health", "Metabolic Wellness"],
+        price: 720,
+        image: naturistaHeenBovitiyaPowderImage,
+        isExclusive: false,
+      },
   ];
 
   const filteredProducts = products.filter(product => {
