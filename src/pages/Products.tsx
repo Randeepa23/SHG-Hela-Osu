@@ -763,7 +763,7 @@ const Products = () => {
         category: "Churna",
         description: "Pure Heen Bovitiya (Osbeckia octandra) powder, a traditional Sri Lankan Ayurvedic herb renowned for its anti-diabetic and blood-purifying properties. Widely used to support healthy blood sugar levels, liver function, and overall metabolic wellness.",
         benefits: ["Blood Sugar Support", "Blood Purification", "Liver Health", "Metabolic Wellness"],
-        price: 720,
+        price: 2490,
         image: naturistaHeenBovitiyaPowderImage,
         isExclusive: false,
       },
