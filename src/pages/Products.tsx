@@ -80,6 +80,16 @@ import morawakaKidney from '@/assets/Morawaka Kidney Tonic 100ml.png';
 import minipuraSunaka from '@/assets/Minipura Sunaka Thailaya 60ml.png';
 import minipuraSunakaShampoo from '@/assets/Minipura Ayurvedic Sunaka Shampoo 100ml.png';
 import minipuraSunakaOil from '@/assets/Minipura Sunaka Thailaya 60ml.png';
+import herbLineHairTreatmentOil from '@/assets/Herb Line Hair Treatment Oil 100ml.png';
+import herbLineKeshawardaniShampoo from '@/assets/Herb Line Keshawardani Shampoo 200ml.png';
+import herbLineKeshawardaniConditioner from '@/assets/Herb Line Keshawardani Conditioner.png';
+import naturelleCinnamonCapsules from '@/assets/Naturelle Cinnamon Capsules 60.png';
+import naturelleWelpenelaCapsules from '@/assets/Naturelle Welpenela Capsules 60.png';
+import naturellePitawakkaPlusCapsules from '@/assets/Naturelle Pitawakka Plus Capsules 60.png';
+import ayurvedicRathhadunBodyWash from '@/assets/Ayurvedic Drugs Corporation Rathhadun Body Wash 200ml.png';
+import ayurvedicVenivelBodyWash from '@/assets/Ayurvedic Drugs Corporation Venivel Body Wash 200ml.png';
+import ayurvedicPerfectGlowBodyWash from '@/assets/Ayurvedic Drugs Corporation Perfect Glow Body Wash 200ml.png';
+import ayurvedicDharaniMemoryBooster from '@/assets/Ayurvedic Drugs Corporation Dharani Memory Booster 200ml.png';
 
 const Products = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -87,7 +97,7 @@ const Products = () => {
   const [viewMode, setViewMode] = useState('grid');
 
   const categories = [
-    { id: 'all', name: 'All Products', count: 63 },
+    { id: 'all', name: 'All Products', count: 73 },
     { id: 'arishta', name: 'අරිෂ්ට Arishta', count: 1 },
     { id: 'kwatha', name: 'ක්වාථ Kwatha', count: 1 },
     { id: 'watee', name: 'වටි Watee', count: 1 },
@@ -96,7 +106,7 @@ const Products = () => {
     { id: 'oils', name: 'තෛල Oil', count: 23 },
     { id: 'rasayana', name: 'රසායන Rasayana', count: 4 },
     { id: 'churna', name: 'චූර්ණ Churna', count: 8 },
-    { id: 'company', name: 'Company Products', count: 24 },
+    { id: 'company', name: 'Company Products', count: 34 },
   ];
 
   const products = [
@@ -767,6 +777,113 @@ const Products = () => {
         image: naturistaHeenBovitiyaPowderImage,
         isExclusive: false,
       },
+    {   
+        id: 6012,
+        name: "Ayurvedic Drugs Corporation Dharani Memory Booster 200ml",
+        category: "Company",
+        description: "An Ayurvedic herbal tonic specially prepared to support memory, concentration, and mental wellness. Made with natural ingredients traditionally used for cognitive support.",
+        benefits: ["Memory Support", "Concentration", "Mental Wellness", "Herbal Tonic"],
+        price: 650,
+        image: ayurvedicDharaniMemoryBooster,
+        isExclusive: false,
+       }, 
+    {
+        id: 6013,
+        name: "Herb Line Hair Treatment Oil 100ml",
+        category: "Company",
+        description: "A nourishing Ayurvedic hair oil enriched with herbal extracts to strengthen hair roots and promote healthy hair growth. Helps reduce hair fall, dryness, and scalp irritation while improving shine and softness.",
+        benefits: ["Hair Growth", "Reduces Hair Fall", "Scalp Care", "Healthy Shine"],
+        price: 750,
+        image: herbLineHairTreatmentOil,
+        isExclusive: false,
+       },
+
+    {
+        id: 6014,
+        name: "Herb Line Keshawardani Shampoo 200ml",
+        category: "Company",
+        description: "Herbal shampoo specially formulated to cleanse the scalp gently while nourishing the hair naturally. Helps maintain strong, silky, and healthy-looking hair with regular use.",
+        benefits: ["Scalp Cleansing", "Soft Hair", "Hair Strength", "Natural Care"],
+        price: 650,
+        image: herbLineKeshawardaniShampoo,
+        isExclusive: false,
+       },
+
+    {
+        id: 6015,
+        name: "Herb Line Keshawardani Conditioner",
+        category: "Company",
+        description: "A herbal conditioner designed to moisturize and smooth dry or damaged hair. Leaves hair soft, manageable, and naturally refreshed after every wash.",
+        benefits: ["Moisturizing", "Smooth Hair", "Damage Repair", "Hair Nourishment"],
+        price: 650,
+        image: herbLineKeshawardaniConditioner,
+        isExclusive: false,
+       },
+    {
+        id: 6016 ,
+        name: "Naturelle Cinnamon Capsules 60",
+        category: "Company",
+        description: "Ayurvedic cinnamon capsules made with natural ingredients to support healthy metabolism and digestion. Rich in antioxidants that help maintain overall wellness and energy levels.",
+        benefits: ["Metabolism Support", "Digestive Health", "Antioxidants", "Wellness"],
+        price: 790,
+        image: naturelleCinnamonCapsules,
+        isExclusive: false,
+       },
+
+    {
+        id: 6017,
+        name: "Naturelle Welpenela Capsules 60",
+        category: "Company",
+        description: "Traditional herbal capsules prepared to support natural body balance and wellness. Helps improve vitality and maintain daily health with Ayurvedic goodness.",
+        benefits: ["Natural Wellness", "Vitality", "Herbal Support", "Daily Health"],
+        price: 750,
+        image: naturelleWelpenelaCapsules,
+        isExclusive: false,
+       },
+
+    {
+        id: 6018,
+        name: "Naturelle Pitawakka Plus Capsules 60",
+        category: "Company",
+        description: "Herbal Ayurvedic capsules formulated to support healthy body functions and improve overall wellbeing. Carefully crafted using traditional natural ingredients.",
+        benefits: ["Body Wellness", "Herbal Formula", "Energy Support", "Natural Health"],
+        price: 750,
+        image: naturellePitawakkaPlusCapsules,
+        isExclusive: false,
+       },
+
+    {
+        id: 6019,
+        name: "Ayurvedic Drugs Corporation Rathhadun Body Wash 200ml",
+        category: "Company",
+        description: "Refreshing Ayurvedic body wash infused with traditional herbal ingredients to cleanse and rejuvenate the skin. Helps keep the skin soft, fresh, and naturally healthy.",
+        benefits: ["Skin Cleansing", "Refreshing", "Soft Skin", "Herbal Care"],
+        price: 580,
+        image: ayurvedicRathhadunBodyWash,
+        isExclusive: false,
+       },
+
+    {
+        id: 6020,
+        name: "Ayurvedic Drugs Corporation Venivel Body Wash 200ml",
+        category: "Company",
+        description: "A gentle herbal body wash enriched with Venivel extracts to deeply cleanse and refresh the skin. Suitable for maintaining healthy and naturally glowing skin.",
+        benefits: ["Deep Cleansing", "Skin Refreshing", "Glow Support", "Natural Ingredients"],
+        price: 590,
+        image: ayurvedicVenivelBodyWash,
+        isExclusive: false,
+       },
+
+    {
+        id: 6021,
+        name: "Ayurvedic Drugs Corporation Perfect Glow Body Wash 200ml",
+        category: "Company",
+        description: "Ayurvedic herbal body wash formulated to enhance skin brightness and freshness. Leaves the skin feeling smooth, hydrated, and radiant after every use.",
+        benefits: ["Glowing Skin", "Hydration", "Smooth Skin", "Daily Freshness"],
+        price: 560,
+        image: ayurvedicPerfectGlowBodyWash,
+        isExclusive: false,
+       },
   ];
 
   const filteredProducts = products.filter(product => {
