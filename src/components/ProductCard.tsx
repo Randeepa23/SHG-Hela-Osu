@@ -17,7 +17,6 @@ interface ProductCardProps {
   description: string;
   benefits: string[];
   image?: string;
-  rating?: number;
   price?: number;
   variants?: Variant[];
   isExclusive?: boolean;
@@ -30,7 +29,6 @@ const ProductCard = ({
   description, 
   benefits, 
   image, 
-  rating = 4.8, 
   price,
   variants,
   isExclusive = false 
@@ -117,11 +115,6 @@ const ProductCard = ({
           <Badge variant="secondary" className="text-xs sm:text-sm font-bold bg-green-200 text-green-900 border-2 border-green-300 px-3 sm:px-4 py-1 sm:py-2">
             {category}
           </Badge>
-
-          <div className="flex items-center gap-1 sm:gap-2 bg-yellow-100 px-2 sm:px-3 py-1 sm:py-2 rounded-full border-2 border-yellow-300">
-            <Star className="w-4 h-4 sm:w-5 sm:h-5 fill-yellow-500 text-yellow-500" />
-            <span className="text-sm sm:text-base font-black text-gray-900">{rating}</span>
-          </div>
         </div>
 
         <h3 className="font-semibold text-lg sm:text-xl lg:text-2xl text-black group-hover:text-green-700 transition-all duration-300 leading-tight">
