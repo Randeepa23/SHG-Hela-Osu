@@ -113,7 +113,7 @@ const Products = () => {
     {
       id: 1,
       name: "Beam Thripala 130 Tabs",
-      category: "Churna",
+      category: "Tablets",
       description: "Premium Ayurvedic tablet blend of three fruits (Triphala) for digestive health, detoxification, and overall wellness",
       benefits: ["Digestive Health", "Detoxification", "Antioxidants", "Immunity"],
       price: 450,
@@ -123,9 +123,9 @@ const Products = () => {
     {
       id: 2,
       name: "Denagama Minipura Grahani Mandam Paniya 100ml",
-      category: "Kwatha",
+      category: "Herbal Syrup",
       description: "Traditional herbal decoction for digestive disorders and stomach health, specially formulated for gastric issues",
-      benefits: ["Digestive Health", "Gastric Relief", "Stomach Care", "Traditional Medicine"],
+      benefits: ["Improves digestive strength", "Relieve indigestion, Bloating", "Improve appetite", "Reduce abdominal discomfort"],
       price: 350,
       image: grahaniMandamImage,
       isExclusive: false,
@@ -133,7 +133,7 @@ const Products = () => {
     {
       id: 3,
       name: "Inginee Drink 340g",
-      category: "Company",
+      category: "Herbal Supplement",
       description: "Premium herbal drink powder with natural ingredients for overall wellness and energy boost",
       benefits: ["Energy Boost", "Natural Ingredients", "Wellness", "Herbal Blend"],
       price: 2760,
